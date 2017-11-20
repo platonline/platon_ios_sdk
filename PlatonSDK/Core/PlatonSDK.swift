@@ -156,8 +156,8 @@ final public class PlatonWebPayment {
     public static let oneClickSale = PlatonWebOneClickSaleAdapter()
     
     /// Adapter for web recurring sale requests
-    public static let recurring = PlatonWebRecurringAdapter()
+    private static let recurring = PlatonWebRecurringAdapter()
     
     /// Adapter for web schedule and deschedule options setting requests
-    public static let schedule = PlatonWebScheduleAdapter()
+    private static let schedule = PlatonWebScheduleAdapter()
 }
