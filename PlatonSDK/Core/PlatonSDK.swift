@@ -155,6 +155,9 @@ final public class PlatonWebPayment {
     /// Adapter for web recurring sale requests
     public static let oneClickSale = PlatonWebOneClickSaleAdapter()
     
+    
+    // Will be available in next releases
+    
     /// Adapter for web recurring sale requests
     private static let recurring = PlatonWebRecurringAdapter()
     
