@@ -29,7 +29,7 @@ final public class PlatonCredentials: NSObject, PlatonParametersProtocol {
     ///   - clientPass: client password
     ///   - paymentUrl: payment url
     ///   - termUrl3Ds: url for 3DSecure supported account
-    init(clientKey: String, clientPass: String, paymentUrl: String, termUrl3Ds: String? = nil) {
+    public init(clientKey: String, clientPass: String, paymentUrl: String, termUrl3Ds: String? = nil) {
         self.clientKey = clientKey
         self.clientPass = clientPass
         self.paymentUrl = paymentUrl.hasSuffix("/") ? paymentUrl : "\(paymentUrl)/"
@@ -45,7 +45,7 @@ final public class PlatonCredentials: NSObject, PlatonParametersProtocol {
     ///   - clientPass: client password
     ///   - paymentUrl: payment url
     ///   - termUrl3Ds: url for 3DSecure supported account
-    init?(clientKey: String?, clientPass: String?, paymentUrl: String?, termUrl3Ds: String?) {
+    public init?(clientKey: String?, clientPass: String?, paymentUrl: String?, termUrl3Ds: String?) {
         guard let unwClientKey = clientKey,
             let unwClientPass = clientPass,
             let unwPaymentUrl = paymentUrl else {

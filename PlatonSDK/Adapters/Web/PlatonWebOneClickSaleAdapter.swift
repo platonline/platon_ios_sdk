@@ -17,7 +17,7 @@ final public class PlatonWebOneClickSaleAdapter: PlatonWebBaseAdapter {
     ///   - orderId: id of order
     ///   - additonal: options to control web form representation
     ///   - completion: callback which will hold Alamofire Requesr Data which has url for web request
-    func sale(productSale: PlatonProductSale,
+    public func sale(productSale: PlatonProductSale,
               recurringWeb: PlatonRecurringWeb,
               successUrl: String,
               orderId: String? = nil,
