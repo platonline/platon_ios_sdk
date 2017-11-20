@@ -1,10 +1,3 @@
-//
-//  Base64Utils.swift
-//  PlatonSDKExample
-//
-//  Created by Bodia Kovbas on 9/27/17.
-//  Copyright © 2017 Devlight. All rights reserved.
-//
 
 import Foundation
 import Alamofire

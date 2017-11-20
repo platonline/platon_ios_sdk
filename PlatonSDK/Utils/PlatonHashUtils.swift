@@ -1,10 +1,3 @@
-//
-//  HashUtils.swift
-//  PlatonSDK
-//
-//  Created by Bodia Kovbas on 9/4/17.
-//
-//
 
 import UIKit
 import SwiftHash
