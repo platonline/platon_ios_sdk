@@ -12,6 +12,11 @@ public struct PlatonRecurring: PlatonParametersProtocol {
     /// - Requires: Numbers in the form XXX
     public let token: String
     
+    public init(firstTransId: String, token: String) {
+        self.firstTransId = firstTransId
+        self.token = token
+    }
+    
     public var platonParams: PlatonParams {
         return [
             PlatonMethodProperty.recurringFirstTransId: firstTransId,
@@ -30,6 +35,11 @@ public struct PlatonRecurringWeb: PlatonParametersProtocol {
     /// Value obtained during the primary transaction
     /// - Requires: Numbers in the form XXX
     public let token: String
+    
+    public init(firstTransId: String, token: String) {
+        self.firstTransId = firstTransId
+        self.token = token
+    }
     
     public var platonParams: PlatonParams {
         return [

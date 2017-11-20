@@ -22,7 +22,7 @@ public struct PlatonProductSale: PlatonAmountProtocol, PlatonParametersProtocol 
     /// - Requires: String up to 1024 characters
     public let description: String
     
-    init(isSelected: Bool = false, isRecurring: Bool = false, amount: Float, currencyCode: String, description: String) {
+    public init(isSelected: Bool = false, isRecurring: Bool = false, amount: Float, currencyCode: String, description: String) {
         self.isSelected = isSelected
         self.isRecurring = isRecurring
         self.amount = amount
@@ -56,6 +56,12 @@ public struct PlatonProductRecurring: PlatonAmountProtocol, PlatonParametersProt
     /// - Requires: String up to 1024 characters
     public let description: String
     
+    public init(id: String, amount: Float, description: String) {
+        self.id = id
+        self.amount = amount
+        self.description = description
+    }
+    
     public var platonParams: PlatonParams {
         return [PlatonMethodProperty.order: id,
                 PlatonMethodProperty.amount: amount.platonAmount,
@@ -73,6 +79,11 @@ public struct PlatonProduct: PlatonParametersProtocol, PlatonAmountProtocol {
     /// Description of the transaction (product name)
     /// - Requires: String up to 1024 characters
     public let description: String
+    
+    public init(amount: Float, description: String) {
+        self.amount = amount
+        self.description = description
+    }
     
     public var platonParams: PlatonParams {
         return [PlatonMethodProperty.amount: amount.platonAmount,

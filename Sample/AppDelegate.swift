@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Sample
-//
-//  Created by Bodia Kovbas on 11/20/17.
-//  Copyright © 2017 Devlight. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

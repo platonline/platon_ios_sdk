@@ -21,7 +21,7 @@ public enum PlatonResponse<T> {
     case failure(PlatonError)
     
     /// This is parsed response object which you can use without switch
-    var responseObject: T? {
+    public var responseObject: T? {
         switch self {
         case .success(let object):
             return object
@@ -67,7 +67,7 @@ public enum PlatonSaleResponse {
     case failure(PlatonError)
     
     /// This is parsed response object which you can use without switch
-    var responseObject: PlatonSaleProtocol? {
+    public var responseObject: PlatonSaleProtocol? {
         switch self {
         case .success(let sale):
             return sale
@@ -110,7 +110,7 @@ public enum PlatonCaptureResponse {
     case failure(PlatonError)
     
     /// This is parsed response object which you can use without switch
-    var responseObject: PlatonCaptureProtocol? {
+    public var responseObject: PlatonCaptureProtocol? {
         switch self {
         case .success(let capture):
             return capture

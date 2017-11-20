@@ -20,18 +20,18 @@ public enum PlatonErrorType: String, Decodable {
 public struct PlatonError: Decodable, PlatonCustomDescribe {
     
     /// Value that system returns on request
-    let result: PlatonResult
+    public let result: PlatonResult
     
     /// Specified message
-    let message: String
+    public let message: String
     
     /// Types of error.
-    let type: PlatonErrorType
+    public let type: PlatonErrorType
     
     /// Error code
-    let code: Int
+    public let code: Int
 
-    init (result: PlatonResult = .error, message: String? = nil, type: PlatonErrorType = .unknown, code: Int = 0) {
+    public init (result: PlatonResult = .error, message: String? = nil, type: PlatonErrorType = .unknown, code: Int = 0) {
         self.result = result
         self.code = code
         

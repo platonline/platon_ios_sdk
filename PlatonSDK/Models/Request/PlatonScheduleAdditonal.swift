@@ -14,16 +14,16 @@ public struct PlatonScheduleAdditonal: PlatonParametersProtocol {
     /// Not provided or zero value means unlimited number of payments
     let repeatTimes: Int?
     
+    public init(initDelayDays: Int? = nil, repeatTimes: Int? = nil) {
+        self.initDelayDays = initDelayDays
+        self.repeatTimes = repeatTimes
+    }
+    
     public var platonParams: PlatonParams {
         return [
             PlatonMethodProperty.initPeriod: initDelayDays,
             PlatonMethodProperty.times: repeatTimes,
         ]
-    }
-    
-    init(initDelayDays: Int? = nil, repeatTimes: Int? = nil) {
-        self.initDelayDays = initDelayDays
-        self.repeatTimes = repeatTimes
     }
     
 }
@@ -42,18 +42,18 @@ public struct PlatonWebScheduleAdditonal: PlatonParametersProtocol {
     /// Period in days between further recurring payments
     let period: Int
     
+    public init(initialDelay: Int, period: Int, repeatTimes: Int) {
+        self.initialDelay = initialDelay
+        self.period = period
+        self.repeatTimes = repeatTimes
+    }
+    
     public var platonParams: PlatonParams {
         return [
             PlatonMethodProperty.initialDelay: initialDelay,
             PlatonMethodProperty.period: period,
             PlatonMethodProperty.times: repeatTimes,
         ]
-    }
-    
-    init(initialDelay: Int, period: Int, repeatTimes: Int) {
-        self.initialDelay = initialDelay
-        self.period = period
-        self.repeatTimes = repeatTimes
     }
     
 }
