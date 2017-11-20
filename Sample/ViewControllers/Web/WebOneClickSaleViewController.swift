@@ -47,6 +47,10 @@ class WebOneClickSaleViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func oneClickSaleAction(_ sender: LoadingButton) {
+        guard validateUrl(tfSuccessUrl.text, tfErrorUrl.text) else {
+            return
+        }
+        
         sender.isLoading = true
         
         let productSale = PlatonProductSale(amount: Float(tfOrderAmount.text ?? "") ?? 0,

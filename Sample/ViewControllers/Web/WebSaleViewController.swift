@@ -123,6 +123,10 @@ class WebSaleViewController: UIViewController {
     }
     
     @IBAction func scheduleAction(_ sender: LoadingButton) {
+        guard validateUrl(tfErrorURL.text, tfSuccessURL.text) else {
+            return
+        }
+        
         sender.isLoading = true
         
         var prdouctsSale = [PlatonProductSale]()

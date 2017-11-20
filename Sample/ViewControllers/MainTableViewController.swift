@@ -99,4 +99,28 @@ extension UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    func validateUrl(_ url: String?...) -> Bool {
+        
+        for strUrl in url {
+            
+            if let unwStrUlr = strUrl {
+                
+                if !unwStrUlr.hasPrefix("http") &&
+                    !unwStrUlr.hasPrefix("https") &&
+                    !unwStrUlr.hasPrefix("ftp") &&
+                    !unwStrUlr.hasPrefix("sftp") {
+                    
+                    let alert = UIAlertController(title: "", message: "Url should begin from: http, https, ftp or sftp", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                    
+                    return false
+                }
+
+            }
+        }
+        
+        return true
+    }
 }
