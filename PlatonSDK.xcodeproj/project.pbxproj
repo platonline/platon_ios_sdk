@@ -42,6 +42,11 @@
 		BE450FFE1FC2C0F800C2AB35 /* PlatonSDKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE450FFB1FC2C0F800C2AB35 /* PlatonSDKUtils.swift */; };
 		BE450FFF1FC2C0F800C2AB35 /* PlatonBase64Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE450FFC1FC2C0F800C2AB35 /* PlatonBase64Utils.swift */; };
 		BE4510001FC2C0F800C2AB35 /* PlatonHashUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE450FFD1FC2C0F800C2AB35 /* PlatonHashUtils.swift */; };
+		BE58F8CF1FC2D6F00049E828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE58F8CE1FC2D6F00049E828 /* AppDelegate.swift */; };
+		BE58F8D11FC2D6F00049E828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE58F8D01FC2D6F00049E828 /* ViewController.swift */; };
+		BE58F8D41FC2D6F00049E828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE58F8D21FC2D6F00049E828 /* Main.storyboard */; };
+		BE58F8D61FC2D6F00049E828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE58F8D51FC2D6F00049E828 /* Assets.xcassets */; };
+		BE58F8D91FC2D6F00049E828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE58F8D71FC2D6F00049E828 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +89,13 @@
 		BE450FFB1FC2C0F800C2AB35 /* PlatonSDKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonSDKUtils.swift; sourceTree = "<group>"; };
 		BE450FFC1FC2C0F800C2AB35 /* PlatonBase64Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonBase64Utils.swift; sourceTree = "<group>"; };
 		BE450FFD1FC2C0F800C2AB35 /* PlatonHashUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonHashUtils.swift; sourceTree = "<group>"; };
+		BE58F8CC1FC2D6F00049E828 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE58F8CE1FC2D6F00049E828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE58F8D01FC2D6F00049E828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE58F8D31FC2D6F00049E828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE58F8D51FC2D6F00049E828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE58F8D81FC2D6F00049E828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE58F8DA1FC2D6F00049E828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5FA0ED048F37AE585D44A8 /* Pods_PlatonSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE58F8C91FC2D6F00049E828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				BE450FAB1FC2BF3400C2AB35 /* PlatonSDK */,
+				BE58F8CD1FC2D6F00049E828 /* Sample */,
 				BE450FAA1FC2BF3400C2AB35 /* Products */,
 				EE9A060E4336637F839AC7C3 /* Pods */,
 				AC2F1B4C44B1B17473B6C79E /* Frameworks */,
@@ -120,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				BE450FA91FC2BF3400C2AB35 /* PlatonSDK.framework */,
+				BE58F8CC1FC2D6F00049E828 /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +267,19 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		BE58F8CD1FC2D6F00049E828 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				BE58F8CE1FC2D6F00049E828 /* AppDelegate.swift */,
+				BE58F8D01FC2D6F00049E828 /* ViewController.swift */,
+				BE58F8D21FC2D6F00049E828 /* Main.storyboard */,
+				BE58F8D51FC2D6F00049E828 /* Assets.xcassets */,
+				BE58F8D71FC2D6F00049E828 /* LaunchScreen.storyboard */,
+				BE58F8DA1FC2D6F00049E828 /* Info.plist */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
 		EE9A060E4336637F839AC7C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,18 +323,40 @@
 			productReference = BE450FA91FC2BF3400C2AB35 /* PlatonSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		BE58F8CB1FC2D6F00049E828 /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE58F8DD1FC2D6F00049E828 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				BE58F8C81FC2D6F00049E828 /* Sources */,
+				BE58F8C91FC2D6F00049E828 /* Frameworks */,
+				BE58F8CA1FC2D6F00049E828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = BE58F8CC1FC2D6F00049E828 /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BE450FA01FC2BF3400C2AB35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Devlight;
 				TargetAttributes = {
 					BE450FA81FC2BF3400C2AB35 = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					BE58F8CB1FC2D6F00049E828 = {
+						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -311,6 +367,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BE450F9F1FC2BF3400C2AB35;
 			productRefGroup = BE450FAA1FC2BF3400C2AB35 /* Products */;
@@ -318,6 +375,7 @@
 			projectRoot = "";
 			targets = (
 				BE450FA81FC2BF3400C2AB35 /* PlatonSDK */,
+				BE58F8CB1FC2D6F00049E828 /* Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +385,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE58F8CA1FC2D6F00049E828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE58F8D91FC2D6F00049E828 /* LaunchScreen.storyboard in Resources */,
+				BE58F8D61FC2D6F00049E828 /* Assets.xcassets in Resources */,
+				BE58F8D41FC2D6F00049E828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +477,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE58F8C81FC2D6F00049E828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE58F8D11FC2D6F00049E828 /* ViewController.swift in Sources */,
+				BE58F8CF1FC2D6F00049E828 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE58F8D21FC2D6F00049E828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE58F8D31FC2D6F00049E828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE58F8D71FC2D6F00049E828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE58F8D81FC2D6F00049E828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE450FAF1FC2BF3400C2AB35 /* Debug */ = {
@@ -541,7 +637,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Devlight.PlatonSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -566,9 +662,41 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Devlight.PlatonSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE58F8DB1FC2D6F00049E828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D24MZT59R;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE58F8DC1FC2D6F00049E828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D24MZT59R;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -591,6 +719,15 @@
 			buildConfigurations = (
 				BE450FB21FC2BF3400C2AB35 /* Debug */,
 				BE450FB31FC2BF3400C2AB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE58F8DD1FC2D6F00049E828 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE58F8DB1FC2D6F00049E828 /* Debug */,
+				BE58F8DC1FC2D6F00049E828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
