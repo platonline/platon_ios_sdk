@@ -63,7 +63,7 @@ final public class PlatonSDK: NSObject {
     
     /// This function automatically read *PlatonCredentials* from *Platon-info.plist* and configure PlatonSDK with this credentials
     /// - Requires: Use this function for configure PlatonSDK with *Platon-info.plist* file
-    static func config() {
+    public static func config() {
         let sdk = PlatonSDK.shared
         
         if let platonInfo = PlatonSDKUtils.getPlist(name: "Platon-info") as? [String: String] {
@@ -82,7 +82,7 @@ final public class PlatonSDK: NSObject {
     ///
     /// - Parameter credendials: your credentilans
     /// - Requires: Use this function for configure PlatonSDK in code
-    static func config(credendials: PlatonCredentials?) {
+    public static func config(credendials: PlatonCredentials?) {
         PlatonSDK.shared.credentials = credendials
     }
     
