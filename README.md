@@ -43,7 +43,7 @@ pod 'PlatonSDK'
 
 Чтобы сообщить о конкретной проблеме или запросе функции, откройте [новую проблему](https://github.com/platonline/platon_ios_sdk/issues/new) в Github.
 
-Либо же пишите прямое письмо на эту почту: [support@platonline.com](mailto:support@platonline.com)
+Либо же пишите прямое письмо на эту почту: [tech@platonline.com](mailto:tech@platonline.com)
  
 А вы такое умеете?
 ==================
@@ -65,7 +65,7 @@ pod 'PlatonSDK'
 
 **Сайт:** https://platon.ua  
 **Телефон:** 0 800 750 504 (бесплатно по Украине)  
-**Электронная почта:** [support@platonline.com](mailto:support@platonline.com)  
+**Электронная почта:** [tech@platonline.com](mailto:tech@platonline.com)  
 **Адрес:** ул. Воздвиженская, 10 Б, оф. 22 Киев 04071, Украина  
 
 <br/>
