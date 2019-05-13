@@ -116,6 +116,9 @@ final public class PlatonPostPayment {
     /// Aadapter for *PlatonMethodAction.sale* request
     public static let sale = PlatonSaleAdapter()
     
+    /// Aadapter for *PlatonMethodAction.sale* request
+    public static let tokenSale = PlatonWebTokenSaleAdapter()
+    
     /// Adapter for *PlatonMethodAction.capture* request
     public static let capture = PlatonCaptureAdapter()
     
@@ -151,6 +154,9 @@ final public class PlatonWebPayment {
     
     /// Adapter for web sale requests
     public static let sale = PlatonWebSaleAdapter()
+    
+    /// Adapter for web token sale requests
+    public static let tokenSale = PlatonWebTokenSaleAdapter()
     
     /// Adapter for web recurring sale requests
     public static let oneClickSale = PlatonWebOneClickSaleAdapter()

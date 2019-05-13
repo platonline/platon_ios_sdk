@@ -1,8 +1,14 @@
+//
+//  WebTokenSaleViewController.swift
+//  Sample
+//
+//  Copyright © 2019 Devlight. All rights reserved.
+//
 
 import UIKit
 import PlatonSDK
 
-class WebSaleViewController: UIViewController {
+class WebTokenSaleViewController: UIViewController {
     
     // MARK: - Properties
     
@@ -12,7 +18,6 @@ class WebSaleViewController: UIViewController {
     
     @IBOutlet weak var btnAddItem: UIButton!
     
-    @IBOutlet var tfOrderId: UITextField!
     @IBOutlet var tfPayerFirstName: UITextField!
     @IBOutlet var tfPayerLastName: UITextField!
     @IBOutlet var tfPayerAddress: UITextField!
@@ -26,7 +31,7 @@ class WebSaleViewController: UIViewController {
     @IBOutlet var tfSuccessURL: UITextField!
     @IBOutlet var tfErrorURL: UITextField!
     @IBOutlet var tfFormID: UITextField!
-    @IBOutlet var tfExt1: UITextField!
+    @IBOutlet var tfCard_token: UITextField!
     @IBOutlet var tfExt2: UITextField!
     @IBOutlet var tfExt3: UITextField!
     @IBOutlet var tfExt4: UITextField!
@@ -38,8 +43,6 @@ class WebSaleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tfOrderId.text = "667"
         
         tfPayerFirstName.text = "Leo"
         tfPayerLastName.text = "Ernser"
@@ -54,8 +57,7 @@ class WebSaleViewController: UIViewController {
         tfLanguage.text = "RU"
         tfSuccessURL.text = "https://www.apple.com"
         tfErrorURL.text = "https://www.google.com.ua"
-        
-        tfExt1.text = "https://robohash.org/Esther?size=300x300"
+        tfCard_token.text = "51a6deee6c3cd6bf2a0bf87a7a2851cbecb441739aadc237d6ed040d2bc7ce7b"
         tfExt2.text = "https://robohash.org/Gwendolyn?size=300x300"
         tfExt3.text = "https://robohash.org/Eleanore?size=300x300"
         tfExt4.text = "https://robohash.org/Joana?size=300x300"
@@ -129,7 +131,7 @@ class WebSaleViewController: UIViewController {
         
         sender.isLoading = true
         
-        var prdouctsSale = [PlatonProductSale]()
+        var productsSale = [PlatonProductSale]()
         
         for productView in arrProducts as! [ProductStackView] {
             let productSale = PlatonProductSale(isSelected: productView.swSelected.isOn,
@@ -137,9 +139,9 @@ class WebSaleViewController: UIViewController {
                                                 amount: Float(productView.tfAmount.text ?? "") ?? 0,
                                                 currencyCode: productView.tfCurrency.text ?? "",
                                                 description: productView.tfDescription.text ?? "")
-            prdouctsSale.append(productSale)
+            productsSale.append(productSale)
         }
-
+        
         let payerWrbSale = PlatonPayerWebSale(firstName: tfPayerFirstName.text,
                                               lastName: tfPayerLastName.text,
                                               address: tfPayerAddress.text,
@@ -150,29 +152,28 @@ class WebSaleViewController: UIViewController {
                                               email: tfPayerEmail.text,
                                               phone: tfPayerPhone.text)
         
-        let additional = PlatonWebSaleAdditional(language: tfLanguage.text,
+        let additional = PlatonWebTokenSaleAdditional(language: tfLanguage.text,
                                                  errorUrl: tfErrorURL.text,
                                                  formId: tfFormID.text,
-                                                 ext1: tfExt1.text,
+                                                 card_token: tfCard_token.text,
                                                  ext2: tfExt2.text,
                                                  ext3: tfExt3.text,
                                                  ext4: tfExt4.text)
         
-        PlatonWebPayment.sale.sale(productSales: prdouctsSale,
-                                       successUrl: tfSuccessURL.text ?? "",
-                                       orderId: tfOrderId.text ?? "",
-                                       req_token: "Y",
-                                       payerWebSale: payerWrbSale,
-                                       additional: additional) { result in
-                                        sender.isLoading = false
+        PlatonWebPayment.tokenSale.tokenSale(productSales: productsSale,
+                                   successUrl: tfSuccessURL.text ?? "",
+                                   cardToken: tfCard_token.text ?? "",
+                                   payerWebSale: payerWrbSale,
+                                   additional: additional) { result in
+                                    sender.isLoading = false
+                                    
+                                    switch result {
+                                    case .failure(let error):
+                                        self.showError(error)
                                         
-                                        switch result {
-                                        case .failure(let error):
-                                            self.showError(error)
-                                            
-                                        case .success(let result):
-                                            WebViewController.open(url: result.response?.url, fromConstroller: self)
-                                        }
+                                    case .success(let result):
+                                        WebViewController.open(url: result.response?.url, fromConstroller: self)
+                                    }
         }
     }
     

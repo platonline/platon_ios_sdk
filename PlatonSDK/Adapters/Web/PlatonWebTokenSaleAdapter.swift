@@ -1,8 +1,15 @@
+//
+//  PlatonWebTokenSaleAdapter.swift
+//  PlatonSDK
+//
+//  Copyright © 2019 Devlight. All rights reserved.
+//
+
 
 import Alamofire
 
 /// API adapter for creating SALE transaction in web payments platform
-final public class PlatonWebSaleAdapter: PlatonWebBaseAdapter {
+final public class PlatonWebTokenSaleAdapter: PlatonWebBaseAdapter {
     
     /// Following requests creates SALE transaction in payment platform
     ///
@@ -17,23 +24,22 @@ final public class PlatonWebSaleAdapter: PlatonWebBaseAdapter {
     ///   - payerWebSale: info holder of payer
     ///   - additional: options to control web form representation
     ///   - completion: callback which will hold Alamofire Requesr Data which has url for web request
-    public func sale(productSales: [PlatonProductSale]? = nil,
+    public func tokenSale(productSales: [PlatonProductSale]? = nil,
                      successUrl: String,
-                     orderId: String,
-                     req_token: String,
+                     cardToken: String,
                      payerWebSale: PlatonPayerWebSale? = nil,
-                     additional: PlatonWebSaleAdditional,
+                     additional: PlatonWebTokenSaleAdditional,
                      completion: PlatonWebCalback = nil) {
         
-        let payment = PlatonWebPaymentType.CC.rawValue
-        let data = PlatonBase64Utils.encode(products: productSales)
-        let hash = PlatonHashUtils.encryptSaleWeb(payment: payment,
+        let payment = PlatonWebPaymentType.CCT.rawValue
+        let data = PlatonBase64Utils.encodeToken(products: productSales)
+        let hash = PlatonHashUtils.encryptSaleTokenWeb(payment: payment,
                                                   data: data,
-                                                  successUrl: successUrl)
+                                                  successUrl: successUrl,
+                                                  cardToken: cardToken)
         let otherParams: PlatonParams = [PlatonMethodProperty.payment: payment,
                                          PlatonMethodProperty.url: successUrl,
-                                         PlatonMethodProperty.order: orderId,
-                                         PlatonMethodProperty.req_token: req_token,
+                                         PlatonMethodProperty.card_token: cardToken,
                                          PlatonMethodProperty.data: data,
                                          PlatonMethodProperty.sign: hash]
         

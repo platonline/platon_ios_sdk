@@ -61,6 +61,29 @@ final class PlatonHashUtils {
         return MD5(allString.uppercased()).lowercased()
     }
     
+    /// $sign = md5(strtoupper(strrev($key).strrev($payment).strrev($data).strrev($url).strrev($card_token).strrev($CLIENT_PASS)));
+    ///
+    /// - Parameters:
+    ///   - payment: payment code
+    ///   - data: encoded base64 products list
+    ///   - card_token
+    ///   - successUrl: successful url after sale transaction
+    /// - Returns: md5 hash for *PlatonWebTokenSaleAdapter.swift* requests
+    static func encryptSaleTokenWeb(payment: String?, data: String?, successUrl: String?, cardToken: String?) -> String? {
+        guard let unwPlatonCredentials = PlatonSDK.shared.credentials, let unwPayment = payment, let unwData = data, let unwSuccessUrl = successUrl, let unwCardToken = cardToken else { return nil }
+        
+        let reverseClientKey = String(unwPlatonCredentials.clientKey.reversed())
+        let reversePayment = String(unwPayment.reversed())
+        let reverseData = String(unwData.reversed())
+        let reverseSuccessUrl = String(unwSuccessUrl.reversed())
+        let reverseClientPass = String(unwPlatonCredentials.clientPass.reversed())
+        let reverseCardToken = String(unwCardToken.reversed())
+        
+        let allString = reverseClientKey + reversePayment + reverseData + reverseSuccessUrl + reverseCardToken + reverseClientPass
+        
+        return MD5(allString.uppercased()).lowercased()
+    }
+    
     /// md5(strtoupper(strrev(CLIENT_KEY).strrev(amount).strrev(description).strrev(rc_id).strrev(rc_token).strrev(CLIENT_PASS)))
     ///
     /// - Parameters:

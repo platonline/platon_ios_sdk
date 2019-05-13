@@ -17,6 +17,7 @@ class MainTableViewController: UITableViewController {
     
     var dataSourceWeb = ["WEB_SALE",
                          "WEB_ONE_CLICK_SALE",
+                         "WEB_TOKEN_SALE",
                          
                          // Will be available in next releases
 //                         "WEB_RECURRING_SALE",
@@ -41,16 +42,16 @@ class MainTableViewController: UITableViewController {
     
     func webPaymentSDKConfig() {
         
-        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "ANQCAMCWUY",
-                                                        clientPass: "fpDFKy9anC9t0vudb0Z4v4CPnbbWnMvs",
+        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "3WQKWN0UJV",
+                                                        clientPass: "bd9CGBFr8pC7TH2jQu6h68dEzyB0H7HR",
                                                         paymentUrl: "https://secure.platononline.com/payment/auth",
                                                         termUrl3Ds: nil))
         self.dataSource = self.dataSourceWeb
     }
     
     func postPaymentSDKConfig() {
-        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "F5QQ6NQS64",
-                                                        clientPass: "TaHycyY5z7PeZsX4fpuQcXusX5JHjmLy",
+        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "4DL3dGDL0D7",
+                                                        clientPass: "PjBc8UyLGDmffSswP1mvX5D3pn0ne",
                                                         paymentUrl: "https://secure.platononline.com/post",
                                                         termUrl3Ds: "https://platon.ua"))
         self.dataSource = self.dataSorcePost

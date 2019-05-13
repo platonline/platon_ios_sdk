@@ -36,6 +36,7 @@ public enum PlatonMethodAction: String, Decodable, PlatonParametersProtocol {
     case getTransStatus = "GET_TRANS_STATUS"
     case recurringSale = "RECURRING_SALE"
     case sale = "SALE"
+    case tokenSale = "TOKEN_SALE"
     case schedule = "SCHEDULE"
     case secondChargeback = "SECOND_CHARGEBACK"
     case secondPresentment = "SECOND_PRESENTMENT"
@@ -147,6 +148,7 @@ public enum PlatonMethodProperty: String, Decodable {
     case lastName = "last_name"
     case md = "MD"
     case order = "order"
+    case req_token = "req_token"
     case orderAmount = "order_amount"
     case orderCurrency = "order_currency"
     case orderDescription = "order_description"
@@ -180,6 +182,7 @@ public enum PlatonMethodProperty: String, Decodable {
     case transId = "trans_id"
     case url = "url"
     case zip = "zip"
+    case card_token = "card_token"
 }
 
 /// Used as convenient variable while creating different requests
@@ -297,4 +300,5 @@ public enum PlatonHTTPMethod: String, Decodable {
 public enum PlatonWebPaymentType: String {
     case CC = "CC"
     case RF = "RF"
+    case CCT = "CCT"
 }

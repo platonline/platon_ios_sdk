@@ -52,7 +52,7 @@ class SaleViewController: UIViewController {
         tfPayerState.text = "NA"
         tfPayerCity.text = "New Howell borough"
         tfPayerZip.text = "79591"
-        tfPayerEmail.text = "ulices@casper.bz"
+        tfPayerEmail.text = "dengaev@site.com"
         tfPayerPhone.text = "(202) 091-2508"
         tfPayerIpAddress.text = "47.18.163.249"
         

@@ -88,6 +88,33 @@ final class PlatonBase64Utils {
         
     }
     
+    static func encodeToken(products: [PlatonProductSale]?) -> String? {
+        guard let unwProducrs = products, unwProducrs.count > 0 else {
+            return nil
+        }
+        
+        if unwProducrs.count == 1 {
+            let params = unwProducrs[0].alamofireParams
+            let strParams = params.platonStringValue
+            let encodedParams = strParams?.base64Encoded()
+            
+            return encodedParams
+            
+        } else {
+            var jsonProducts = [Parameters]()
+            
+            for i in 0..<unwProducrs.count {
+                jsonProducts.append(unwProducrs[i].alamofireParams)
+            }
+            
+            let strParams = jsonProducts.platonStringValue
+            let encodedParams = strParams?.base64Encoded()
+            print(strParams!)
+            return encodedParams
+        }
+        
+    }
+    
 }
 
 extension String {

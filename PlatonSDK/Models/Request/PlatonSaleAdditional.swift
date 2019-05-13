@@ -8,6 +8,13 @@ protocol PlatonWebAdditionalProtocol {
     var ext4: String? { get set }
 }
 
+protocol PlatonWebTokenAdditionalProtocol {
+    var card_token: String? { get set }
+    var ext2: String? { get set }
+    var ext3: String? { get set }
+    var ext4: String? { get set }
+}
+
 /// Sale options for Single Message System (SMS) or Dual Message System (DMS) (*PlatonMethodAction.sale*)
 public struct PlatonSaleAdditional: PlatonParametersProtocol {
     
@@ -126,5 +133,55 @@ public struct PlatonWebSaleAdditional: PlatonParametersProtocol, PlatonWebAdditi
     }
     
 }
+
+/// This class extends *PlatonWebOptions* and provide some new fields which handle representation of requests from *PlatonWebSaleAdapter*
+public struct PlatonWebTokenSaleAdditional: PlatonParametersProtocol, PlatonWebTokenAdditionalProtocol {
+    
+    /// Localization language to be selected on the payment page by default
+    var language: String?
+    
+    /// Optional URL to which the Buyer will be returned after three unsuccessful purchase attempts
+    var errorUrl: String?
+    
+    /// Specific payment page identifier for web payments
+    ///
+    /// (In case the Client's account has multiple payment pages configured)
+    var formId: String?
+    
+    /// Client Parameter 1
+    var card_token: String?
+    
+    /// Client Parameter 2
+    var ext2: String?
+    
+    /// Client Parameter 3
+    var ext3: String?
+    
+    /// Client Parameter 4
+    var ext4: String?
+    
+    public var platonParams: PlatonParams {
+        return [
+            PlatonMethodProperty.lang: language,
+            PlatonMethodProperty.errorUrl: errorUrl,
+            PlatonMethodProperty.formId: formId,
+            PlatonMethodProperty.card_token: card_token,
+            PlatonMethodProperty.ext2: ext2,
+            PlatonMethodProperty.ext3: ext3,
+            PlatonMethodProperty.ext4: ext4,
+        ]
+    }
+    
+    public init(language: String?, errorUrl: String?, formId: String?, card_token: String?, ext2: String?, ext3: String?, ext4: String?) {
+        self.language = language
+        self.errorUrl = errorUrl
+        self.formId = formId
+        self.card_token = card_token
+        self.ext2 = ext2
+        self.ext3 = ext3
+        self.ext4 = ext4
+    }
+}
+
 
 
