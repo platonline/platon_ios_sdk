@@ -1,4 +1,4 @@
-
+import Foundation
 import Alamofire
 
 /// API adapter to facilitate retrieving transaction data

@@ -1,4 +1,4 @@
-
+import Foundation
 import Alamofire
 
 /// API adapter to facilitate both fund *PlatonStatus.refound* and fund *PlatonStatus.reversal* operations

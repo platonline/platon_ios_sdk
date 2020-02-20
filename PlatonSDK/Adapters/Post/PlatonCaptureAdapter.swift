@@ -1,4 +1,4 @@
-
+import Foundation
 import Alamofire
 
 /// API adapter to facilitate transaction payment capture during DMS

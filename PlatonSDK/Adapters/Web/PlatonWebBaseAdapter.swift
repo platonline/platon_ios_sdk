@@ -1,4 +1,4 @@
-
+import Foundation
 import Alamofire
 
 /// Callback type for all Web Pament requests
