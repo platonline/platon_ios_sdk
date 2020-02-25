@@ -33,7 +33,7 @@ class LoadingButton: UIButton {
     }
     
     func customInit() {
-        loadingView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        loadingView = UIActivityIndicatorView(style: .gray)
         loadingView?.hidesWhenStopped = true
         loadingView?.stopAnimating()
         loadingView?.translatesAutoresizingMaskIntoConstraints = false

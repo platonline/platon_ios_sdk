@@ -1,0 +1,576 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlatonHashUtils"
+provides-nominal:
+- "9PlatonSDK0A9HashUtilsC"
+provides-member:
+- ["9PlatonSDK0A9HashUtilsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "MD5"
+- "PlatonHashUtils"
+- "PlatonProduct"
+- "PlatonProductRecurring"
+- "PlatonRecurringWeb"
+- !private "PlatonSDK"
+- "PlatonWebScheduleAdditonal"
+- "String"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "platonAmount"]
+- !private ["SK", "appending"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "prefix"]
+- !private ["SK", "reversed"]
+- !private ["SK", "suffix"]
+- !private ["SK", "uppercased"]
+- !private ["SB", "platonAmount"]
+- !private ["s7CVarArgP", "appending"]
+- !private ["s7CVarArgP", "clientKey"]
+- !private ["s7CVarArgP", "clientPass"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "credentials"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "platonAmount"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["s7CVarArgP", "uppercased"]
+- !private ["Sl", "appending"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "reversed"]
+- !private ["Sl", "suffix"]
+- !private ["Sl", "uppercased"]
+- !private ["SL", "appending"]
+- !private ["SL", "count"]
+- !private ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "platonAmount"]
+- !private ["SL", "prefix"]
+- !private ["SL", "reversed"]
+- !private ["SL", "suffix"]
+- !private ["SL", "uppercased"]
+- !private ["s28CustomDebugStringConvertibleP", "appending"]
+- !private ["s28CustomDebugStringConvertibleP", "clientKey"]
+- !private ["s28CustomDebugStringConvertibleP", "clientPass"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "credentials"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "platonAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "uppercased"]
+- !private ["s17CustomReflectableP", "appending"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "platonAmount"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s17CustomReflectableP", "uppercased"]
+- !private ["s23CustomStringConvertibleP", "appending"]
+- !private ["s23CustomStringConvertibleP", "clientKey"]
+- !private ["s23CustomStringConvertibleP", "clientPass"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "credentials"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "platonAmount"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "uppercased"]
+- !private ["Se", "amount"]
+- !private ["Se", "appending"]
+- !private ["Se", "count"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "platonAmount"]
+- !private ["Se", "prefix"]
+- !private ["Se", "reversed"]
+- !private ["Se", "suffix"]
+- !private ["Se", "uppercased"]
+- !private ["SE", "appending"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "platonAmount"]
+- !private ["SE", "prefix"]
+- !private ["SE", "reversed"]
+- !private ["SE", "suffix"]
+- !private ["SE", "uppercased"]
+- !private ["SQ", "appending"]
+- !private ["SQ", "clientKey"]
+- !private ["SQ", "clientPass"]
+- !private ["SQ", "count"]
+- !private ["SQ", "credentials"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "platonAmount"]
+- !private ["SQ", "prefix"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "suffix"]
+- !private ["SQ", "uppercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appending"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reversed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "suffix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s25ExpressibleByFloatLiteralP", "platonAmount"]
+- !private ["s27ExpressibleByIntegerLiteralP", "platonAmount"]
+- !private ["s32ExpressibleByStringInterpolationP", "appending"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "prefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "reversed"]
+- !private ["s32ExpressibleByStringInterpolationP", "suffix"]
+- !private ["s32ExpressibleByStringInterpolationP", "uppercased"]
+- !private ["s26ExpressibleByStringLiteralP", "appending"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- !private ["s26ExpressibleByStringLiteralP", "reversed"]
+- !private ["s26ExpressibleByStringLiteralP", "suffix"]
+- !private ["s26ExpressibleByStringLiteralP", "uppercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appending"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "reversed"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "suffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
+- !private ["Sf", "platonAmount"]
+- !private ["SF", "platonAmount"]
+- !private ["SH", "appending"]
+- !private ["SH", "clientKey"]
+- !private ["SH", "clientPass"]
+- !private ["SH", "count"]
+- !private ["SH", "credentials"]
+- !private ["SH", "init"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "platonAmount"]
+- !private ["SH", "prefix"]
+- !private ["SH", "reversed"]
+- !private ["SH", "shared"]
+- !private ["SH", "suffix"]
+- !private ["SH", "uppercased"]
+- !private ["s25LosslessStringConvertibleP", "appending"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "platonAmount"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- !private ["s25LosslessStringConvertibleP", "reversed"]
+- !private ["s25LosslessStringConvertibleP", "suffix"]
+- !private ["s25LosslessStringConvertibleP", "uppercased"]
+- !private ["s10MirrorPathP", "appending"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "prefix"]
+- !private ["s10MirrorPathP", "reversed"]
+- !private ["s10MirrorPathP", "suffix"]
+- !private ["s10MirrorPathP", "uppercased"]
+- !private ["So8NSCodingP", "appending"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "prefix"]
+- !private ["So8NSCodingP", "reversed"]
+- !private ["So8NSCodingP", "suffix"]
+- !private ["So8NSCodingP", "uppercased"]
+- !private ["So9NSCopyingP", "appending"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "prefix"]
+- !private ["So9NSCopyingP", "reversed"]
+- !private ["So9NSCopyingP", "suffix"]
+- !private ["So9NSCopyingP", "uppercased"]
+- !private ["So21NSItemProviderReadingP", "appending"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "prefix"]
+- !private ["So21NSItemProviderReadingP", "reversed"]
+- !private ["So21NSItemProviderReadingP", "suffix"]
+- !private ["So21NSItemProviderReadingP", "uppercased"]
+- !private ["So21NSItemProviderWritingP", "appending"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "prefix"]
+- !private ["So21NSItemProviderWritingP", "reversed"]
+- !private ["So21NSItemProviderWritingP", "suffix"]
+- !private ["So21NSItemProviderWritingP", "uppercased"]
+- !private ["So16NSMutableCopyingP", "appending"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "prefix"]
+- !private ["So16NSMutableCopyingP", "reversed"]
+- !private ["So16NSMutableCopyingP", "suffix"]
+- !private ["So16NSMutableCopyingP", "uppercased"]
+- !private ["So8NSObjectC", "appending"]
+- !private ["So8NSObjectC", "clientKey"]
+- !private ["So8NSObjectC", "clientPass"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "credentials"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "prefix"]
+- !private ["So8NSObjectC", "reversed"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "suffix"]
+- !private ["So8NSObjectC", "uppercased"]
+- !private ["So8NSObjectP", "appending"]
+- !private ["So8NSObjectP", "clientKey"]
+- !private ["So8NSObjectP", "clientPass"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "credentials"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "prefix"]
+- !private ["So8NSObjectP", "reversed"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "suffix"]
+- !private ["So8NSObjectP", "uppercased"]
+- !private ["So14NSSecureCodingP", "appending"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "prefix"]
+- !private ["So14NSSecureCodingP", "reversed"]
+- !private ["So14NSSecureCodingP", "suffix"]
+- !private ["So14NSSecureCodingP", "uppercased"]
+- !private ["So8NSStringC", "appending"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "prefix"]
+- !private ["So8NSStringC", "reversed"]
+- !private ["So8NSStringC", "suffix"]
+- !private ["So8NSStringC", "uppercased"]
+- !private ["Sj", "platonAmount"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "amount"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "description"]
+- !private ["9PlatonSDK0A11CredentialsC", "clientKey"]
+- !private ["9PlatonSDK0A11CredentialsC", "clientPass"]
+- !private ["9PlatonSDK0A9HashUtilsC", "MD5"]
+- ["9PlatonSDK0A9HashUtilsC", "PlatonProduct"]
+- ["9PlatonSDK0A9HashUtilsC", "PlatonProductRecurring"]
+- ["9PlatonSDK0A9HashUtilsC", "PlatonRecurringWeb"]
+- !private ["9PlatonSDK0A9HashUtilsC", "PlatonSDK"]
+- ["9PlatonSDK0A9HashUtilsC", "PlatonWebScheduleAdditonal"]
+- ["9PlatonSDK0A9HashUtilsC", "String"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptDescheduleWeb"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptOneClickSaleWeb"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptRecurringWeb"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptSale"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptSaleTokenWeb"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptSaleWeb"]
+- ["9PlatonSDK0A9HashUtilsC", "encryptScheduleWeb"]
+- ["9PlatonSDK0A9HashUtilsC", "init"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "amount"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "clientKey"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "clientPass"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "description"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "firstTransId"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "initialDelay"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "period"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "repeatTimes"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "token"]
+- !private ["9PlatonSDK0A7ProductV", "amount"]
+- !private ["9PlatonSDK0A7ProductV", "deinit"]
+- !private ["9PlatonSDK0A7ProductV", "description"]
+- !private ["9PlatonSDK0A16ProductRecurringV", "amount"]
+- !private ["9PlatonSDK0A16ProductRecurringV", "deinit"]
+- !private ["9PlatonSDK0A16ProductRecurringV", "description"]
+- !private ["9PlatonSDK0A12RecurringWebV", "firstTransId"]
+- !private ["9PlatonSDK0A12RecurringWebV", "token"]
+- !private ["9PlatonSDKAAC", "credentials"]
+- !private ["9PlatonSDKAAC", "shared"]
+- !private ["9PlatonSDK0A20WebScheduleAdditonalV", "initialDelay"]
+- !private ["9PlatonSDK0A20WebScheduleAdditonalV", "period"]
+- !private ["9PlatonSDK0A20WebScheduleAdditonalV", "repeatTimes"]
+- !private ["Sm", "appending"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "reversed"]
+- !private ["Sm", "suffix"]
+- !private ["Sm", "uppercased"]
+- !private ["s10SIMDScalarP", "platonAmount"]
+- !private ["ST", "appending"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "prefix"]
+- !private ["ST", "reversed"]
+- !private ["ST", "suffix"]
+- !private ["ST", "uppercased"]
+- !private ["s13SignedNumericP", "platonAmount"]
+- !private ["Sx", "platonAmount"]
+- !private ["SS", "appending"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["SS", "prefix"]
+- !private ["SS", "reversed"]
+- !private ["SS", "suffix"]
+- !private ["SS", "uppercased"]
+- !private ["Sy", "appending"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["Sy", "prefix"]
+- !private ["Sy", "reversed"]
+- !private ["Sy", "suffix"]
+- !private ["Sy", "uppercased"]
+- !private ["Ss", "reversed"]
+- !private ["s16TextOutputStreamP", "appending"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- !private ["s16TextOutputStreamP", "reversed"]
+- !private ["s16TextOutputStreamP", "suffix"]
+- !private ["s16TextOutputStreamP", "uppercased"]
+- !private ["s20TextOutputStreamableP", "appending"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "platonAmount"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["s20TextOutputStreamableP", "reversed"]
+- !private ["s20TextOutputStreamableP", "suffix"]
+- !private ["s20TextOutputStreamableP", "uppercased"]
+- !private ["9Alamofire14URLConvertibleP", "appending"]
+- !private ["9Alamofire14URLConvertibleP", "count"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "lowercased"]
+- !private ["9Alamofire14URLConvertibleP", "prefix"]
+- !private ["9Alamofire14URLConvertibleP", "reversed"]
+- !private ["9Alamofire14URLConvertibleP", "suffix"]
+- !private ["9Alamofire14URLConvertibleP", "uppercased"]
+- !private ["s15_CVarArgAlignedP", "platonAmount"]
+- !private ["s22_CVarArgPassedAsDoubleP", "platonAmount"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appending"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "platonAmount"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "reversed"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "suffix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "uppercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "appending"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "reversed"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "suffix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "platonAmount"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "platonAmount"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "appending"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "reversed"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "suffix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "uppercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "appending"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "reversed"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "suffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uppercased"]
+- !private ["s19_HasContiguousBytesP", "appending"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s19_HasContiguousBytesP", "suffix"]
+- !private ["s19_HasContiguousBytesP", "uppercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "appending"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "platonAmount"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "suffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uppercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appending"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clientKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clientPass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "credentials"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reversed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "suffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uppercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appending"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clientKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clientPass"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "credentials"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reversed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "suffix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uppercased"]
+- !private ["s21_ObjectiveCBridgeableP", "appending"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "platonAmount"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["s21_ObjectiveCBridgeableP", "uppercased"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "9PlatonSDK0A14AmountProtocolP"
+- !private "9PlatonSDK0A11CredentialsC"
+- "9PlatonSDK0A9HashUtilsC"
+- !private "9PlatonSDK0A18ParametersProtocolP"
+- !private "9PlatonSDK0A7ProductV"
+- !private "9PlatonSDK0A16ProductRecurringV"
+- !private "9PlatonSDK0A12RecurringWebV"
+- !private "9PlatonSDKAAC"
+- !private "9PlatonSDK0A20WebScheduleAdditonalV"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/unextended-module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "33939a0f94522e0aa1ec8c72d453a66d"

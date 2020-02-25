@@ -1,0 +1,693 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CreditVoidViewController"
+provides-nominal:
+- "6Sample24CreditVoidViewControllerC"
+provides-member:
+- ["6Sample24CreditVoidViewControllerC", ""]
+provides-dynamic-lookup:
+- "creditVoidAction"
+- "lbResponse"
+- "tfCardNumber"
+- "tfPartialAmount"
+- "tfPayerEmail"
+- "tfTransId"
+- "viewDidLoad"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CreditVoidViewController"
+- !private "Float"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "LoadingButton"
+- !private "PlatonCard"
+- !private "PlatonMethodProperty"
+- !private "PlatonPostPayment"
+- "StringLiteralType"
+- "UILabel"
+- "UITextField"
+- "UIViewController"
+- !private "UserDefaults"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "isLoading"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "PlatonCard"]
+- !private ["s7CVarArgP", "PlatonMethodProperty"]
+- !private ["s7CVarArgP", "PlatonPostPayment"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "creditVoid"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isLoading"]
+- !private ["s7CVarArgP", "lbResponse"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "tfCardNumber"]
+- !private ["s7CVarArgP", "tfPartialAmount"]
+- !private ["s7CVarArgP", "tfPayerEmail"]
+- !private ["s7CVarArgP", "tfTransId"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["SL", "init"]
+- !private ["6Sample24CreditVoidViewControllerC", "Float"]
+- ["6Sample24CreditVoidViewControllerC", "LoadingButton"]
+- !private ["6Sample24CreditVoidViewControllerC", "PlatonCard"]
+- !private ["6Sample24CreditVoidViewControllerC", "PlatonMethodProperty"]
+- !private ["6Sample24CreditVoidViewControllerC", "PlatonPostPayment"]
+- ["6Sample24CreditVoidViewControllerC", "UILabel"]
+- ["6Sample24CreditVoidViewControllerC", "UITextField"]
+- !private ["6Sample24CreditVoidViewControllerC", "UserDefaults"]
+- ["6Sample24CreditVoidViewControllerC", "creditVoidAction"]
+- ["6Sample24CreditVoidViewControllerC", "deinit"]
+- ["6Sample24CreditVoidViewControllerC", "init"]
+- ["6Sample24CreditVoidViewControllerC", "lbResponse"]
+- ["6Sample24CreditVoidViewControllerC", "tfCardNumber"]
+- ["6Sample24CreditVoidViewControllerC", "tfPartialAmount"]
+- ["6Sample24CreditVoidViewControllerC", "tfPayerEmail"]
+- ["6Sample24CreditVoidViewControllerC", "tfTransId"]
+- !private ["6Sample24CreditVoidViewControllerC", "view"]
+- ["6Sample24CreditVoidViewControllerC", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonCard"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonMethodProperty"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonPostPayment"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "creditVoid"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isLoading"]
+- !private ["s28CustomDebugStringConvertibleP", "lbResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "tfCardNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "tfPartialAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "tfPayerEmail"]
+- !private ["s28CustomDebugStringConvertibleP", "tfTransId"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "endEditing"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "success"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "PlatonCard"]
+- !private ["s23CustomStringConvertibleP", "PlatonMethodProperty"]
+- !private ["s23CustomStringConvertibleP", "PlatonPostPayment"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "creditVoid"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isLoading"]
+- !private ["s23CustomStringConvertibleP", "lbResponse"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "tfCardNumber"]
+- !private ["s23CustomStringConvertibleP", "tfPartialAmount"]
+- !private ["s23CustomStringConvertibleP", "tfPayerEmail"]
+- !private ["s23CustomStringConvertibleP", "tfTransId"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "endEditing"]
+- !private ["Se", "init"]
+- !private ["Se", "rawValue"]
+- !private ["Se", "success"]
+- !private ["Se", "text"]
+- !private ["Se", "transId"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "endEditing"]
+- !private ["SE", "init"]
+- !private ["SE", "success"]
+- !private ["SE", "text"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "PlatonCard"]
+- !private ["SQ", "PlatonMethodProperty"]
+- !private ["SQ", "PlatonPostPayment"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "creditVoid"]
+- !private ["SQ", "endEditing"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isLoading"]
+- !private ["SQ", "lbResponse"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "string"]
+- !private ["SQ", "success"]
+- !private ["SQ", "text"]
+- !private ["SQ", "tfCardNumber"]
+- !private ["SQ", "tfPartialAmount"]
+- !private ["SQ", "tfPayerEmail"]
+- !private ["SQ", "tfTransId"]
+- !private ["SQ", "transId"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "endEditing"]
+- !private ["s23ExpressibleByNilLiteralP", "success"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Float"]
+- !private ["SH", "PlatonCard"]
+- !private ["SH", "PlatonMethodProperty"]
+- !private ["SH", "PlatonPostPayment"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "creditVoid"]
+- !private ["SH", "endEditing"]
+- !private ["SH", "init"]
+- !private ["SH", "isLoading"]
+- !private ["SH", "lbResponse"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "standard"]
+- !private ["SH", "string"]
+- !private ["SH", "success"]
+- !private ["SH", "text"]
+- !private ["SH", "tfCardNumber"]
+- !private ["SH", "tfPartialAmount"]
+- !private ["SH", "tfPayerEmail"]
+- !private ["SH", "tfTransId"]
+- !private ["SH", "transId"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["6Sample13LoadingButtonC", "isLoading"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "PlatonCard"]
+- !private ["So8NSCodingP", "PlatonMethodProperty"]
+- !private ["So8NSCodingP", "PlatonPostPayment"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isLoading"]
+- !private ["So8NSCodingP", "lbResponse"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "tfCardNumber"]
+- !private ["So8NSCodingP", "tfPartialAmount"]
+- !private ["So8NSCodingP", "tfPayerEmail"]
+- !private ["So8NSCodingP", "tfTransId"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
+- !private ["So26NSExtensionRequestHandlingP", "PlatonCard"]
+- !private ["So26NSExtensionRequestHandlingP", "PlatonMethodProperty"]
+- !private ["So26NSExtensionRequestHandlingP", "PlatonPostPayment"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "lbResponse"]
+- !private ["So26NSExtensionRequestHandlingP", "tfCardNumber"]
+- !private ["So26NSExtensionRequestHandlingP", "tfPartialAmount"]
+- !private ["So26NSExtensionRequestHandlingP", "tfPayerEmail"]
+- !private ["So26NSExtensionRequestHandlingP", "tfTransId"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "LoadingButton"]
+- !private ["So8NSObjectC", "PlatonCard"]
+- !private ["So8NSObjectC", "PlatonMethodProperty"]
+- !private ["So8NSObjectC", "PlatonPostPayment"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "creditVoid"]
+- ["So8NSObjectC", "creditVoidAction"]
+- !private ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isLoading"]
+- ["So8NSObjectC", "lbResponse"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "tfCardNumber"]
+- ["So8NSObjectC", "tfPartialAmount"]
+- ["So8NSObjectC", "tfPayerEmail"]
+- ["So8NSObjectC", "tfTransId"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Float"]
+- !private ["So8NSObjectP", "PlatonCard"]
+- !private ["So8NSObjectP", "PlatonMethodProperty"]
+- !private ["So8NSObjectP", "PlatonPostPayment"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "creditVoid"]
+- !private ["So8NSObjectP", "endEditing"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isLoading"]
+- !private ["So8NSObjectP", "lbResponse"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "tfCardNumber"]
+- !private ["So8NSObjectP", "tfPartialAmount"]
+- !private ["So8NSObjectP", "tfPayerEmail"]
+- !private ["So8NSObjectP", "tfTransId"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sj", "init"]
+- !private ["Sq", "endEditing"]
+- !private ["Sq", "success"]
+- !private ["Sq", "text"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "creditVoid"]
+- !private ["9PlatonSDK0A4CardV", "init"]
+- !private ["9PlatonSDK0A4CardV", "number"]
+- !private ["9PlatonSDK0A17CreditVoidAdapterC", "creditVoid"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "rawValue"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "transId"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "init"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "number"]
+- !private ["9PlatonSDK0A11PostPaymentC", "creditVoid"]
+- !private ["9PlatonSDK0A8ResponseO", "failure"]
+- !private ["9PlatonSDK0A8ResponseO", "responseObject"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "success"]
+- !private ["SY", "transId"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["9PlatonSDK4TestO", "success"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isLoading"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "isLoading"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "isLoading"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Float"]
+- !private ["So21UIAppearanceContainerP", "PlatonCard"]
+- !private ["So21UIAppearanceContainerP", "PlatonMethodProperty"]
+- !private ["So21UIAppearanceContainerP", "PlatonPostPayment"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isLoading"]
+- !private ["So21UIAppearanceContainerP", "lbResponse"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "tfCardNumber"]
+- !private ["So21UIAppearanceContainerP", "tfPartialAmount"]
+- !private ["So21UIAppearanceContainerP", "tfPayerEmail"]
+- !private ["So21UIAppearanceContainerP", "tfTransId"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "isLoading"]
+- !private ["So18UIContentContainerP", "Float"]
+- !private ["So18UIContentContainerP", "PlatonCard"]
+- !private ["So18UIContentContainerP", "PlatonMethodProperty"]
+- !private ["So18UIContentContainerP", "PlatonPostPayment"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "lbResponse"]
+- !private ["So18UIContentContainerP", "tfCardNumber"]
+- !private ["So18UIContentContainerP", "tfPartialAmount"]
+- !private ["So18UIContentContainerP", "tfPayerEmail"]
+- !private ["So18UIContentContainerP", "tfTransId"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "isLoading"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "isLoading"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "isLoading"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- !private ["So18UIFocusEnvironmentP", "PlatonCard"]
+- !private ["So18UIFocusEnvironmentP", "PlatonMethodProperty"]
+- !private ["So18UIFocusEnvironmentP", "PlatonPostPayment"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isLoading"]
+- !private ["So18UIFocusEnvironmentP", "lbResponse"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "tfCardNumber"]
+- !private ["So18UIFocusEnvironmentP", "tfPartialAmount"]
+- !private ["So18UIFocusEnvironmentP", "tfPayerEmail"]
+- !private ["So18UIFocusEnvironmentP", "tfTransId"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "isLoading"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "endEditing"]
+- !private ["So20UIFocusItemContainerP", "isLoading"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "endEditing"]
+- !private ["So24UILargeContentViewerItemP", "isLoading"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
+- !private ["So30UIPasteConfigurationSupportingP", "PlatonCard"]
+- !private ["So30UIPasteConfigurationSupportingP", "PlatonMethodProperty"]
+- !private ["So30UIPasteConfigurationSupportingP", "PlatonPostPayment"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isLoading"]
+- !private ["So30UIPasteConfigurationSupportingP", "lbResponse"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfCardNumber"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfPartialAmount"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfPayerEmail"]
+- !private ["So30UIPasteConfigurationSupportingP", "tfTransId"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Float"]
+- ["So11UIResponderC", "LoadingButton"]
+- !private ["So11UIResponderC", "PlatonCard"]
+- !private ["So11UIResponderC", "PlatonMethodProperty"]
+- !private ["So11UIResponderC", "PlatonPostPayment"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- ["So11UIResponderC", "creditVoidAction"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isLoading"]
+- ["So11UIResponderC", "lbResponse"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "tfCardNumber"]
+- ["So11UIResponderC", "tfPartialAmount"]
+- ["So11UIResponderC", "tfPayerEmail"]
+- ["So11UIResponderC", "tfTransId"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
+- !private ["So30UIResponderStandardEditActionsP", "PlatonCard"]
+- !private ["So30UIResponderStandardEditActionsP", "PlatonMethodProperty"]
+- !private ["So30UIResponderStandardEditActionsP", "PlatonPostPayment"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isLoading"]
+- !private ["So30UIResponderStandardEditActionsP", "lbResponse"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "tfCardNumber"]
+- !private ["So30UIResponderStandardEditActionsP", "tfPartialAmount"]
+- !private ["So30UIResponderStandardEditActionsP", "tfPayerEmail"]
+- !private ["So30UIResponderStandardEditActionsP", "tfTransId"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isLoading"]
+- !private ["So16UIStateRestoringP", "Float"]
+- !private ["So16UIStateRestoringP", "PlatonCard"]
+- !private ["So16UIStateRestoringP", "PlatonMethodProperty"]
+- !private ["So16UIStateRestoringP", "PlatonPostPayment"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "lbResponse"]
+- !private ["So16UIStateRestoringP", "tfCardNumber"]
+- !private ["So16UIStateRestoringP", "tfPartialAmount"]
+- !private ["So16UIStateRestoringP", "tfPayerEmail"]
+- !private ["So16UIStateRestoringP", "tfTransId"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "Float"]
+- !private ["So18UITraitEnvironmentP", "PlatonCard"]
+- !private ["So18UITraitEnvironmentP", "PlatonMethodProperty"]
+- !private ["So18UITraitEnvironmentP", "PlatonPostPayment"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isLoading"]
+- !private ["So18UITraitEnvironmentP", "lbResponse"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "tfCardNumber"]
+- !private ["So18UITraitEnvironmentP", "tfPartialAmount"]
+- !private ["So18UITraitEnvironmentP", "tfPayerEmail"]
+- !private ["So18UITraitEnvironmentP", "tfTransId"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Float"]
+- !private ["So23UIUserActivityRestoringP", "PlatonCard"]
+- !private ["So23UIUserActivityRestoringP", "PlatonMethodProperty"]
+- !private ["So23UIUserActivityRestoringP", "PlatonPostPayment"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "endEditing"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isLoading"]
+- !private ["So23UIUserActivityRestoringP", "lbResponse"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "tfCardNumber"]
+- !private ["So23UIUserActivityRestoringP", "tfPartialAmount"]
+- !private ["So23UIUserActivityRestoringP", "tfPayerEmail"]
+- !private ["So23UIUserActivityRestoringP", "tfTransId"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "isLoading"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Float"]
+- ["So16UIViewControllerC", "LoadingButton"]
+- !private ["So16UIViewControllerC", "PlatonCard"]
+- !private ["So16UIViewControllerC", "PlatonMethodProperty"]
+- !private ["So16UIViewControllerC", "PlatonPostPayment"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "creditVoidAction"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "lbResponse"]
+- ["So16UIViewControllerC", "tfCardNumber"]
+- ["So16UIViewControllerC", "tfPartialAmount"]
+- ["So16UIViewControllerC", "tfPayerEmail"]
+- ["So16UIViewControllerC", "tfTransId"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "string"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonCard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonMethodProperty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonPostPayment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creditVoid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isLoading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lbResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfCardNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfPartialAmount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfPayerEmail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tfTransId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Float"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonCard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonMethodProperty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonPostPayment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "creditVoid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isLoading"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lbResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfCardNumber"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfPartialAmount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfPayerEmail"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tfTransId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "endEditing"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "success"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isLoading"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "SL"
+- "6Sample24CreditVoidViewControllerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "6Sample13LoadingButtonC"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- !private "9PlatonSDK0A11BaseAdapterC"
+- !private "9PlatonSDK0A4CardV"
+- !private "9PlatonSDK0A17CreditVoidAdapterC"
+- !private "9PlatonSDK0A14MethodPropertyO"
+- !private "9PlatonSDK0A18ParametersProtocolP"
+- !private "9PlatonSDK0A11PostPaymentC"
+- !private "9PlatonSDK0A8ResponseO"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "9PlatonSDK4TestO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So14NSUserDefaultsC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/PlatonSDK.framework/Modules/PlatonSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/PlatonSDK.framework/Headers/PlatonSDK-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "10a7dedb57c44d22ac484edb56d2644d"

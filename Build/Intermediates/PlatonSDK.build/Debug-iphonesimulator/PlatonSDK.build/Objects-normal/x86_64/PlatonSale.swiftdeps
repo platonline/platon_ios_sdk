@@ -1,0 +1,602 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlatonSale"
+- "PlatonSaleSuccess"
+- "PlatonRecurringInit"
+- "PlatonSaleUnsuccess"
+- "PlatonSale3DS"
+provides-nominal:
+- "9PlatonSDK0A4SaleC"
+- "9PlatonSDK0A11SaleSuccessC"
+- "9PlatonSDK0A13RecurringInitC"
+- "9PlatonSDK0A13SaleUnsuccessC"
+- "9PlatonSDK0A7Sale3DSC"
+provides-member:
+- ["9PlatonSDK0A4SaleC", ""]
+- ["9PlatonSDK0A11SaleSuccessC", ""]
+- ["9PlatonSDK0A13RecurringInitC", ""]
+- ["9PlatonSDK0A13SaleUnsuccessC", ""]
+- ["9PlatonSDK0A7Sale3DSC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Alamofire"
+- "AssignmentPrecedence"
+- "CodingKey"
+- "DataRequest"
+- "Decoder"
+- !private "FloatLiteralType"
+- !private "HTTPMethod"
+- !private "IntegerLiteralType"
+- "OperationQueue"
+- "PlatonBaseResponseModel"
+- "PlatonDeclineReasonProtocol"
+- "PlatonDescriptorProtocol"
+- "PlatonHTTPMethod"
+- "PlatonMethodAction"
+- "PlatonRecurringInit"
+- "PlatonRecurringTokenProtocol"
+- "PlatonRedirectParams"
+- "PlatonRedirectProtocol"
+- "PlatonResult"
+- "PlatonSale"
+- "PlatonSale3DS"
+- "PlatonSaleProtocol"
+- "PlatonSaleSuccess"
+- "PlatonSaleUnsuccess"
+- "PlatonStatus"
+- "PlatonStatusProtocol"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "URLEncoding"
+- !private "_findStringSwitchCase"
+- !private "type"
+- !private "~="
+depends-member:
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- !private ["s9CodingKeyP", "declineReason"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "descriptor"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "recurringToken"]
+- !private ["s9CodingKeyP", "redirectMethod"]
+- !private ["s9CodingKeyP", "redirectParams"]
+- !private ["s9CodingKeyP", "redirectUrl"]
+- !private ["s9CodingKeyP", "status"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "transDate"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "declineReason"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptor"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "recurringToken"]
+- !private ["s28CustomDebugStringConvertibleP", "redirectMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "redirectParams"]
+- !private ["s28CustomDebugStringConvertibleP", "redirectUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "transDate"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "CodingKeys"]
+- !private ["s23CustomStringConvertibleP", "HTTPMethod"]
+- ["s23CustomStringConvertibleP", "OperationQueue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLEncoding"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "alamofireParams"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "declineReason"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "descriptor"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "recurringToken"]
+- ["s23CustomStringConvertibleP", "redirectMethod"]
+- ["s23CustomStringConvertibleP", "redirectParams"]
+- ["s23CustomStringConvertibleP", "redirectUrl"]
+- ["s23CustomStringConvertibleP", "status"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "transDate"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "Alamofire"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "HTTPMethod"]
+- ["Se", "OperationQueue"]
+- !private ["Se", "URL"]
+- !private ["Se", "URLEncoding"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "alamofireParams"]
+- ["Se", "declineReason"]
+- ["Se", "descriptor"]
+- !private ["Se", "init"]
+- !private ["Se", "rawValue"]
+- ["Se", "recurringToken"]
+- ["Se", "redirectMethod"]
+- ["Se", "redirectParams"]
+- ["Se", "redirectUrl"]
+- ["Se", "status"]
+- ["Se", "transDate"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "declineReason"]
+- ["SQ", "description"]
+- !private ["SQ", "descriptor"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "recurringToken"]
+- !private ["SQ", "redirectMethod"]
+- !private ["SQ", "redirectParams"]
+- !private ["SQ", "redirectUrl"]
+- !private ["SQ", "status"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "transDate"]
+- !private ["9Alamofire10HTTPMethodO", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- !private ["SH", "declineReason"]
+- ["SH", "description"]
+- !private ["SH", "descriptor"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- !private ["SH", "recurringToken"]
+- !private ["SH", "redirectMethod"]
+- !private ["SH", "redirectParams"]
+- !private ["SH", "redirectUrl"]
+- !private ["SH", "status"]
+- ["SH", "stringValue"]
+- !private ["SH", "transDate"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectP", "init"]
+- ["So16NSOperationQueueC", "init"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "Alamofire"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "HTTPMethod"]
+- ["9PlatonSDK0A12BaseProtocolP", "OperationQueue"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "URL"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "URLEncoding"]
+- ["9PlatonSDK0A12BaseProtocolP", ""]
+- !private ["9PlatonSDK0A12BaseProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A12BaseProtocolP", "declineReason"]
+- ["9PlatonSDK0A12BaseProtocolP", "descriptor"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "init"]
+- ["9PlatonSDK0A12BaseProtocolP", "recurringToken"]
+- ["9PlatonSDK0A12BaseProtocolP", "redirectMethod"]
+- ["9PlatonSDK0A12BaseProtocolP", "redirectParams"]
+- ["9PlatonSDK0A12BaseProtocolP", "redirectUrl"]
+- ["9PlatonSDK0A12BaseProtocolP", "status"]
+- ["9PlatonSDK0A12BaseProtocolP", "transDate"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "type"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "Alamofire"]
+- ["9PlatonSDK0A17BaseResponseModelC", "CodingKey"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "CodingKeys"]
+- ["9PlatonSDK0A17BaseResponseModelC", "DataRequest"]
+- ["9PlatonSDK0A17BaseResponseModelC", "Decoder"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "HTTPMethod"]
+- ["9PlatonSDK0A17BaseResponseModelC", "OperationQueue"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonHTTPMethod"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonMethodAction"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonRedirectParams"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonResult"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonStatus"]
+- ["9PlatonSDK0A17BaseResponseModelC", "String"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "URL"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "URLEncoding"]
+- ["9PlatonSDK0A17BaseResponseModelC", ""]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A17BaseResponseModelC", "declineReason"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "deinit"]
+- ["9PlatonSDK0A17BaseResponseModelC", "descriptor"]
+- ["9PlatonSDK0A17BaseResponseModelC", "init"]
+- ["9PlatonSDK0A17BaseResponseModelC", "queue"]
+- ["9PlatonSDK0A17BaseResponseModelC", "recurringToken"]
+- ["9PlatonSDK0A17BaseResponseModelC", "redirectMethod"]
+- ["9PlatonSDK0A17BaseResponseModelC", "redirectParams"]
+- ["9PlatonSDK0A17BaseResponseModelC", "redirectUrl"]
+- ["9PlatonSDK0A17BaseResponseModelC", "status"]
+- ["9PlatonSDK0A17BaseResponseModelC", "submit3dsDataRequest"]
+- ["9PlatonSDK0A17BaseResponseModelC", "transDate"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "type"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "Alamofire"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "CodingKeys"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "HTTPMethod"]
+- ["9PlatonSDK0A14CustomDescribeP", "OperationQueue"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "URL"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "URLEncoding"]
+- ["9PlatonSDK0A14CustomDescribeP", ""]
+- !private ["9PlatonSDK0A14CustomDescribeP", "_findStringSwitchCase"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "alamofireParams"]
+- ["9PlatonSDK0A14CustomDescribeP", "declineReason"]
+- ["9PlatonSDK0A14CustomDescribeP", "descriptor"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "init"]
+- ["9PlatonSDK0A14CustomDescribeP", "recurringToken"]
+- ["9PlatonSDK0A14CustomDescribeP", "redirectMethod"]
+- ["9PlatonSDK0A14CustomDescribeP", "redirectParams"]
+- ["9PlatonSDK0A14CustomDescribeP", "redirectUrl"]
+- ["9PlatonSDK0A14CustomDescribeP", "status"]
+- ["9PlatonSDK0A14CustomDescribeP", "transDate"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "type"]
+- !private ["9PlatonSDK0A21DeclineReasonProtocolP", "CodingKeys"]
+- ["9PlatonSDK0A21DeclineReasonProtocolP", ""]
+- !private ["9PlatonSDK0A21DeclineReasonProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A21DeclineReasonProtocolP", "declineReason"]
+- ["9PlatonSDK0A21DeclineReasonProtocolP", "status"]
+- !private ["9PlatonSDK0A21DeclineReasonProtocolP", "type"]
+- !private ["9PlatonSDK0A18DescriptorProtocolP", "CodingKeys"]
+- ["9PlatonSDK0A18DescriptorProtocolP", ""]
+- !private ["9PlatonSDK0A18DescriptorProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A18DescriptorProtocolP", "descriptor"]
+- !private ["9PlatonSDK0A18DescriptorProtocolP", "init"]
+- ["9PlatonSDK0A18DescriptorProtocolP", "recurringToken"]
+- ["9PlatonSDK0A18DescriptorProtocolP", "status"]
+- !private ["9PlatonSDK0A18DescriptorProtocolP", "type"]
+- !private ["9PlatonSDK0A10HTTPMethodO", "deinit"]
+- !private ["9PlatonSDK0A10HTTPMethodO", "rawValue"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "alamofireParams"]
+- ["9PlatonSDK0A13RecurringInitC", "CodingKey"]
+- !private ["9PlatonSDK0A13RecurringInitC", "CodingKeys"]
+- ["9PlatonSDK0A13RecurringInitC", "Decoder"]
+- ["9PlatonSDK0A13RecurringInitC", "PlatonMethodAction"]
+- ["9PlatonSDK0A13RecurringInitC", "PlatonResult"]
+- ["9PlatonSDK0A13RecurringInitC", "PlatonStatus"]
+- ["9PlatonSDK0A13RecurringInitC", "String"]
+- !private ["9PlatonSDK0A13RecurringInitC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A13RecurringInitC", "deinit"]
+- ["9PlatonSDK0A13RecurringInitC", "init"]
+- ["9PlatonSDK0A13RecurringInitC", "recurringToken"]
+- !private ["9PlatonSDK0A13RecurringInitC", "type"]
+- !private ["9PlatonSDK0A22RecurringTokenProtocolP", "CodingKeys"]
+- ["9PlatonSDK0A22RecurringTokenProtocolP", ""]
+- !private ["9PlatonSDK0A22RecurringTokenProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A22RecurringTokenProtocolP", "recurringToken"]
+- !private ["9PlatonSDK0A22RecurringTokenProtocolP", "type"]
+- !private ["9PlatonSDK0A14RedirectParamsV", "alamofireParams"]
+- !private ["9PlatonSDK0A14RedirectParamsV", "deinit"]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "Alamofire"]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "HTTPMethod"]
+- ["9PlatonSDK0A16RedirectProtocolP", "OperationQueue"]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "URL"]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "URLEncoding"]
+- ["9PlatonSDK0A16RedirectProtocolP", ""]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A16RedirectProtocolP", "redirectMethod"]
+- ["9PlatonSDK0A16RedirectProtocolP", "redirectParams"]
+- ["9PlatonSDK0A16RedirectProtocolP", "redirectUrl"]
+- ["9PlatonSDK0A16RedirectProtocolP", "status"]
+- !private ["9PlatonSDK0A16RedirectProtocolP", "type"]
+- !private ["9PlatonSDK0A4SaleC", "Alamofire"]
+- ["9PlatonSDK0A4SaleC", "CodingKey"]
+- !private ["9PlatonSDK0A4SaleC", "CodingKeys"]
+- ["9PlatonSDK0A4SaleC", "DataRequest"]
+- ["9PlatonSDK0A4SaleC", "Decoder"]
+- !private ["9PlatonSDK0A4SaleC", "HTTPMethod"]
+- ["9PlatonSDK0A4SaleC", "OperationQueue"]
+- ["9PlatonSDK0A4SaleC", "PlatonHTTPMethod"]
+- ["9PlatonSDK0A4SaleC", "PlatonMethodAction"]
+- ["9PlatonSDK0A4SaleC", "PlatonRedirectParams"]
+- ["9PlatonSDK0A4SaleC", "PlatonResult"]
+- ["9PlatonSDK0A4SaleC", "PlatonStatus"]
+- ["9PlatonSDK0A4SaleC", "String"]
+- !private ["9PlatonSDK0A4SaleC", "URL"]
+- !private ["9PlatonSDK0A4SaleC", "URLEncoding"]
+- ["9PlatonSDK0A4SaleC", ""]
+- !private ["9PlatonSDK0A4SaleC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A4SaleC", "declineReason"]
+- ["9PlatonSDK0A4SaleC", "deinit"]
+- ["9PlatonSDK0A4SaleC", "descriptor"]
+- ["9PlatonSDK0A4SaleC", "init"]
+- ["9PlatonSDK0A4SaleC", "queue"]
+- ["9PlatonSDK0A4SaleC", "recurringToken"]
+- ["9PlatonSDK0A4SaleC", "redirectMethod"]
+- ["9PlatonSDK0A4SaleC", "redirectParams"]
+- ["9PlatonSDK0A4SaleC", "redirectUrl"]
+- ["9PlatonSDK0A4SaleC", "status"]
+- ["9PlatonSDK0A4SaleC", "submit3dsDataRequest"]
+- ["9PlatonSDK0A4SaleC", "transDate"]
+- !private ["9PlatonSDK0A4SaleC", "type"]
+- !private ["9PlatonSDK0A7Sale3DSC", "Alamofire"]
+- ["9PlatonSDK0A7Sale3DSC", "CodingKey"]
+- !private ["9PlatonSDK0A7Sale3DSC", "CodingKeys"]
+- ["9PlatonSDK0A7Sale3DSC", "DataRequest"]
+- ["9PlatonSDK0A7Sale3DSC", "Decoder"]
+- !private ["9PlatonSDK0A7Sale3DSC", "HTTPMethod"]
+- ["9PlatonSDK0A7Sale3DSC", "OperationQueue"]
+- ["9PlatonSDK0A7Sale3DSC", "PlatonHTTPMethod"]
+- ["9PlatonSDK0A7Sale3DSC", "PlatonMethodAction"]
+- ["9PlatonSDK0A7Sale3DSC", "PlatonRedirectParams"]
+- ["9PlatonSDK0A7Sale3DSC", "PlatonResult"]
+- ["9PlatonSDK0A7Sale3DSC", "PlatonStatus"]
+- ["9PlatonSDK0A7Sale3DSC", "String"]
+- !private ["9PlatonSDK0A7Sale3DSC", "URL"]
+- !private ["9PlatonSDK0A7Sale3DSC", "URLEncoding"]
+- !private ["9PlatonSDK0A7Sale3DSC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A7Sale3DSC", "deinit"]
+- ["9PlatonSDK0A7Sale3DSC", "init"]
+- ["9PlatonSDK0A7Sale3DSC", "queue"]
+- ["9PlatonSDK0A7Sale3DSC", "redirectMethod"]
+- ["9PlatonSDK0A7Sale3DSC", "redirectParams"]
+- ["9PlatonSDK0A7Sale3DSC", "redirectUrl"]
+- ["9PlatonSDK0A7Sale3DSC", "status"]
+- ["9PlatonSDK0A7Sale3DSC", "submit3dsDataRequest"]
+- !private ["9PlatonSDK0A7Sale3DSC", "type"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "Alamofire"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "HTTPMethod"]
+- ["9PlatonSDK0A12SaleProtocolP", "OperationQueue"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "URL"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "URLEncoding"]
+- ["9PlatonSDK0A12SaleProtocolP", ""]
+- !private ["9PlatonSDK0A12SaleProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A12SaleProtocolP", "declineReason"]
+- ["9PlatonSDK0A12SaleProtocolP", "descriptor"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "init"]
+- ["9PlatonSDK0A12SaleProtocolP", "recurringToken"]
+- ["9PlatonSDK0A12SaleProtocolP", "redirectMethod"]
+- ["9PlatonSDK0A12SaleProtocolP", "redirectParams"]
+- ["9PlatonSDK0A12SaleProtocolP", "redirectUrl"]
+- ["9PlatonSDK0A12SaleProtocolP", "status"]
+- ["9PlatonSDK0A12SaleProtocolP", "transDate"]
+- !private ["9PlatonSDK0A12SaleProtocolP", "type"]
+- ["9PlatonSDK0A11SaleSuccessC", "CodingKey"]
+- !private ["9PlatonSDK0A11SaleSuccessC", "CodingKeys"]
+- ["9PlatonSDK0A11SaleSuccessC", "Decoder"]
+- ["9PlatonSDK0A11SaleSuccessC", "PlatonMethodAction"]
+- ["9PlatonSDK0A11SaleSuccessC", "PlatonResult"]
+- ["9PlatonSDK0A11SaleSuccessC", "PlatonStatus"]
+- ["9PlatonSDK0A11SaleSuccessC", "String"]
+- ["9PlatonSDK0A11SaleSuccessC", ""]
+- !private ["9PlatonSDK0A11SaleSuccessC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A11SaleSuccessC", "deinit"]
+- ["9PlatonSDK0A11SaleSuccessC", "descriptor"]
+- ["9PlatonSDK0A11SaleSuccessC", "init"]
+- ["9PlatonSDK0A11SaleSuccessC", "recurringToken"]
+- ["9PlatonSDK0A11SaleSuccessC", "status"]
+- !private ["9PlatonSDK0A11SaleSuccessC", "type"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "CodingKey"]
+- !private ["9PlatonSDK0A13SaleUnsuccessC", "CodingKeys"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "Decoder"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "PlatonMethodAction"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "PlatonResult"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "PlatonStatus"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "String"]
+- !private ["9PlatonSDK0A13SaleUnsuccessC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "declineReason"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "deinit"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "init"]
+- ["9PlatonSDK0A13SaleUnsuccessC", "status"]
+- !private ["9PlatonSDK0A13SaleUnsuccessC", "type"]
+- !private ["9PlatonSDK0A6StatusO", "deinit"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "Alamofire"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "HTTPMethod"]
+- ["9PlatonSDK0A14StatusProtocolP", "OperationQueue"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "URL"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "URLEncoding"]
+- ["9PlatonSDK0A14StatusProtocolP", ""]
+- !private ["9PlatonSDK0A14StatusProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A14StatusProtocolP", "declineReason"]
+- ["9PlatonSDK0A14StatusProtocolP", "descriptor"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "init"]
+- ["9PlatonSDK0A14StatusProtocolP", "recurringToken"]
+- ["9PlatonSDK0A14StatusProtocolP", "redirectMethod"]
+- ["9PlatonSDK0A14StatusProtocolP", "redirectParams"]
+- ["9PlatonSDK0A14StatusProtocolP", "redirectUrl"]
+- ["9PlatonSDK0A14StatusProtocolP", "status"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "type"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "Alamofire"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "HTTPMethod"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "OperationQueue"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "URL"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "URLEncoding"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", ""]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "declineReason"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "descriptor"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "init"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "recurringToken"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "redirectMethod"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "redirectParams"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "redirectUrl"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "status"]
+- ["9PlatonSDK0A23TransactionDateProtocolP", "transDate"]
+- !private ["9PlatonSDK0A23TransactionDateProtocolP", "type"]
+- ["So19NSProgressReportingP", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- !private ["SY", "declineReason"]
+- ["SY", "description"]
+- !private ["SY", "descriptor"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- !private ["SY", "recurringToken"]
+- !private ["SY", "redirectMethod"]
+- !private ["SY", "redirectParams"]
+- !private ["SY", "redirectUrl"]
+- !private ["SY", "status"]
+- ["SY", "stringValue"]
+- !private ["SY", "transDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["7Combine9SchedulerP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire11URLEncodingV", "default"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "9Alamofire10HTTPMethodO"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So16NSOperationQueueC"
+- !private "9Alamofire17ParameterEncodingP"
+- "9PlatonSDK0A12BaseProtocolP"
+- "9PlatonSDK0A17BaseResponseModelC"
+- "9PlatonSDK0A14CustomDescribeP"
+- "9PlatonSDK0A21DeclineReasonProtocolP"
+- "9PlatonSDK0A18DescriptorProtocolP"
+- !private "9PlatonSDK0A10HTTPMethodO"
+- !private "9PlatonSDK0A18ParametersProtocolP"
+- "9PlatonSDK0A13RecurringInitC"
+- "9PlatonSDK0A22RecurringTokenProtocolP"
+- !private "9PlatonSDK0A14RedirectParamsV"
+- "9PlatonSDK0A16RedirectProtocolP"
+- "9PlatonSDK0A4SaleC"
+- "9PlatonSDK0A7Sale3DSC"
+- "9PlatonSDK0A12SaleProtocolP"
+- "9PlatonSDK0A11SaleSuccessC"
+- "9PlatonSDK0A13SaleUnsuccessC"
+- !private "9PlatonSDK0A6StatusO"
+- "9PlatonSDK0A14StatusProtocolP"
+- "9PlatonSDK0A23TransactionDateProtocolP"
+- "So19NSProgressReportingP"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "7Combine9SchedulerP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/unextended-module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e30ed37bacfbdd1e50e1c5c812e5c43f"

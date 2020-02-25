@@ -1,0 +1,349 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlatonSaleAdapter"
+provides-nominal:
+- "9PlatonSDK0A11SaleAdapterC"
+provides-member:
+- ["9PlatonSDK0A11SaleAdapterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "JSONDecoder"
+- "PlatonBaseAdapter"
+- "PlatonCalback"
+- "PlatonCard"
+- !private "PlatonError"
+- !private "PlatonHashUtils"
+- !private "PlatonMethodProperty"
+- "PlatonOption"
+- "PlatonOrder"
+- "PlatonPayer"
+- !private "PlatonRecurringInit"
+- !private "PlatonSale"
+- !private "PlatonSale3DS"
+- "PlatonSaleAdapter"
+- "PlatonSaleAdditional"
+- "PlatonSaleResponse"
+- !private "PlatonSaleSuccess"
+- !private "PlatonSaleUnsuccess"
+depends-member:
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "PlatonError"]
+- !private ["s7CVarArgP", "PlatonHashUtils"]
+- !private ["s7CVarArgP", "PlatonMethodProperty"]
+- !private ["s7CVarArgP", "PlatonRecurringInit"]
+- !private ["s7CVarArgP", "PlatonSale"]
+- !private ["s7CVarArgP", "PlatonSale3DS"]
+- !private ["s7CVarArgP", "PlatonSaleResponse"]
+- !private ["s7CVarArgP", "PlatonSaleSuccess"]
+- !private ["s7CVarArgP", "PlatonSaleUnsuccess"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "procesedRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonError"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonHashUtils"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonMethodProperty"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonRecurringInit"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonSale"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonSale3DS"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonSaleResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonSaleSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonSaleUnsuccess"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "procesedRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "sale"]
+- !private ["s17CustomReflectableP", "sale"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "PlatonError"]
+- !private ["s23CustomStringConvertibleP", "PlatonHashUtils"]
+- !private ["s23CustomStringConvertibleP", "PlatonMethodProperty"]
+- !private ["s23CustomStringConvertibleP", "PlatonRecurringInit"]
+- !private ["s23CustomStringConvertibleP", "PlatonSale"]
+- !private ["s23CustomStringConvertibleP", "PlatonSale3DS"]
+- !private ["s23CustomStringConvertibleP", "PlatonSaleResponse"]
+- !private ["s23CustomStringConvertibleP", "PlatonSaleSuccess"]
+- !private ["s23CustomStringConvertibleP", "PlatonSaleUnsuccess"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "procesedRequest"]
+- !private ["Se", "auth"]
+- !private ["Se", "hash"]
+- !private ["Se", "init"]
+- !private ["Se", "parse"]
+- !private ["Se", "sale"]
+- !private ["SD", "deinit"]
+- !private ["SE", "sale"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "PlatonError"]
+- !private ["SQ", "PlatonHashUtils"]
+- !private ["SQ", "PlatonMethodProperty"]
+- !private ["SQ", "PlatonRecurringInit"]
+- !private ["SQ", "PlatonSale"]
+- !private ["SQ", "PlatonSale3DS"]
+- !private ["SQ", "PlatonSaleResponse"]
+- !private ["SQ", "PlatonSaleSuccess"]
+- !private ["SQ", "PlatonSaleUnsuccess"]
+- ["SQ", ""]
+- !private ["SQ", "auth"]
+- !private ["SQ", "hash"]
+- !private ["SQ", "init"]
+- !private ["SQ", "parse"]
+- !private ["SQ", "procesedRequest"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "sale"]
+- !private ["s23ExpressibleByNilLiteralP", "sale"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "PlatonError"]
+- !private ["SH", "PlatonHashUtils"]
+- !private ["SH", "PlatonMethodProperty"]
+- !private ["SH", "PlatonRecurringInit"]
+- !private ["SH", "PlatonSale"]
+- !private ["SH", "PlatonSale3DS"]
+- !private ["SH", "PlatonSaleResponse"]
+- !private ["SH", "PlatonSaleSuccess"]
+- !private ["SH", "PlatonSaleUnsuccess"]
+- ["SH", ""]
+- !private ["SH", "auth"]
+- !private ["SH", "hash"]
+- !private ["SH", "init"]
+- !private ["SH", "parse"]
+- !private ["SH", "procesedRequest"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "sale"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- ["So8NSObjectC", "PlatonCalback"]
+- ["So8NSObjectC", "PlatonCard"]
+- !private ["So8NSObjectC", "PlatonError"]
+- !private ["So8NSObjectC", "PlatonHashUtils"]
+- !private ["So8NSObjectC", "PlatonMethodProperty"]
+- ["So8NSObjectC", "PlatonOption"]
+- ["So8NSObjectC", "PlatonOrder"]
+- ["So8NSObjectC", "PlatonPayer"]
+- !private ["So8NSObjectC", "PlatonRecurringInit"]
+- !private ["So8NSObjectC", "PlatonSale"]
+- !private ["So8NSObjectC", "PlatonSale3DS"]
+- ["So8NSObjectC", "PlatonSaleAdditional"]
+- ["So8NSObjectC", "PlatonSaleResponse"]
+- !private ["So8NSObjectC", "PlatonSaleSuccess"]
+- !private ["So8NSObjectC", "PlatonSaleUnsuccess"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "procesedRequest"]
+- ["So8NSObjectC", "sale"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "PlatonError"]
+- !private ["So8NSObjectP", "PlatonHashUtils"]
+- !private ["So8NSObjectP", "PlatonMethodProperty"]
+- !private ["So8NSObjectP", "PlatonRecurringInit"]
+- !private ["So8NSObjectP", "PlatonSale"]
+- !private ["So8NSObjectP", "PlatonSale3DS"]
+- !private ["So8NSObjectP", "PlatonSaleResponse"]
+- !private ["So8NSObjectP", "PlatonSaleSuccess"]
+- !private ["So8NSObjectP", "PlatonSaleUnsuccess"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "procesedRequest"]
+- !private ["Sq", "sale"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "JSONDecoder"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonCalback"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonCard"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonError"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonHashUtils"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonMethodProperty"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonOption"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonOrder"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonPayer"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonRecurringInit"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonSale"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonSale3DS"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonSaleAdditional"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonSaleResponse"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonSaleSuccess"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonSaleUnsuccess"]
+- ["9PlatonSDK0A11BaseAdapterC", ""]
+- ["9PlatonSDK0A11BaseAdapterC", "init"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "procesedRequest"]
+- ["9PlatonSDK0A11BaseAdapterC", "sale"]
+- !private ["9PlatonSDK0A4CardV", "deinit"]
+- !private ["9PlatonSDK0A4CardV", "number"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "init"]
+- !private ["9PlatonSDK0A5ErrorV", "deinit"]
+- !private ["9PlatonSDK0A5ErrorV", "init"]
+- !private ["9PlatonSDK0A9ErrorTypeO", "parse"]
+- !private ["9PlatonSDK0A9HashUtilsC", "encryptSale"]
+- !private ["9PlatonSDK0A12MethodActionO", "sale"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "auth"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "deinit"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "hash"]
+- !private ["9PlatonSDK0A6OptionO", "deinit"]
+- !private ["9PlatonSDK0A6OptionO", "rawValue"]
+- !private ["9PlatonSDK0A5OrderV", "deinit"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "email"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "number"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "sale"]
+- !private ["9PlatonSDK0A5PayerV", "deinit"]
+- !private ["9PlatonSDK0A5PayerV", "email"]
+- !private ["9PlatonSDK0A13RecurringInitC", "deinit"]
+- !private ["9PlatonSDK0A8ResponseO", "failure"]
+- !private ["9PlatonSDK0A8ResponseO", "success"]
+- !private ["9PlatonSDK0A4SaleC", "deinit"]
+- !private ["9PlatonSDK0A7Sale3DSC", "deinit"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "JSONDecoder"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonCalback"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonCard"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonError"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonHashUtils"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonMethodProperty"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonOption"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonOrder"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonPayer"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonRecurringInit"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonSale"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonSale3DS"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonSaleAdditional"]
+- ["9PlatonSDK0A11SaleAdapterC", "PlatonSaleResponse"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonSaleSuccess"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "PlatonSaleUnsuccess"]
+- ["9PlatonSDK0A11SaleAdapterC", "deinit"]
+- ["9PlatonSDK0A11SaleAdapterC", "init"]
+- !private ["9PlatonSDK0A11SaleAdapterC", "procesedRequest"]
+- ["9PlatonSDK0A11SaleAdapterC", "sale"]
+- !private ["9PlatonSDK0A14SaleAdditionalV", "deinit"]
+- !private ["9PlatonSDK0A12SaleResponseO", "async"]
+- !private ["9PlatonSDK0A12SaleResponseO", "failure"]
+- !private ["9PlatonSDK0A12SaleResponseO", "recurringInit"]
+- !private ["9PlatonSDK0A12SaleResponseO", "secure3d"]
+- !private ["9PlatonSDK0A12SaleResponseO", "unsuccess"]
+- !private ["9PlatonSDK0A11SaleSuccessC", "deinit"]
+- !private ["9PlatonSDK0A13SaleUnsuccessC", "deinit"]
+- !private ["SY", "auth"]
+- !private ["SY", "hash"]
+- !private ["SY", "parse"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "sale"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonHashUtils"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonMethodProperty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonRecurringInit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonSale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonSale3DS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonSaleResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonSaleSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonSaleUnsuccess"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "procesedRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonHashUtils"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonMethodProperty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonRecurringInit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonSale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonSale3DS"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonSaleResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonSaleSuccess"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonSaleUnsuccess"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "procesedRequest"]
+- !private ["s21_ObjectiveCBridgeableP", "sale"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Foundation11JSONDecoderC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "9PlatonSDK0A11BaseAdapterC"
+- !private "9PlatonSDK0A4CardV"
+- !private "9PlatonSDK0A14CustomDescribeP"
+- !private "9PlatonSDK0A5ErrorV"
+- !private "9PlatonSDK0A9ErrorTypeO"
+- !private "9PlatonSDK0A9HashUtilsC"
+- !private "9PlatonSDK0A12MethodActionO"
+- !private "9PlatonSDK0A14MethodPropertyO"
+- !private "9PlatonSDK0A6OptionO"
+- !private "9PlatonSDK0A5OrderV"
+- !private "9PlatonSDK0A18ParametersProtocolP"
+- !private "9PlatonSDK0A5PayerV"
+- !private "9PlatonSDK0A13RecurringInitC"
+- !private "9PlatonSDK0A8ResponseO"
+- !private "9PlatonSDK0A4SaleC"
+- !private "9PlatonSDK0A7Sale3DSC"
+- "9PlatonSDK0A11SaleAdapterC"
+- !private "9PlatonSDK0A14SaleAdditionalV"
+- !private "9PlatonSDK0A12SaleResponseO"
+- !private "9PlatonSDK0A11SaleSuccessC"
+- !private "9PlatonSDK0A13SaleUnsuccessC"
+- !private "SY"
+- !private "7Combine15TopLevelDecoderP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/unextended-module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "901f0afe39dd7468f1a02e8bfd11ad0f"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>FJTUE7ZT4K.com.platon.Sample</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>FJTUE7ZT4K.com.platon.Sample</string>
+	</array>
+</dict>
+</plist>

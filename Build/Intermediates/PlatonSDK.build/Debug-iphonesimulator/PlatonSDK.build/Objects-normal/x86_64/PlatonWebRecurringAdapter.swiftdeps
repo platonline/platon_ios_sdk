@@ -1,0 +1,186 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlatonWebRecurringAdapter"
+provides-nominal:
+- "9PlatonSDK0A19WebRecurringAdapterC"
+provides-member:
+- ["9PlatonSDK0A19WebRecurringAdapterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "PlatonHashUtils"
+- !private "PlatonMethodProperty"
+- !private "PlatonParametersProtocol"
+- "PlatonProductRecurring"
+- "PlatonRecurringWeb"
+- "PlatonWebAdditional"
+- "PlatonWebBaseAdapter"
+- "PlatonWebCalback"
+- "PlatonWebRecurringAdapter"
+depends-member:
+- !private ["s7CVarArgP", "PlatonHashUtils"]
+- !private ["s7CVarArgP", "PlatonMethodProperty"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "procesedWebRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonHashUtils"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonMethodProperty"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "procesedWebRequest"]
+- !private ["s23CustomStringConvertibleP", "PlatonHashUtils"]
+- !private ["s23CustomStringConvertibleP", "PlatonMethodProperty"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "procesedWebRequest"]
+- !private ["Se", "sign"]
+- !private ["SD", "deinit"]
+- !private ["SQ", "PlatonHashUtils"]
+- !private ["SQ", "PlatonMethodProperty"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "procesedWebRequest"]
+- !private ["SQ", "sign"]
+- !private ["SH", "PlatonHashUtils"]
+- !private ["SH", "PlatonMethodProperty"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "procesedWebRequest"]
+- !private ["SH", "sign"]
+- !private ["So8NSObjectC", "PlatonHashUtils"]
+- !private ["So8NSObjectC", "PlatonMethodProperty"]
+- !private ["So8NSObjectC", "PlatonParametersProtocol"]
+- ["So8NSObjectC", "PlatonProductRecurring"]
+- ["So8NSObjectC", "PlatonRecurringWeb"]
+- ["So8NSObjectC", "PlatonWebAdditional"]
+- ["So8NSObjectC", "PlatonWebCalback"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "procesedWebRequest"]
+- ["So8NSObjectC", "recurringSale"]
+- !private ["So8NSObjectP", "PlatonHashUtils"]
+- !private ["So8NSObjectP", "PlatonMethodProperty"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "procesedWebRequest"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonHashUtils"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonMethodProperty"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "PlatonParametersProtocol"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonProductRecurring"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonRecurringWeb"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonWebAdditional"]
+- ["9PlatonSDK0A11BaseAdapterC", "PlatonWebCalback"]
+- ["9PlatonSDK0A11BaseAdapterC", "init"]
+- !private ["9PlatonSDK0A11BaseAdapterC", "procesedWebRequest"]
+- ["9PlatonSDK0A11BaseAdapterC", "recurringSale"]
+- !private ["9PlatonSDK0A9HashUtilsC", "encryptRecurringWeb"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "deinit"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "sign"]
+- !private ["9PlatonSDK0A16ProductRecurringV", "deinit"]
+- !private ["9PlatonSDK0A12RecurringWebV", "deinit"]
+- !private ["9PlatonSDK0A13WebAdditionalV", "deinit"]
+- !private ["9PlatonSDK0A14WebBaseAdapterC", "PlatonHashUtils"]
+- !private ["9PlatonSDK0A14WebBaseAdapterC", "PlatonMethodProperty"]
+- !private ["9PlatonSDK0A14WebBaseAdapterC", "PlatonParametersProtocol"]
+- ["9PlatonSDK0A14WebBaseAdapterC", "PlatonProductRecurring"]
+- ["9PlatonSDK0A14WebBaseAdapterC", "PlatonRecurringWeb"]
+- ["9PlatonSDK0A14WebBaseAdapterC", "PlatonWebAdditional"]
+- ["9PlatonSDK0A14WebBaseAdapterC", "PlatonWebCalback"]
+- ["9PlatonSDK0A14WebBaseAdapterC", ""]
+- ["9PlatonSDK0A14WebBaseAdapterC", "init"]
+- !private ["9PlatonSDK0A14WebBaseAdapterC", "procesedWebRequest"]
+- ["9PlatonSDK0A14WebBaseAdapterC", "recurringSale"]
+- !private ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonHashUtils"]
+- !private ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonMethodProperty"]
+- !private ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonParametersProtocol"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonProductRecurring"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonRecurringWeb"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonWebAdditional"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "PlatonWebCalback"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "deinit"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "init"]
+- !private ["9PlatonSDK0A19WebRecurringAdapterC", "procesedWebRequest"]
+- ["9PlatonSDK0A19WebRecurringAdapterC", "recurringSale"]
+- !private ["SY", "sign"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonHashUtils"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlatonMethodProperty"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "procesedWebRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonHashUtils"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PlatonMethodProperty"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "procesedWebRequest"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "9PlatonSDK0A11BaseAdapterC"
+- !private "9PlatonSDK0A9HashUtilsC"
+- !private "9PlatonSDK0A14MethodPropertyO"
+- !private "9PlatonSDK0A16ProductRecurringV"
+- !private "9PlatonSDK0A12RecurringWebV"
+- !private "9PlatonSDK0A13WebAdditionalV"
+- "9PlatonSDK0A14WebBaseAdapterC"
+- "9PlatonSDK0A19WebRecurringAdapterC"
+- !private "SY"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/unextended-module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7ff2fd4c165e3aadfe58d015c8fbc2c"

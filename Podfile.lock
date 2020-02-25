@@ -7,7 +7,7 @@ DEPENDENCIES:
   - SwiftHash (~> 2.0.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - SwiftHash
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 67d4670af9febd95594e73e312fa18bfca94a099
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

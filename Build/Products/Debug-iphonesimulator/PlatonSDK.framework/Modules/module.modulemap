@@ -1,0 +1,11 @@
+framework module PlatonSDK {
+  umbrella header "PlatonSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PlatonSDK.Swift {
+    header "PlatonSDK-Swift.h"
+    requires objc
+}

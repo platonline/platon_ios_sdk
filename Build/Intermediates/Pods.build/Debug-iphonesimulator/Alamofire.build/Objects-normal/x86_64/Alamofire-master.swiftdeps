@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "f73d7b7369f5aa0ce82159b5d5f5b2b8"
+build_time: [1581762471, 715464000]
+inputs:
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/AFError.swift": [1581761389, 786729698]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Alamofire.swift": [1581761389, 787521638]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1581761389, 786162724]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/MultipartFormData.swift": [1581761389, 785530615]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1581761389, 785793664]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Notifications.swift": [1581761389, 787124841]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/ParameterEncoding.swift": [1581761389, 786514922]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Request.swift": [1581761389, 787742204]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Response.swift": [1581761389, 787307725]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/ResponseSerialization.swift": [1581761389, 788177934]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Result.swift": [1581761389, 786325884]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1581761389, 788409419]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/SessionDelegate.swift": [1581761389, 788721800]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/SessionManager.swift": [1581761389, 787964880]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/TaskDelegate.swift": [1581761389, 785321729]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Timeline.swift": [1581761389, 785989532]
+  "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Pods/Alamofire/Source/Validation.swift": [1581761389, 786930047]

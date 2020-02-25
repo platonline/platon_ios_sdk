@@ -1,0 +1,10 @@
+framework module PlatonSDK {
+  umbrella header "PlatonSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PlatonSDK.__Swift {
+    exclude header "PlatonSDK-Swift.h"
+}

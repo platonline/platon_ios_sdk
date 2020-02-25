@@ -1,0 +1,474 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlatonSDKUtils"
+- "PlatonCustomDescribe"
+provides-nominal:
+- "9PlatonSDK0A8SDKUtilsC"
+- "SD"
+- "Sa"
+- "9PlatonSDK0A14CustomDescribeP"
+provides-member:
+- ["9PlatonSDK0A8SDKUtilsC", ""]
+- ["SD", ""]
+- ["Sa", ""]
+- ["Sf", ""]
+- ["9PlatonSDK0A14CustomDescribeP", ""]
+- ["Sf", "platonAmount"]
+- ["9PlatonSDK0A14CustomDescribeP", "description"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CastingPrecedence"
+- "CustomStringConvertible"
+- "Dictionary"
+- "Float"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Mirror"
+- !private "NSDictionary"
+- "NSObject"
+- "PlatonCustomDescribe"
+- "PlatonParametersProtocol"
+- "PlatonParams"
+- "PlatonSDKUtils"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "debugPrint"
+- !private "type"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "String"]
+- !private ["Sa", "PlatonParametersProtocol"]
+- ["Sa", "PlatonParams"]
+- ["Sa", "alamofireParams"]
+- ["Sa", "deinit"]
+- ["Sa", "platonParams"]
+- !private ["SK", "PlatonParams"]
+- ["SK", "alamofireParams"]
+- !private ["SK", "init"]
+- ["SK", "platonParams"]
+- !private ["SB", "String"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "Mirror"]
+- !private ["s7CVarArgP", "NSDictionary"]
+- !private ["s7CVarArgP", "PlatonParams"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "alamofireParams"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "getDescribing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "platonAppend"]
+- ["s7CVarArgP", "platonParams"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "type"]
+- !private ["Sl", "PlatonParams"]
+- ["Sl", "alamofireParams"]
+- !private ["Sl", "init"]
+- !private ["Sl", "platonAppend"]
+- ["Sl", "platonParams"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "String"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "PlatonParams"]
+- ["10Foundation15ContiguousBytesP", "alamofireParams"]
+- ["10Foundation15ContiguousBytesP", "platonParams"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Mirror"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "PlatonParams"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "alamofireParams"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "getDescribing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "platonAppend"]
+- ["s28CustomDebugStringConvertibleP", "platonParams"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s17CustomReflectableP", "PlatonParams"]
+- !private ["s17CustomReflectableP", "String"]
+- ["s17CustomReflectableP", "alamofireParams"]
+- !private ["s17CustomReflectableP", "children"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "platonAppend"]
+- ["s17CustomReflectableP", "platonParams"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "superclassMirror"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "Mirror"]
+- !private ["s23CustomStringConvertibleP", "NSDictionary"]
+- !private ["s23CustomStringConvertibleP", "PlatonParams"]
+- !private ["s23CustomStringConvertibleP", "PlatonSDKUtils"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "alamofireParams"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "getDescribing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "platonAppend"]
+- ["s23CustomStringConvertibleP", "platonParams"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "superclassMirror"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["10Foundation12DataProtocolP", "PlatonParams"]
+- ["10Foundation12DataProtocolP", "alamofireParams"]
+- ["10Foundation12DataProtocolP", "platonParams"]
+- !private ["Se", "PlatonParams"]
+- !private ["Se", "String"]
+- ["Se", "alamofireParams"]
+- !private ["Se", "init"]
+- !private ["Se", "platonAppend"]
+- ["Se", "platonParams"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "PlatonParams"]
+- ["SD", "alamofireParams"]
+- ["SD", "deinit"]
+- !private ["SD", "init"]
+- ["SD", "platonAppend"]
+- ["SD", "platonParams"]
+- !private ["SD", "subscript"]
+- !private ["SE", "PlatonParams"]
+- !private ["SE", "String"]
+- ["SE", "alamofireParams"]
+- !private ["SE", "init"]
+- !private ["SE", "platonAppend"]
+- ["SE", "platonParams"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "Mirror"]
+- !private ["SQ", "NSDictionary"]
+- !private ["SQ", "PlatonParams"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "alamofireParams"]
+- !private ["SQ", "debugPrint"]
+- !private ["SQ", "getDescribing"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "path"]
+- !private ["SQ", "platonAppend"]
+- ["SQ", "platonParams"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "type"]
+- !private ["s25ExpressibleByArrayLiteralP", "PlatonParams"]
+- ["s25ExpressibleByArrayLiteralP", "alamofireParams"]
+- ["s25ExpressibleByArrayLiteralP", "platonParams"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "PlatonParams"]
+- ["s30ExpressibleByDictionaryLiteralP", "alamofireParams"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "platonAppend"]
+- ["s30ExpressibleByDictionaryLiteralP", "platonParams"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "String"]
+- !private ["s27ExpressibleByIntegerLiteralP", "String"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["Sf", "String"]
+- ["Sf", "platonAmount"]
+- !private ["SF", "String"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "Mirror"]
+- !private ["SH", "NSDictionary"]
+- !private ["SH", "PlatonParams"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "alamofireParams"]
+- !private ["SH", "debugPrint"]
+- !private ["SH", "getDescribing"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "path"]
+- !private ["SH", "platonAppend"]
+- ["SH", "platonParams"]
+- !private ["SH", "subscript"]
+- !private ["SH", "type"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "init"]
+- !private ["s6MirrorV", "superclassMirror"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "PlatonParams"]
+- ["SM", "alamofireParams"]
+- ["SM", "platonParams"]
+- !private ["10Foundation19MutableDataProtocolP", "PlatonParams"]
+- ["10Foundation19MutableDataProtocolP", "alamofireParams"]
+- ["10Foundation19MutableDataProtocolP", "platonParams"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "Mirror"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "getDescribing"]
+- ["So8NSObjectC", "getPlist"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "Mirror"]
+- !private ["So8NSObjectP", "NSDictionary"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "debugPrint"]
+- !private ["So8NSObjectP", "getDescribing"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "type"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", "String"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "PlatonSDKUtils"]
+- ["9PlatonSDK0A14CustomDescribeP", "String"]
+- ["9PlatonSDK0A14CustomDescribeP", "description"]
+- !private ["9PlatonSDK0A14MethodPropertyO", "deinit"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "PlatonParams"]
+- ["9PlatonSDK0A18ParametersProtocolP", ""]
+- ["9PlatonSDK0A18ParametersProtocolP", "alamofireParams"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "init"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "platonAppend"]
+- ["9PlatonSDK0A18ParametersProtocolP", "platonParams"]
+- !private ["9PlatonSDK0A18ParametersProtocolP", "subscript"]
+- !private ["9PlatonSDK0A8SDKUtilsC", "Bundle"]
+- !private ["9PlatonSDK0A8SDKUtilsC", "Mirror"]
+- !private ["9PlatonSDK0A8SDKUtilsC", "NSDictionary"]
+- ["9PlatonSDK0A8SDKUtilsC", "String"]
+- !private ["9PlatonSDK0A8SDKUtilsC", "debugPrint"]
+- ["9PlatonSDK0A8SDKUtilsC", "deinit"]
+- ["9PlatonSDK0A8SDKUtilsC", "getDescribing"]
+- ["9PlatonSDK0A8SDKUtilsC", "getPlist"]
+- ["9PlatonSDK0A8SDKUtilsC", "init"]
+- !private ["9PlatonSDK0A8SDKUtilsC", "type"]
+- !private ["Sk", "PlatonParams"]
+- ["Sk", "alamofireParams"]
+- ["Sk", "platonParams"]
+- !private ["Sm", "PlatonParams"]
+- ["Sm", "alamofireParams"]
+- !private ["Sm", "init"]
+- ["Sm", "platonParams"]
+- !private ["s10SIMDScalarP", "String"]
+- !private ["ST", "PlatonParams"]
+- ["ST", "alamofireParams"]
+- !private ["ST", "init"]
+- !private ["ST", "platonAppend"]
+- ["ST", "platonParams"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "String"]
+- !private ["Sx", "String"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "String"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "PlatonParams"]
+- ["s14_ArrayProtocolP", "alamofireParams"]
+- ["s14_ArrayProtocolP", "platonParams"]
+- !private ["s15_CVarArgAlignedP", "String"]
+- !private ["s22_CVarArgPassedAsDoubleP", "String"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "String"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "PlatonParams"]
+- ["s24_DestructorSafeContainerP", "alamofireParams"]
+- ["s24_DestructorSafeContainerP", "platonParams"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "String"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "String"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "PlatonParams"]
+- ["s19_HasContiguousBytesP", "alamofireParams"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["s19_HasContiguousBytesP", "platonParams"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "PlatonParams"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "String"]
+- ["s35_HasCustomAnyHashableRepresentationP", "alamofireParams"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "platonAppend"]
+- ["s35_HasCustomAnyHashableRepresentationP", "platonParams"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Mirror"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDescribing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Mirror"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSDictionary"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getDescribing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "type"]
+- !private ["s21_ObjectiveCBridgeableP", "PlatonParams"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "alamofireParams"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "platonAppend"]
+- ["s21_ObjectiveCBridgeableP", "platonParams"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "SB"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "Sf"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s6MirrorV"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- "9PlatonSDK0A14CustomDescribeP"
+- !private "9PlatonSDK0A14MethodPropertyO"
+- "9PlatonSDK0A18ParametersProtocolP"
+- "9PlatonSDK0A8SDKUtilsC"
+- "Sk"
+- "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/unextended-module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "66d43a1bcc03cc3f1dcf277df890d7c6"

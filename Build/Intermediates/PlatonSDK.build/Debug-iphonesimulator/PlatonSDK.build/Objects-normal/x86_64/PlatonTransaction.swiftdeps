@@ -1,0 +1,538 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlatonTransaction"
+- "PlatonTransactionStatus"
+- "PlatonTransactionDetails"
+provides-nominal:
+- "9PlatonSDK0A11TransactionC"
+- "9PlatonSDK0A17TransactionStatusC"
+- "9PlatonSDK0A18TransactionDetailsC"
+provides-member:
+- ["9PlatonSDK0A11TransactionC", ""]
+- ["9PlatonSDK0A17TransactionStatusC", ""]
+- ["9PlatonSDK0A18TransactionDetailsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "CodingKey"
+- "Decodable"
+- "Decoder"
+- "Float"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PlatonAmountProtocol"
+- "PlatonBasePayment"
+- "PlatonCardProtocol"
+- "PlatonCurrencyProtocol"
+- "PlatonCustomDescribe"
+- "PlatonMethodAction"
+- "PlatonPayerProtocol"
+- "PlatonResult"
+- "PlatonStatus"
+- "PlatonTransaction"
+- "PlatonTransactionDetails"
+- "PlatonTransactionStatus"
+- "String"
+- "StringLiteralType"
+- "TransactionStatus"
+- "TransactionType"
+- !private "_findStringSwitchCase"
+- !private "type"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "amount"]
+- !private ["s9CodingKeyP", "card"]
+- !private ["s9CodingKeyP", "currency"]
+- !private ["s9CodingKeyP", "date"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "ip"]
+- !private ["s9CodingKeyP", "mail"]
+- !private ["s9CodingKeyP", "name"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "status"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "transType"]
+- !private ["s9CodingKeyP", "transactions"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "amount"]
+- !private ["s28CustomDebugStringConvertibleP", "card"]
+- !private ["s28CustomDebugStringConvertibleP", "currency"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "ip"]
+- !private ["s28CustomDebugStringConvertibleP", "mail"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "transType"]
+- !private ["s28CustomDebugStringConvertibleP", "transactions"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "CodingKeys"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "amount"]
+- ["s23CustomStringConvertibleP", "card"]
+- ["s23CustomStringConvertibleP", "currency"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "ip"]
+- ["s23CustomStringConvertibleP", "mail"]
+- ["s23CustomStringConvertibleP", "name"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "transType"]
+- !private ["s23CustomStringConvertibleP", "transactions"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Float"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "amount"]
+- ["Se", "card"]
+- ["Se", "currency"]
+- !private ["Se", "date"]
+- ["Se", "description"]
+- ["Se", "init"]
+- ["Se", "ip"]
+- ["Se", "mail"]
+- ["Se", "name"]
+- !private ["Se", "status"]
+- !private ["Se", "transType"]
+- !private ["Se", "transactions"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", "container"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "amount"]
+- !private ["SQ", "card"]
+- !private ["SQ", "currency"]
+- !private ["SQ", "date"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "ip"]
+- !private ["SQ", "mail"]
+- !private ["SQ", "name"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "status"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "transType"]
+- !private ["SQ", "transactions"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "amount"]
+- !private ["SH", "card"]
+- !private ["SH", "currency"]
+- !private ["SH", "date"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "ip"]
+- !private ["SH", "mail"]
+- !private ["SH", "name"]
+- ["SH", "rawValue"]
+- !private ["SH", "status"]
+- ["SH", "stringValue"]
+- !private ["SH", "transType"]
+- !private ["SH", "transactions"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["Sj", "init"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "Float"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "String"]
+- ["9PlatonSDK0A14AmountProtocolP", ""]
+- !private ["9PlatonSDK0A14AmountProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A14AmountProtocolP", "amount"]
+- ["9PlatonSDK0A14AmountProtocolP", "card"]
+- ["9PlatonSDK0A14AmountProtocolP", "currency"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "date"]
+- ["9PlatonSDK0A14AmountProtocolP", "description"]
+- ["9PlatonSDK0A14AmountProtocolP", "init"]
+- ["9PlatonSDK0A14AmountProtocolP", "ip"]
+- ["9PlatonSDK0A14AmountProtocolP", "mail"]
+- ["9PlatonSDK0A14AmountProtocolP", "name"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "status"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "transType"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "transactions"]
+- !private ["9PlatonSDK0A14AmountProtocolP", "type"]
+- ["9PlatonSDK0A11BasePaymentC", "CodingKey"]
+- !private ["9PlatonSDK0A11BasePaymentC", "CodingKeys"]
+- ["9PlatonSDK0A11BasePaymentC", "Decoder"]
+- ["9PlatonSDK0A11BasePaymentC", "Float"]
+- ["9PlatonSDK0A11BasePaymentC", "PlatonMethodAction"]
+- ["9PlatonSDK0A11BasePaymentC", "PlatonResult"]
+- ["9PlatonSDK0A11BasePaymentC", "PlatonStatus"]
+- ["9PlatonSDK0A11BasePaymentC", "PlatonTransaction"]
+- ["9PlatonSDK0A11BasePaymentC", "String"]
+- ["9PlatonSDK0A11BasePaymentC", ""]
+- !private ["9PlatonSDK0A11BasePaymentC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A11BasePaymentC", "amount"]
+- ["9PlatonSDK0A11BasePaymentC", "card"]
+- ["9PlatonSDK0A11BasePaymentC", "currency"]
+- !private ["9PlatonSDK0A11BasePaymentC", "deinit"]
+- ["9PlatonSDK0A11BasePaymentC", "init"]
+- ["9PlatonSDK0A11BasePaymentC", "ip"]
+- ["9PlatonSDK0A11BasePaymentC", "mail"]
+- ["9PlatonSDK0A11BasePaymentC", "name"]
+- ["9PlatonSDK0A11BasePaymentC", "transactions"]
+- !private ["9PlatonSDK0A11BasePaymentC", "type"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "Float"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "String"]
+- ["9PlatonSDK0A12BaseProtocolP", ""]
+- !private ["9PlatonSDK0A12BaseProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A12BaseProtocolP", "amount"]
+- ["9PlatonSDK0A12BaseProtocolP", "card"]
+- ["9PlatonSDK0A12BaseProtocolP", "currency"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "init"]
+- ["9PlatonSDK0A12BaseProtocolP", "ip"]
+- ["9PlatonSDK0A12BaseProtocolP", "mail"]
+- ["9PlatonSDK0A12BaseProtocolP", "name"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "transactions"]
+- !private ["9PlatonSDK0A12BaseProtocolP", "type"]
+- ["9PlatonSDK0A17BaseResponseModelC", "CodingKey"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "CodingKeys"]
+- ["9PlatonSDK0A17BaseResponseModelC", "Decoder"]
+- ["9PlatonSDK0A17BaseResponseModelC", "Float"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonMethodAction"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonResult"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonStatus"]
+- ["9PlatonSDK0A17BaseResponseModelC", "PlatonTransaction"]
+- ["9PlatonSDK0A17BaseResponseModelC", "String"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A17BaseResponseModelC", "amount"]
+- ["9PlatonSDK0A17BaseResponseModelC", "card"]
+- ["9PlatonSDK0A17BaseResponseModelC", "currency"]
+- ["9PlatonSDK0A17BaseResponseModelC", "ip"]
+- ["9PlatonSDK0A17BaseResponseModelC", "mail"]
+- ["9PlatonSDK0A17BaseResponseModelC", "name"]
+- ["9PlatonSDK0A17BaseResponseModelC", "transactions"]
+- !private ["9PlatonSDK0A17BaseResponseModelC", "type"]
+- !private ["9PlatonSDK0A12CardProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A12CardProtocolP", "Float"]
+- !private ["9PlatonSDK0A12CardProtocolP", "String"]
+- ["9PlatonSDK0A12CardProtocolP", ""]
+- !private ["9PlatonSDK0A12CardProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A12CardProtocolP", "amount"]
+- ["9PlatonSDK0A12CardProtocolP", "card"]
+- ["9PlatonSDK0A12CardProtocolP", "currency"]
+- ["9PlatonSDK0A12CardProtocolP", "ip"]
+- ["9PlatonSDK0A12CardProtocolP", "mail"]
+- ["9PlatonSDK0A12CardProtocolP", "name"]
+- !private ["9PlatonSDK0A12CardProtocolP", "transactions"]
+- !private ["9PlatonSDK0A12CardProtocolP", "type"]
+- !private ["9PlatonSDK0A16CurrencyProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A16CurrencyProtocolP", "Float"]
+- !private ["9PlatonSDK0A16CurrencyProtocolP", "String"]
+- ["9PlatonSDK0A16CurrencyProtocolP", ""]
+- !private ["9PlatonSDK0A16CurrencyProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A16CurrencyProtocolP", "amount"]
+- ["9PlatonSDK0A16CurrencyProtocolP", "card"]
+- ["9PlatonSDK0A16CurrencyProtocolP", "currency"]
+- ["9PlatonSDK0A16CurrencyProtocolP", "ip"]
+- ["9PlatonSDK0A16CurrencyProtocolP", "mail"]
+- ["9PlatonSDK0A16CurrencyProtocolP", "name"]
+- !private ["9PlatonSDK0A16CurrencyProtocolP", "transactions"]
+- !private ["9PlatonSDK0A16CurrencyProtocolP", "type"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "CodingKeys"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "Float"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "String"]
+- ["9PlatonSDK0A14CustomDescribeP", ""]
+- !private ["9PlatonSDK0A14CustomDescribeP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A14CustomDescribeP", "amount"]
+- ["9PlatonSDK0A14CustomDescribeP", "card"]
+- ["9PlatonSDK0A14CustomDescribeP", "currency"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "date"]
+- ["9PlatonSDK0A14CustomDescribeP", "description"]
+- ["9PlatonSDK0A14CustomDescribeP", "init"]
+- ["9PlatonSDK0A14CustomDescribeP", "ip"]
+- ["9PlatonSDK0A14CustomDescribeP", "mail"]
+- ["9PlatonSDK0A14CustomDescribeP", "name"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "status"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "transType"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "transactions"]
+- !private ["9PlatonSDK0A14CustomDescribeP", "type"]
+- !private ["9PlatonSDK0A13PayerProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A13PayerProtocolP", "Float"]
+- !private ["9PlatonSDK0A13PayerProtocolP", "String"]
+- ["9PlatonSDK0A13PayerProtocolP", ""]
+- !private ["9PlatonSDK0A13PayerProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A13PayerProtocolP", "amount"]
+- ["9PlatonSDK0A13PayerProtocolP", "card"]
+- ["9PlatonSDK0A13PayerProtocolP", "currency"]
+- ["9PlatonSDK0A13PayerProtocolP", "ip"]
+- ["9PlatonSDK0A13PayerProtocolP", "mail"]
+- ["9PlatonSDK0A13PayerProtocolP", "name"]
+- !private ["9PlatonSDK0A13PayerProtocolP", "transactions"]
+- !private ["9PlatonSDK0A13PayerProtocolP", "type"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "CodingKeys"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "Float"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "String"]
+- ["9PlatonSDK0A14StatusProtocolP", ""]
+- !private ["9PlatonSDK0A14StatusProtocolP", "_findStringSwitchCase"]
+- ["9PlatonSDK0A14StatusProtocolP", "amount"]
+- ["9PlatonSDK0A14StatusProtocolP", "card"]
+- ["9PlatonSDK0A14StatusProtocolP", "currency"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "init"]
+- ["9PlatonSDK0A14StatusProtocolP", "ip"]
+- ["9PlatonSDK0A14StatusProtocolP", "mail"]
+- ["9PlatonSDK0A14StatusProtocolP", "name"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "transactions"]
+- !private ["9PlatonSDK0A14StatusProtocolP", "type"]
+- ["9PlatonSDK0A11TransactionC", "CodingKey"]
+- !private ["9PlatonSDK0A11TransactionC", "CodingKeys"]
+- ["9PlatonSDK0A11TransactionC", "Decoder"]
+- ["9PlatonSDK0A11TransactionC", "Float"]
+- ["9PlatonSDK0A11TransactionC", "String"]
+- ["9PlatonSDK0A11TransactionC", "TransactionStatus"]
+- ["9PlatonSDK0A11TransactionC", "TransactionType"]
+- !private ["9PlatonSDK0A11TransactionC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A11TransactionC", "amount"]
+- ["9PlatonSDK0A11TransactionC", "date"]
+- ["9PlatonSDK0A11TransactionC", "deinit"]
+- ["9PlatonSDK0A11TransactionC", "description"]
+- ["9PlatonSDK0A11TransactionC", "init"]
+- ["9PlatonSDK0A11TransactionC", "status"]
+- ["9PlatonSDK0A11TransactionC", "transType"]
+- !private ["9PlatonSDK0A11TransactionC", "type"]
+- ["9PlatonSDK0A18TransactionDetailsC", "CodingKey"]
+- !private ["9PlatonSDK0A18TransactionDetailsC", "CodingKeys"]
+- ["9PlatonSDK0A18TransactionDetailsC", "Decoder"]
+- ["9PlatonSDK0A18TransactionDetailsC", "Float"]
+- ["9PlatonSDK0A18TransactionDetailsC", "PlatonMethodAction"]
+- ["9PlatonSDK0A18TransactionDetailsC", "PlatonResult"]
+- ["9PlatonSDK0A18TransactionDetailsC", "PlatonStatus"]
+- ["9PlatonSDK0A18TransactionDetailsC", "PlatonTransaction"]
+- ["9PlatonSDK0A18TransactionDetailsC", "String"]
+- !private ["9PlatonSDK0A18TransactionDetailsC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A18TransactionDetailsC", "amount"]
+- ["9PlatonSDK0A18TransactionDetailsC", "card"]
+- ["9PlatonSDK0A18TransactionDetailsC", "currency"]
+- ["9PlatonSDK0A18TransactionDetailsC", "deinit"]
+- ["9PlatonSDK0A18TransactionDetailsC", "init"]
+- ["9PlatonSDK0A18TransactionDetailsC", "ip"]
+- ["9PlatonSDK0A18TransactionDetailsC", "mail"]
+- ["9PlatonSDK0A18TransactionDetailsC", "name"]
+- ["9PlatonSDK0A18TransactionDetailsC", "transactions"]
+- !private ["9PlatonSDK0A18TransactionDetailsC", "type"]
+- ["9PlatonSDK0A17TransactionStatusC", "CodingKey"]
+- !private ["9PlatonSDK0A17TransactionStatusC", "CodingKeys"]
+- ["9PlatonSDK0A17TransactionStatusC", "Decoder"]
+- ["9PlatonSDK0A17TransactionStatusC", "Float"]
+- ["9PlatonSDK0A17TransactionStatusC", "PlatonMethodAction"]
+- ["9PlatonSDK0A17TransactionStatusC", "PlatonResult"]
+- ["9PlatonSDK0A17TransactionStatusC", "PlatonStatus"]
+- ["9PlatonSDK0A17TransactionStatusC", "PlatonTransaction"]
+- ["9PlatonSDK0A17TransactionStatusC", "String"]
+- ["9PlatonSDK0A17TransactionStatusC", ""]
+- !private ["9PlatonSDK0A17TransactionStatusC", "_findStringSwitchCase"]
+- ["9PlatonSDK0A17TransactionStatusC", "amount"]
+- ["9PlatonSDK0A17TransactionStatusC", "card"]
+- ["9PlatonSDK0A17TransactionStatusC", "currency"]
+- ["9PlatonSDK0A17TransactionStatusC", "deinit"]
+- ["9PlatonSDK0A17TransactionStatusC", "init"]
+- ["9PlatonSDK0A17TransactionStatusC", "ip"]
+- ["9PlatonSDK0A17TransactionStatusC", "mail"]
+- ["9PlatonSDK0A17TransactionStatusC", "name"]
+- ["9PlatonSDK0A17TransactionStatusC", "transactions"]
+- !private ["9PlatonSDK0A17TransactionStatusC", "type"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "amount"]
+- !private ["SY", "card"]
+- !private ["SY", "currency"]
+- !private ["SY", "date"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "ip"]
+- !private ["SY", "mail"]
+- !private ["SY", "name"]
+- ["SY", "rawValue"]
+- !private ["SY", "status"]
+- ["SY", "stringValue"]
+- !private ["SY", "transType"]
+- !private ["SY", "transactions"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9PlatonSDK17TransactionStatusO", "deinit"]
+- !private ["9PlatonSDK15TransactionTypeO", "deinit"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "Sj"
+- "9PlatonSDK0A14AmountProtocolP"
+- "9PlatonSDK0A11BasePaymentC"
+- "9PlatonSDK0A12BaseProtocolP"
+- "9PlatonSDK0A17BaseResponseModelC"
+- "9PlatonSDK0A12CardProtocolP"
+- "9PlatonSDK0A16CurrencyProtocolP"
+- "9PlatonSDK0A14CustomDescribeP"
+- "9PlatonSDK0A13PayerProtocolP"
+- "9PlatonSDK0A14StatusProtocolP"
+- "9PlatonSDK0A11TransactionC"
+- "9PlatonSDK0A18TransactionDetailsC"
+- "9PlatonSDK0A17TransactionStatusC"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "9PlatonSDK17TransactionStatusO"
+- !private "9PlatonSDK15TransactionTypeO"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/PlatonSDK/PlatonSDK.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Intermediates/PlatonSDK.build/Debug-iphonesimulator/PlatonSDK.build/unextended-module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/EugeneK/Documents/Developer/freelance/platon_ios_sdk/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4aa954303dd5e5f145f0c0c0e782764f"
