@@ -5,7 +5,7 @@ import Alamofire
 public typealias PlatonCalback<T> = ((_ result: T) -> Swift.Void)?
 
 /// Base Post Payment API adaper
-public class PlatonBaseAdapter: NSObject {
+public class PlatonBaseAdapter {
     let queue = OperationQueue()
     
     /// Method for sending request and parsing data on PlatonError
@@ -26,11 +26,11 @@ public class PlatonBaseAdapter: NSObject {
         let params = genereatePaymentParamters(parameters,
                                                method: restApiMethod,
                                                credentials: credentials)
-        let dataRequest = Alamofire.request(credentials.paymentUrl,
-                                            method: .post,
-                                            parameters: params,
-                                            encoding: URLEncoding.default,
-                                            headers: nil).validate()
+        let dataRequest = Session.default.request(credentials.paymentUrl,
+                                                  method: .post,
+                                                  parameters: params,
+                                                  encoding: URLEncoding.default,
+                                                  headers: nil).validate()
         
         queue.addOperation {
             dataRequest.responseJSON(completionHandler: { (response) in
@@ -41,7 +41,7 @@ public class PlatonBaseAdapter: NSObject {
     
     // MARK: - Additional functions
     
-    func parseResponse(_ response: DataResponse<Any>) -> PlatonResponse<Data> {
+    func parseResponse(_ response: DataResponse<Any, AFError>) -> PlatonResponse<Data> {
         let parsedResponse: PlatonResponse<Data>
         
         if let unwError = response.error {

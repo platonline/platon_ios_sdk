@@ -40,7 +40,8 @@ public enum PlatonMethodAction: String, Decodable, PlatonParametersProtocol {
     case schedule = "SCHEDULE"
     case secondChargeback = "SECOND_CHARGEBACK"
     case secondPresentment = "SECOND_PRESENTMENT"
-    
+    case applePay = "APPLEPAY"
+
     public var platonParams: [PlatonMethodProperty : Any?] {
         return [
             PlatonMethodProperty.action: self.rawValue
@@ -155,16 +156,20 @@ public enum PlatonMethodProperty: String, Decodable {
     case orderId = "order_id"
     case paReq = "PaReq"
     case payerAddress = "payer_address"
+    case payerAddress2 = "payer_address2"
+    case payerBirthDate = "payer_birth_date"
     case payerCity = "payer_city"
     case payerCountry = "payer_country"
     case payerEmail = "payer_email"
     case payerFirstName = "payer_first_name"
     case payerIp = "payer_ip"
+    case payerMidleName = "payer_middle_name"
     case payerLastName = "payer_last_name"
     case payerPhone = "payer_phone"
     case payerState = "payer_state"
     case payerZip = "payer_zip"
     case payment = "payment"
+    case paymentToken = "payment_token"
     case period = "period"
     case phone = "phone"
     case rcId = "rc_id"

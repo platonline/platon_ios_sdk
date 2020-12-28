@@ -2,7 +2,7 @@
 import Alamofire
 
 /// Callback type for all Web Pament requests
-public typealias PlatonWebCalback = ((_ result: PlatonResponse<DataResponse<String>>) -> Swift.Void)?
+public typealias PlatonWebCalback = ((_ result: PlatonResponse<DataResponse<String, AFError>>) -> Swift.Void)?
 
 /// Base Web Payment API adaper
 public class PlatonWebBaseAdapter: PlatonBaseAdapter {
@@ -22,11 +22,11 @@ public class PlatonWebBaseAdapter: PlatonBaseAdapter {
         
         let params = genereatePaymentParamters(parameters,
                                                credentials: credentials)
-        let dataRequest = Alamofire.request(credentials.paymentUrl,
-                                            method: .post,
-                                            parameters: params,
-                                            encoding: URLEncoding.default,
-                                            headers: nil).validate()
+        let dataRequest = Session.default.request(credentials.paymentUrl,
+                                                  method: .post,
+                                                  parameters: params,
+                                                  encoding: URLEncoding.default,
+                                                  headers: nil).validate()
         
         print(params.platonStringValue!)
         
@@ -39,17 +39,17 @@ public class PlatonWebBaseAdapter: PlatonBaseAdapter {
     
     // MARK: - Addtitional fuctions
     
-    func parseResponse(_ response: DataResponse<String>) -> PlatonResponse<DataResponse<String>> {
-        let parsedResponse: PlatonResponse<DataResponse<String>>
+    func parseResponse(_ response: DataResponse<String, AFError>) -> PlatonResponse<DataResponse<String, AFError>> {
+        let parsedResponse: PlatonResponse<DataResponse<String, AFError>>
         
         if let unwError = response.error {
             let errorCode = (unwError as NSError).code
             let error = PlatonError(message: unwError.localizedDescription, code: errorCode)
             
-            parsedResponse = PlatonResponse.failure(error)
+            parsedResponse = .failure(error)
             
         } else {
-            parsedResponse = PlatonResponse.success(response)
+            parsedResponse = .success(response)
         }
         
         return parsedResponse
@@ -73,7 +73,7 @@ public class PlatonWebBaseAdapter: PlatonBaseAdapter {
         return platonParams.alamofireParams
     }
     
-    func sendRequest(_ request: DataRequest, completion: ((DataResponse<String>) -> Void)?) {
+    func sendRequest(_ request: DataRequest, completion: ((DataResponse<String, AFError>) -> Void)?) {
         request.responseString(completionHandler: { (response) in
             completion?(response)
         })

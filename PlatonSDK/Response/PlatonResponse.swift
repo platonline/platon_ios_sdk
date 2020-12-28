@@ -121,3 +121,46 @@ public enum PlatonCaptureResponse {
         }
     }
 }
+
+/**
+ Response for Post Payment *ApplePay* method
+
+ - success: contains *PlatonApplePaySuccess* model. When you send data for **succes** request
+ - secure3d: contains *PlatonApplePay3DS*. When you send data for **ApplePay 3ds** request
+ - unsuccess: contains *PlatonApplePayUnsuccess*. When you receive unsuccess result from server
+ - failure: contains *PlatonError*. When you receive error
+
+ ````
+ switch platonSaleResponse {
+ case .succes(let paySuccess):
+     ...
+ case .secure3d(let pay3DS):
+     ...
+ case .unsuccess(let payUnsuccess):
+     ...
+ case .failure(let platonError):
+ ...
+ }
+ ````
+ */
+public enum PlatonApplePayResponse {
+    case success(PlatonApplePaySuccess)
+    case secure3d(PlatonApplePay3DS)
+    case unsuccess(PlatonApplePayUnsuccess)
+    case failure(PlatonError)
+
+    /// This is parsed response object which you can use without switch
+    public var responseObject: PlatonBaseProtocol? {
+        switch self {
+        case .success(let pay):
+            return pay
+        case .secure3d(let pay):
+            return pay
+        case .unsuccess(let pay):
+            return pay
+        default:
+            return nil
+        }
+    }
+
+}

@@ -12,7 +12,8 @@ class MainTableViewController: UITableViewController {
                          "GET_TRANS_DETAILS",
                          "RECURRING_SALE",
                          "SCHEDULE",
-                         "DESCHEDULE"
+                         "DESCHEDULE",
+                         "APPLEPAY"
     ]
     
     var dataSourceWeb = ["WEB_SALE",
@@ -50,8 +51,8 @@ class MainTableViewController: UITableViewController {
     }
     
     func postPaymentSDKConfig() {
-        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "4DL3dGDL0D7",
-                                                        clientPass: "PjBc8UyLGDmffSswP1mvX5D3pn0ne",
+        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "FY4WVLX8BK",
+                                                        clientPass: "fJTHb9NcNwBqGBrvphabqWT6ZAVdBhjT",
                                                         paymentUrl: "https://secure.platononline.com/post",
                                                         termUrl3Ds: "https://platon.ua"))
         self.dataSource = self.dataSorcePost

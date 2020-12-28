@@ -2,8 +2,8 @@
 import Foundation
 import Alamofire
 
-/// Base sale model of response which used for extended sale models and in callback of *PlatonRecurringAdapter* requests
-public class PlatonSale: PlatonBaseResponseModel, PlatonSaleProtocol {
+/// Base sale model of response which used for extended sale models and in callback of *PlatonApplePayAdapter* requests
+public class PlatonApplePay: PlatonBaseResponseModel, PlatonSaleProtocol {
     
     public let transDate: String
     
@@ -26,16 +26,16 @@ public class PlatonSale: PlatonBaseResponseModel, PlatonSaleProtocol {
     }
 }
 
-public class PlatonSaleSuccess: PlatonSale, PlatonDescriptorProtocol, PlatonStatusProtocol {
+public class PlatonApplePaySuccess: PlatonApplePay, PlatonStatusProtocol {
     
-    public let descriptor: String
+    public let descriptor: String?
     
     public let status: PlatonStatus
     
-    public init(action: PlatonMethodAction, result: PlatonResult, orderId: String, transId: String, descriptor: String, status: PlatonStatus, transDate: String) {
+    public init(action: PlatonMethodAction, result: PlatonResult, orderId: String, transId: String, descriptor: String?, status: PlatonStatus, transDate: String) {
         self.descriptor = descriptor
         self.status = status
-        
+
         super.init(action: action, result: result, orderId: orderId, transId: transId, transDate: transDate)
     }
     
@@ -44,40 +44,18 @@ public class PlatonSaleSuccess: PlatonSale, PlatonDescriptorProtocol, PlatonStat
         
         descriptor = try container.decode(type(of: descriptor), forKey: .descriptor)
         status = try container.decode(type(of: status), forKey: .status)
-        
+
         try super.init(from: decoder)
     }
     
     private enum CodingKeys: String, CodingKey {
         case descriptor, status
-    }
-    
-}
-
-final public class PlatonRecurringInit: PlatonSaleSuccess, PlatonRecurringTokenProtocol {
-    
-    public let recurringToken: String
-    
-    public init(action: PlatonMethodAction, result: PlatonResult, orderId: String, transId: String, descriptor: String, status: PlatonStatus, transDate: String, recurringToken: String) {
-        self.recurringToken = recurringToken
-        
-        super.init(action: action, result: result, orderId: orderId, transId: transId, descriptor: descriptor, status: status, transDate: transDate)
-    }
-    
-    required public init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        
-        recurringToken = try container.decode(type(of: recurringToken), forKey: .recurringToken)
-        
-        try super.init(from: decoder)
-    }
-    
-    private enum CodingKeys: String, CodingKey {
         case recurringToken = "recurring_token"
     }
+    
 }
 
-final public class PlatonSaleUnsuccess: PlatonSale, PlatonDeclineReasonProtocol, PlatonStatusProtocol {
+final public class PlatonApplePayUnsuccess: PlatonApplePay, PlatonDeclineReasonProtocol, PlatonStatusProtocol {
     
     public let declineReason: String
     
@@ -109,7 +87,7 @@ final public class PlatonSaleUnsuccess: PlatonSale, PlatonDeclineReasonProtocol,
  After the successful request in *PlatonCalback* you should get *submit3dsDataRequest* and load this request in UIWebView where will be the button which will submit your 3ds data and verify payment
  ```
  ...
- PlatonPostPayment.sale.sale(order: order, card: card, payer: payer, saleOption: saleOption, auth: auth) { (result) in
+ PlatonPostPayment.applePay.pay(payer: PlatonPayerApplePay, paymentToken: paymentToken, clientKey: clientKey, channelId: channelId, orderId: orderId, orderDescription: orderDescription, amount: amountl, termsUrl3ds: termsUrl3ds) { (result) in
  
  switch result {
  ...
@@ -123,7 +101,7 @@ final public class PlatonSaleUnsuccess: PlatonSale, PlatonDeclineReasonProtocol,
  ```
  */
 
-final public class PlatonSale3DS: PlatonSale, PlatonStatusProtocol, PlatonRedirectProtocol {
+final public class PlatonApplePay3DS: PlatonApplePay, PlatonStatusProtocol, PlatonRedirectProtocol {
     public let status: PlatonStatus
     public let redirectUrl: String
     public let redirectParams: PlatonRedirectParams

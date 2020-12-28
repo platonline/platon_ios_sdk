@@ -167,6 +167,27 @@ final class PlatonHashUtils {
         
         return MD5(reverseClientKey.appending(reverseData).appending(reverseTransId).appending(reverseToken).appending(reverseSuccessUrl).appending(reverseClientPass).uppercased()).lowercased()
     }
+
+    /// md5(strtoupper(strrev(email).CLIENT_PASS.strrev(payment_token)))
+    ///
+    /// - Parameters:
+    ///   - email: payer email
+    ///   - token: ApplePay transaction token
+    /// - Returns: md5 hash for *PlatonApplePayAdapter.swift* requests
+
+    static func encryptApplePay(email: String, token: String) -> String? {
+        guard let unwPlatonCredentials = PlatonSDK.shared.credentials,
+            email.count > 0 && token.count > 0 else { return nil }
+
+        let reverseEmail = String(email.reversed())
+        let clientPass = unwPlatonCredentials.clientPass
+        let reverseToken = String(token.reversed())
+
+        let allString = reverseEmail + clientPass + reverseToken
+
+        return MD5(allString.uppercased()).lowercased()
+    }
+
 }
 
 

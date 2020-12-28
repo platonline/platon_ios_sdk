@@ -4,7 +4,7 @@ import Alamofire
 import SafariServices
 
 /// Class which contains additional functions for helping
-final class PlatonSDKUtils: NSObject {
+final class PlatonSDKUtils {
     
     /// Method find .plist file of current name and return all .plist data in Dictionary
     ///

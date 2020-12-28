@@ -53,7 +53,7 @@ import Foundation
  
  To test/simulate your requests to Platon Payment System use *PlatonCard(test: Test?)* environment
  */
-final public class PlatonSDK: NSObject {
+final public class PlatonSDK {
     
     /// Singletone access for PlatonSDK
     public static let shared = PlatonSDK()
@@ -85,11 +85,7 @@ final public class PlatonSDK: NSObject {
     public static func config(credendials: PlatonCredentials?) {
         PlatonSDK.shared.credentials = credendials
     }
-    
-    override private init() {
-        super.init()
-    }
-    
+        
 }
 
 /**
@@ -133,6 +129,9 @@ final public class PlatonPostPayment {
     
     /// Adapter for *PlatonMethodAction.schedule* and *PlatonMethodAction.deschedule* requests
     public static let schedule = PlatonScheduleAdapter()
+
+    /// Adapter for *PlatonMethodAction.applePay* request
+    public static let applePay = PlatonApplePayAdapter()
 }
 
 /**
