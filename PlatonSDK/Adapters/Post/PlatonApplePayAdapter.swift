@@ -1,7 +1,5 @@
 
-import Alamofire
 import PassKit
-
 
 /// API adapter to complete transaction payment using ApplePay
 final public class PlatonApplePayAdapter: PlatonBaseAdapter {
@@ -42,7 +40,7 @@ final public class PlatonApplePayAdapter: PlatonBaseAdapter {
             .hash: PlatonHashUtils.encryptApplePay(email: payer.email, token: paymentToken)
         ]
         
-        _ = procesedRequest(restApiMethod: .applePay, parameters: [params, payer]) { (result) in
+        procesedRequest(restApiMethod: .applePay, parameters: [params, payer]) { (result) in
             let jsonDecoder = JSONDecoder()
 
             let response: PlatonApplePayResponse
@@ -59,7 +57,6 @@ final public class PlatonApplePayAdapter: PlatonBaseAdapter {
                 } else {
                     response = .failure(PlatonError(type: .parse))
                 }
-                print(String(data: data, encoding: .utf8))
             case .failure(let error):
                 response = .failure(error)
             }

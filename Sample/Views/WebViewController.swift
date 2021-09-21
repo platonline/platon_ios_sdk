@@ -1,10 +1,10 @@
 
 import UIKit
-import Alamofire
+import WebKit
 
 class WebViewController: UIViewController {
 
-    var webView: UIWebView!
+    var webView: WKWebView!
    
     var url: URL? {
         didSet {
@@ -21,9 +21,8 @@ class WebViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        webView = UIWebView()
+        webView = WKWebView()
         webView.translatesAutoresizingMaskIntoConstraints = false
-        webView.keyboardDisplayRequiresUserAction = false
         view.addSubview(webView)
         
         NSLayoutConstraint.activate([
@@ -54,25 +53,25 @@ class WebViewController: UIViewController {
     }
     
     func loadRequest(_ request: URLRequest?) {
-        guard let unwRequest = request else {
+        guard var request = request, let webView = webView else {
             return
         }
-        
-        webView?.loadRequest(unwRequest)
+        request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        webView.load(request)
     }
 
 }
 
 extension WebViewController {
     
-    static func open(url: URL?, fromConstroller controller: UIViewController?, title: String? = "PlatonSDK Eample") {
+    static func open(url: URL?, fromConstroller controller: UIViewController?, title: String? = "PlatonSDK Example") {
         let webVC = WebViewController()
         webVC.title = title
         webVC.url = url
         controller?.navigationController?.pushViewController(webVC, animated: true)
     }
     
-    static func open(request: URLRequest?, fromConstroller controller: UIViewController?, title: String? = "PlatonSDK Eample") {
+    static func open(request: URLRequest?, fromConstroller controller: UIViewController?, title: String? = "PlatonSDK Example") {
         let webVC = WebViewController()
         webVC.title = title
         webVC.request = request

@@ -1,6 +1,4 @@
 
-import Alamofire
-
 /// API adapter to facilitate transaction payment capture during DMS
 final public class PlatonCaptureAdapter: PlatonBaseAdapter {
 
@@ -28,7 +26,7 @@ final public class PlatonCaptureAdapter: PlatonBaseAdapter {
             PlatonMethodProperty.hash: PlatonHashUtils.encryptSale(email: payerEmail, cardNumber: cardNumber, transId: transactionId)
             ]
         
-        _ = procesedRequest(restApiMethod: .capture, parameters: [params]) { (result) in
+        procesedRequest(restApiMethod: .capture, parameters: [params]) { (result) in
             let jsonDecoder = JSONDecoder()
             
             switch result {

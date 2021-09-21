@@ -1,6 +1,4 @@
 
-import Alamofire
-
 /// API adapter for integration procedures and WebPaymentsOneClick protocol usage for e-commerce merchants
 final public class PlatonWebOneClickSaleAdapter: PlatonWebBaseAdapter {
     
@@ -16,13 +14,14 @@ final public class PlatonWebOneClickSaleAdapter: PlatonWebBaseAdapter {
     ///   - successUrl: url by which you proceed after successful payment
     ///   - orderId: id of order
     ///   - additonal: options to control web form representation
-    ///   - completion: callback which will hold Alamofire Requesr Data which has url for web request
+    ///   - completion: callback which will hold Request Data which has url for web request
     public func sale(productSale: PlatonProductSale,
               recurringWeb: PlatonRecurringWeb,
+              payerWebSale: PlatonPayerWebSale? = nil,
               successUrl: String,
               orderId: String? = nil,
               additonal: PlatonWebSaleAdditional? = nil,
-              completion: PlatonWebCalback = nil) {
+              completion: PlatonWebCalback<PlatonResponse<String>> = nil) {
         
         let data = PlatonBase64Utils.encode(product: productSale)
         let otherParams: PlatonParams = [
@@ -36,6 +35,7 @@ final public class PlatonWebOneClickSaleAdapter: PlatonWebBaseAdapter {
         let params: [PlatonParametersProtocol?] = [
             productSale,
             recurringWeb,
+            payerWebSale,
             additonal,
             otherParams
         ]

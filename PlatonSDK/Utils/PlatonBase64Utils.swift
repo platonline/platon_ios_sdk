@@ -1,6 +1,5 @@
 
 import Foundation
-import Alamofire
 
 /**
  The product's information should be presented as the json encoded or
@@ -67,17 +66,17 @@ final class PlatonBase64Utils {
         }
         
         if unwProducrs.count == 1 {
-            let params = unwProducrs[0].alamofireParams
+            let params = unwProducrs[0].anyParams
             let strParams = params.platonStringValue
             let encodedParams = strParams?.base64Encoded()
             
             return encodedParams
             
         } else {
-            var jsonProducts = [String: Parameters]()
+            var jsonProducts = [String: AnyParams]()
             
             for i in 0..<unwProducrs.count {
-                jsonProducts["p\(i + 1)"] = unwProducrs[i].alamofireParams
+                jsonProducts["p\(i + 1)"] = unwProducrs[i].anyParams
             }
             
             let strParams = jsonProducts.platonStringValue
@@ -94,17 +93,17 @@ final class PlatonBase64Utils {
         }
         
         if unwProducrs.count == 1 {
-            let params = unwProducrs[0].alamofireParams
+            let params = unwProducrs[0].anyParams
             let strParams = params.platonStringValue
             let encodedParams = strParams?.base64Encoded()
             
             return encodedParams
             
         } else {
-            var jsonProducts = [Parameters]()
+            var jsonProducts = [AnyParams]()
             
             for i in 0..<unwProducrs.count {
-                jsonProducts.append(unwProducrs[i].alamofireParams)
+                jsonProducts.append(unwProducrs[i].anyParams)
             }
             
             let strParams = jsonProducts.platonStringValue

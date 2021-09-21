@@ -1,6 +1,4 @@
 
-import Alamofire
-
 /// API adapter to facilitate both fund *PlatonStatus.refound* and fund *PlatonStatus.reversal* operations
 final public class PlatonCreditVoidAdapter: PlatonBaseAdapter {
     
@@ -28,20 +26,21 @@ final public class PlatonCreditVoidAdapter: PlatonBaseAdapter {
             PlatonMethodProperty.hash: PlatonHashUtils.encryptSale(email: payerEmail, cardNumber: cardNumber, transId: transactionId)
         ]
         
-        _ = procesedRequest(restApiMethod: .creditvoid, parameters: [params]) { (result) in
+        procesedRequest(restApiMethod: .creditvoid, parameters: [params])
+        { (result) in
             
             switch result {
-            case .success(let data):
-                let jsonDecoder = JSONDecoder()
-                
-                if let unwCreditVoid = try? jsonDecoder.decode(PlatonCreditVoid.self, from: data) {
-                    completion?(PlatonResponse.success(unwCreditVoid))
-                } else {
-                    completion?(PlatonResponse.failure(PlatonError(type: .parse)))
-                }
-                
-            case .failure(let error):
-                completion?(PlatonResponse.failure(error))
+                case .success(let data):
+                    let jsonDecoder = JSONDecoder()
+                    
+                    if let unwCreditVoid = try? jsonDecoder.decode(PlatonCreditVoid.self, from: data) {
+                        completion?(PlatonResponse.success(unwCreditVoid))
+                    } else {
+                        completion?(PlatonResponse.failure(PlatonError(type: .parse)))
+                    }
+                    
+                case .failure(let error):
+                    completion?(PlatonResponse.failure(error))
             }
             
         }

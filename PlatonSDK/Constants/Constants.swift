@@ -10,6 +10,7 @@ enum PlatonSDKConstants: String {
     case clientPass = "CLIENT_PASS"
     case paymentUrl = "PAYMENT_URL"
     case termUrl3ds = "TERM_URL_3DS"
+    case stateUrl = "STATE_URL"
 }
 
 /// When you make request to Payment Platform, you need to specify action, that needs to be done
@@ -41,6 +42,7 @@ public enum PlatonMethodAction: String, Decodable, PlatonParametersProtocol {
     case secondChargeback = "SECOND_CHARGEBACK"
     case secondPresentment = "SECOND_PRESENTMENT"
     case applePay = "APPLEPAY"
+    case transactionState = "GET_TRANS_STATUS_BY_ORDER"
 
     public var platonParams: [PlatonMethodProperty : Any?] {
         return [
@@ -139,6 +141,12 @@ public enum PlatonMethodProperty: String, Decodable {
     case ext2 = "ext2"
     case ext3 = "ext3"
     case ext4 = "ext4"
+    case ext5 = "ext5"
+    case ext6 = "ext6"
+    case ext7 = "ext7"
+    case ext8 = "ext8"
+    case ext9 = "ext9"
+    case ext10 = "ext10"
     case firstName = "first_name"
     case formId = "formid"
     case hash = "hash"
@@ -187,7 +195,9 @@ public enum PlatonMethodProperty: String, Decodable {
     case transId = "trans_id"
     case url = "url"
     case zip = "zip"
-    case card_token = "card_token"
+    case cardToken = "card_token"
+    case bankId = "bank_id"
+    case payerId = "payer_id"
 }
 
 /// Used as convenient variable while creating different requests
@@ -306,4 +316,6 @@ public enum PlatonWebPaymentType: String {
     case CC = "CC"
     case RF = "RF"
     case CCT = "CCT"
+    case C2A = "C2A"
+    case C2AT = "C2AT"
 }

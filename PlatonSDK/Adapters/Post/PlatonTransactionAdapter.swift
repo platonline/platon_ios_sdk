@@ -1,6 +1,4 @@
 
-import Alamofire
-
 /// API adapter to facilitate retrieving transaction data
 final public class PlatonTransactionAdapter: PlatonBaseAdapter {
     
@@ -21,7 +19,7 @@ final public class PlatonTransactionAdapter: PlatonBaseAdapter {
             PlatonMethodProperty.hash: PlatonHashUtils.encryptSale(email: payerEmail, cardNumber: cardNumber, transId: transactionId)
         ]
         
-        _ = procesedRequest(restApiMethod: .getTransStatus, parameters: [params]) { (result) in
+        procesedRequest(restApiMethod: .getTransStatus, parameters: [params]) { (result) in
             
             switch result {
             case .success(let data):
@@ -57,7 +55,7 @@ final public class PlatonTransactionAdapter: PlatonBaseAdapter {
             PlatonMethodProperty.hash: PlatonHashUtils.encryptSale(email: payerEmail, cardNumber: cardNumber, transId: transactionId)
         ]
         
-        _ = procesedRequest(restApiMethod: .getTransDetails, parameters: [params]) { (result) in
+        procesedRequest(restApiMethod: .getTransDetails, parameters: [params]) { (result) in
             
             switch result {
             case .success(let data):

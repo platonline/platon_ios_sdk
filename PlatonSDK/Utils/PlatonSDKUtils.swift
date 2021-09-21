@@ -1,8 +1,4 @@
 
-import UIKit
-import Alamofire
-import SafariServices
-
 /// Class which contains additional functions for helping
 final class PlatonSDKUtils {
     
@@ -10,9 +6,9 @@ final class PlatonSDKUtils {
     ///
     /// - Parameter name: .plist file name
     /// - Returns: Dictionary which contains data from .plist file
-    static func getPlist(name: String) -> [String: Any]? {
+    static func getPlist(name: String) -> AnyParams? {
         guard let path = Bundle.main.path(forResource: name, ofType: "plist"),
-            let dictPlist = NSDictionary(contentsOfFile: path) as? [String: Any] else {
+            let dictPlist = NSDictionary(contentsOfFile: path) as? AnyParams else {
                 debugPrint("Error: Can't read \"Platon-info.plist\"")
                 return nil
         }

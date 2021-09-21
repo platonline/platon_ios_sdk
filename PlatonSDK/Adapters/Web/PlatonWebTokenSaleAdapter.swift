@@ -6,8 +6,6 @@
 //
 
 
-import Alamofire
-
 /// API adapter for creating SALE transaction in web payments platform
 final public class PlatonWebTokenSaleAdapter: PlatonWebBaseAdapter {
     
@@ -23,13 +21,14 @@ final public class PlatonWebTokenSaleAdapter: PlatonWebBaseAdapter {
     ///   - orderId: order id in payment system
     ///   - payerWebSale: info holder of payer
     ///   - additional: options to control web form representation
-    ///   - completion: callback which will hold Alamofire Requesr Data which has url for web request
+    ///   - completion: callback which will hold Request Data which has url for web request
     public func tokenSale(productSales: [PlatonProductSale]? = nil,
-                     successUrl: String,
-                     cardToken: String,
-                     payerWebSale: PlatonPayerWebSale? = nil,
-                     additional: PlatonWebTokenSaleAdditional,
-                     completion: PlatonWebCalback = nil) {
+                          orderId: String,
+                          successUrl: String,
+                          cardToken: String,
+                          payerWebSale: PlatonPayerWebSale? = nil,
+                          additional: PlatonWebTokenSaleAdditional,
+                          completion: PlatonWebCalback<PlatonResponse<String>> = nil) {
         
         let payment = PlatonWebPaymentType.CCT.rawValue
         let data = PlatonBase64Utils.encodeToken(products: productSales)
@@ -38,8 +37,9 @@ final public class PlatonWebTokenSaleAdapter: PlatonWebBaseAdapter {
                                                   successUrl: successUrl,
                                                   cardToken: cardToken)
         let otherParams: PlatonParams = [PlatonMethodProperty.payment: payment,
+                                         PlatonMethodProperty.order: orderId,
                                          PlatonMethodProperty.url: successUrl,
-                                         PlatonMethodProperty.card_token: cardToken,
+                                         PlatonMethodProperty.cardToken: cardToken,
                                          PlatonMethodProperty.data: data,
                                          PlatonMethodProperty.sign: hash]
         

@@ -12,7 +12,10 @@ final public class PlatonCredentials: NSObject, PlatonParametersProtocol {
     
     /// URL to request the Payment Platform
     public let paymentUrl: String
-    
+
+    /// URL to request the Status Platform
+    public let stateUrl: String?
+
     /// URL to which Customer should be returned after 3D-Secure. This field is (Required) when your account support 3DSecure (string up to 1024 symbols). Used as request parameter in *PlatonMethodAction.sale*
     public let termUrl3Ds: String?
 
@@ -29,11 +32,12 @@ final public class PlatonCredentials: NSObject, PlatonParametersProtocol {
     ///   - clientPass: client password
     ///   - paymentUrl: payment url
     ///   - termUrl3Ds: url for 3DSecure supported account
-    public init(clientKey: String, clientPass: String, paymentUrl: String, termUrl3Ds: String? = nil) {
+    public init(clientKey: String, clientPass: String, paymentUrl: String, termUrl3Ds: String? = nil, stateUrl: String? = nil) {
         self.clientKey = clientKey
         self.clientPass = clientPass
         self.paymentUrl = paymentUrl.hasSuffix("/") ? paymentUrl : "\(paymentUrl)/"
         self.termUrl3Ds = termUrl3Ds
+        self.stateUrl = stateUrl
         
         super.init()
     }
@@ -45,7 +49,7 @@ final public class PlatonCredentials: NSObject, PlatonParametersProtocol {
     ///   - clientPass: client password
     ///   - paymentUrl: payment url
     ///   - termUrl3Ds: url for 3DSecure supported account
-    public init?(clientKey: String?, clientPass: String?, paymentUrl: String?, termUrl3Ds: String?) {
+    public init?(clientKey: String?, clientPass: String?, paymentUrl: String?, termUrl3Ds: String?, stateUrl: String? = nil) {
         guard let unwClientKey = clientKey,
             let unwClientPass = clientPass,
             let unwPaymentUrl = paymentUrl else {
@@ -56,6 +60,7 @@ final public class PlatonCredentials: NSObject, PlatonParametersProtocol {
         self.clientPass = unwClientPass
         self.paymentUrl = unwPaymentUrl.hasSuffix("/") ? unwPaymentUrl : "\(unwPaymentUrl)/"
         self.termUrl3Ds = termUrl3Ds
+        self.stateUrl = stateUrl
         
         super.init()
     }

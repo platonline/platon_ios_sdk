@@ -13,10 +13,14 @@ class MainTableViewController: UITableViewController {
                          "RECURRING_SALE",
                          "SCHEDULE",
                          "DESCHEDULE",
-                         "APPLEPAY"
+                         "APPLEPAY",
+                         "GET_TRANS_STATE"
     ]
     
     var dataSourceWeb = ["WEB_SALE",
+                         "WEB_CARD_VERIFY",
+                         "WEB_C2A",
+                         "WEB_C2A_ONE_CLICK",
                          "WEB_ONE_CLICK_SALE",
                          "WEB_TOKEN_SALE",
                          
@@ -43,10 +47,10 @@ class MainTableViewController: UITableViewController {
     
     func webPaymentSDKConfig() {
         
-        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "3WQKWN0UJV",
-                                                        clientPass: "bd9CGBFr8pC7TH2jQu6h68dEzyB0H7HR",
+        PlatonSDK.config(credendials: PlatonCredentials(clientKey: "FY4WVLX8BK",
+                                                        clientPass: "fJTHb9NcNwBqGBrvphabqWT6ZAVdBhjT",
                                                         paymentUrl: "https://secure.platononline.com/payment/auth",
-                                                        termUrl3Ds: nil))
+                                                        termUrl3Ds: "https://platon.ua"))
         self.dataSource = self.dataSourceWeb
     }
     
@@ -54,7 +58,8 @@ class MainTableViewController: UITableViewController {
         PlatonSDK.config(credendials: PlatonCredentials(clientKey: "FY4WVLX8BK",
                                                         clientPass: "fJTHb9NcNwBqGBrvphabqWT6ZAVdBhjT",
                                                         paymentUrl: "https://secure.platononline.com/post",
-                                                        termUrl3Ds: "https://platon.ua"))
+                                                        termUrl3Ds: "https://platon.ua",
+                                                        stateUrl: "https://secure.platononline.com/post-unq/"))
         self.dataSource = self.dataSorcePost
     }
     

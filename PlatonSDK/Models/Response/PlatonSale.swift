@@ -1,6 +1,5 @@
 
 import Foundation
-import Alamofire
 
 /// Base sale model of response which used for extended sale models and in callback of *PlatonRecurringAdapter* requests
 public class PlatonSale: PlatonBaseResponseModel, PlatonSaleProtocol {
@@ -106,7 +105,7 @@ final public class PlatonSaleUnsuccess: PlatonSale, PlatonDeclineReasonProtocol,
 }
 
 /**
- After the successful request in *PlatonCalback* you should get *submit3dsDataRequest* and load this request in UIWebView where will be the button which will submit your 3ds data and verify payment
+ After the successful request in *PlatonCalback* you should get *submit3dsDataRequest* and load this request in WKWebView where will be the button which will submit your 3ds data and verify payment
  ```
  ...
  PlatonPostPayment.sale.sale(order: order, card: card, payer: payer, saleOption: saleOption, auth: auth) { (result) in
@@ -128,19 +127,17 @@ final public class PlatonSale3DS: PlatonSale, PlatonStatusProtocol, PlatonRedire
     public let redirectUrl: String
     public let redirectParams: PlatonRedirectParams
     public let redirectMethod: PlatonHTTPMethod
-    
-    let queue = OperationQueue()
-    
+        
     /// Request whcich you should load in Webview for submit your 3ds data and verify payment
-    public var submit3dsDataRequest: DataRequest? {
+    public var submit3dsDataRequest: URLRequest? {
         guard let baseUrl = URL(string: "\(redirectUrl)") else {
             return nil
         }
-        let httpMethod = HTTPMethod.init(rawValue: redirectMethod.rawValue)
-        
-        return Session.default.request(baseUrl, method: httpMethod,
-                                       parameters: redirectParams.alamofireParams,
-                                       encoding: URLEncoding.default, headers: nil)
+        var request = URLRequest(url: baseUrl)
+        request.httpMethod = redirectMethod.rawValue
+        request.httpBody = redirectParams.anyParams.prepareQuery().data(using: .utf8)
+
+        return request
     }
     
     public init(action: PlatonMethodAction, result: PlatonResult, orderId: String, transId: String, transDate: String, status: PlatonStatus, redirectUrl: String, redirectParams: PlatonRedirectParams, redirectMethod: PlatonHTTPMethod) {

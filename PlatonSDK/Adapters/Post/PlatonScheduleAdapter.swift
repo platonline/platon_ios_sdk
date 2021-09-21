@@ -58,7 +58,7 @@ final public class PlatonScheduleAdapter: PlatonBaseAdapter {
                          scheduleAdditonal: PlatonScheduleAdditonal? = nil,
                          completion: PlatonCalback<PlatonResponse<PlatonBasePayment>> = nil) {
         
-        _ = procesedRequest(restApiMethod: .schedule,
+        procesedRequest(restApiMethod: .schedule,
                             parameters: [order, recurring, [PlatonMethodProperty.period: periodDays, PlatonMethodProperty.hash: hash], scheduleAdditonal]) { (result) in
                                 
                                 switch result {

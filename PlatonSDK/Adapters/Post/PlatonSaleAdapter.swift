@@ -22,43 +22,44 @@ final public class PlatonSaleAdapter: PlatonBaseAdapter {
                      payer: PlatonPayer,
                      saleOption: PlatonSaleAdditional? = nil,
                      auth: PlatonOption? = nil,
+                     ext: PlatonExtAdditional,
                      completion: PlatonCalback<PlatonSaleResponse> = nil) {
         
         let hash = [PlatonMethodProperty.hash: PlatonHashUtils.encryptSale(email: payer.email, cardNumber: card.number)]
         
-        _ = procesedRequest(restApiMethod: .sale,
-                            parameters: [order, card, payer, saleOption,
-                                         [PlatonMethodProperty.auth: auth?.rawValue], hash]) { (result) in
-                                            let jsonDecoder = JSONDecoder()
-                                            let saleResponse: PlatonSaleResponse
-                                            
-                                            switch result {
-                                            case .success(let saleData):
-                                                
-                                                if let sale = try? jsonDecoder.decode(PlatonSale3DS.self, from: saleData) {
-                                                    saleResponse = PlatonSaleResponse.secure3d(sale)
-                                                    
-                                                } else if let sale = try? jsonDecoder.decode(PlatonSaleUnsuccess.self, from: saleData) {
-                                                    saleResponse = PlatonSaleResponse.unsuccess(sale)
-                                                    
-                                                } else if let sale = try? jsonDecoder.decode(PlatonRecurringInit.self, from: saleData) {
-                                                    saleResponse = PlatonSaleResponse.recurringInit(sale)
-                                                    
-                                                } else if let sale = try? jsonDecoder.decode(PlatonSaleSuccess.self, from: saleData) {
-                                                    saleResponse = PlatonSaleResponse.async(sale)
-                                                    
-                                                } else if let sale = try? jsonDecoder.decode(PlatonSale.self, from: saleData) {
-                                                    saleResponse = PlatonSaleResponse.async(sale)
-                                                    
-                                                } else {
-                                                    saleResponse = PlatonSaleResponse.failure(PlatonError(type: .parse))
-                                                }
-                                                
-                                            case .failure(let error):
-                                                saleResponse = PlatonSaleResponse.failure(error)
-                                            }
-                                            
-                                            completion?(saleResponse)
+        procesedRequest(restApiMethod: .sale,
+                        parameters: [order, card, payer, saleOption,
+                                     [PlatonMethodProperty.auth: auth?.rawValue], hash, ext]) { (result) in
+            let jsonDecoder = JSONDecoder()
+            let saleResponse: PlatonSaleResponse
+            
+            switch result {
+                case .success(let saleData):
+                    
+                    if let sale = try? jsonDecoder.decode(PlatonSale3DS.self, from: saleData) {
+                        saleResponse = PlatonSaleResponse.secure3d(sale)
+                        
+                    } else if let sale = try? jsonDecoder.decode(PlatonSaleUnsuccess.self, from: saleData) {
+                        saleResponse = PlatonSaleResponse.unsuccess(sale)
+                        
+                    } else if let sale = try? jsonDecoder.decode(PlatonRecurringInit.self, from: saleData) {
+                        saleResponse = PlatonSaleResponse.recurringInit(sale)
+                        
+                    } else if let sale = try? jsonDecoder.decode(PlatonSaleSuccess.self, from: saleData) {
+                        saleResponse = PlatonSaleResponse.async(sale)
+                        
+                    } else if let sale = try? jsonDecoder.decode(PlatonSale.self, from: saleData) {
+                        saleResponse = PlatonSaleResponse.async(sale)
+                        
+                    } else {
+                        saleResponse = PlatonSaleResponse.failure(PlatonError(type: .parse))
+                    }
+                    
+                case .failure(let error):
+                    saleResponse = PlatonSaleResponse.failure(error)
+            }
+            
+            completion?(saleResponse)
         }
     }
     

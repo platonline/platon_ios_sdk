@@ -1,6 +1,8 @@
 
 import UIKit
-import SwiftHash
+import var CommonCrypto.CC_MD5_DIGEST_LENGTH
+import func CommonCrypto.CC_MD5
+import typealias CommonCrypto.CC_LONG
 
 /**
  Hash is signature rule used either to validate your requests to POST payment platform or to validate callback from payment platform to your system
@@ -188,6 +190,73 @@ final class PlatonHashUtils {
         return MD5(allString.uppercased()).lowercased()
     }
 
+    /// md5(strtoupper(CLIENT_PASS.strrev(order_it)))
+    ///
+    /// - Parameters:
+    ///   - orderId: order ID
+    /// - Returns: md5 hash for *PlatonTransStateAdapter.swift* requests
+
+    static func encryptStateTransaction(orderId: String) -> String? {
+        guard let unwPlatonCredentials = PlatonSDK.shared.credentials else { return nil }
+
+        let clientPass = unwPlatonCredentials.clientPass
+
+        let allString = clientPass + orderId
+
+        return MD5(allString.uppercased()).lowercased()
+    }
+
+    /// md5(strtoupper(strrev(CLIENT_KEY).strrev(payment).strrev(amount).strrev(currency).strrev(description).strrev(url).strrev(CLIENT_PASS)))
+    ///
+    /// - Parameters:
+    ///   - payment: payment code
+    ///   - productSale: product sale info
+    ///   - successUrl: successful url after sale transaction
+    /// - Returns: md5 hash for *PlatonWebC2AAdapter.swift* requests
+    static func encryptC2AWeb(payment: String?, productSale: PlatonProductSale?, successUrl: String) -> String? {
+        guard let credentials = PlatonSDK.shared.credentials, let unwPayment = payment, let unwProductSale = productSale, let amount = unwProductSale.amount.platonAmount else { return nil }
+        
+        let reverseClientKey = String(credentials.clientKey.reversed())
+        let reversePayment = String(unwPayment.reversed())
+        let reverseAmount = String(amount.reversed())
+        let reverseCurrency = String(unwProductSale.currencyCode.reversed())
+        let reverseDescription = String(unwProductSale.description.reversed())
+        let reverseSuccessUrl = String(successUrl.reversed())
+        let reverseClientPass = String(credentials.clientPass.reversed())
+
+        let allString = reverseClientKey + reversePayment + reverseAmount + reverseCurrency + reverseDescription + reverseSuccessUrl + reverseClientPass
+
+        return MD5(allString.uppercased()).lowercased()
+    }
+
+    private static func MD5Data(_ string: String) -> Data {
+        let length = Int(CC_MD5_DIGEST_LENGTH)
+        let messageData = string.data(using:.utf8)!
+        var digestData = Data(count: length)
+        
+        _ = digestData.withUnsafeMutableBytes { digestBytes -> UInt8 in
+            messageData.withUnsafeBytes { messageBytes -> UInt8 in
+                if let messageBytesBaseAddress = messageBytes.baseAddress, let digestBytesBlindMemory = digestBytes.bindMemory(to: UInt8.self).baseAddress {
+                    let messageLength = CC_LONG(messageData.count)
+                    CC_MD5(messageBytesBaseAddress, messageLength, digestBytesBlindMemory)
+                }
+                return 0
+            }
+        }
+        return digestData
+    }
+    
+    //MD5 Hex
+    private static func MD5(_ string: String) -> String {
+        let md5Data = MD5Data(string)
+        return md5Data.map { String(format: "%02hhx", $0) }.joined()
+    }
+
+    //MD5 Base64
+    private static func MD5Base64(_ string: String) -> String {
+        let md5Data = MD5Data(string)
+        return md5Data.base64EncodedString()
+    }
 }
 
 

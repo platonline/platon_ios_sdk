@@ -18,6 +18,7 @@ class WebTokenSaleViewController: UIViewController {
     
     @IBOutlet weak var btnAddItem: UIButton!
     
+    @IBOutlet var tfOrderId: UITextField!
     @IBOutlet var tfPayerFirstName: UITextField!
     @IBOutlet var tfPayerLastName: UITextField!
     @IBOutlet var tfPayerAddress: UITextField!
@@ -32,10 +33,17 @@ class WebTokenSaleViewController: UIViewController {
     @IBOutlet var tfErrorURL: UITextField!
     @IBOutlet var tfFormID: UITextField!
     @IBOutlet var tfCard_token: UITextField!
+    @IBOutlet var tfExt1: UITextField!
     @IBOutlet var tfExt2: UITextField!
     @IBOutlet var tfExt3: UITextField!
     @IBOutlet var tfExt4: UITextField!
-    
+    @IBOutlet weak var tfExt5: UITextField!
+    @IBOutlet weak var tfExt6: UITextField!
+    @IBOutlet weak var tfExt7: UITextField!
+    @IBOutlet weak var tfExt8: UITextField!
+    @IBOutlet weak var tfExt9: UITextField!
+    @IBOutlet weak var tfExt10: UITextField!
+
     @IBOutlet weak var productsScrollView: UIScrollView!
     @IBOutlet weak var productsStackView: UIStackView!
     
@@ -44,6 +52,7 @@ class WebTokenSaleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tfOrderId.text = "668661"
         tfPayerFirstName.text = "Leo"
         tfPayerLastName.text = "Ernser"
         tfPayerAddress.text = "Apt. 282"
@@ -57,11 +66,18 @@ class WebTokenSaleViewController: UIViewController {
         tfLanguage.text = "RU"
         tfSuccessURL.text = "https://www.apple.com"
         tfErrorURL.text = "https://www.google.com.ua"
-        tfCard_token.text = "51a6deee6c3cd6bf2a0bf87a7a2851cbecb441739aadc237d6ed040d2bc7ce7b"
+        tfCard_token.text = "cc7ac4e55cddd1b4e7090f3201663fd2d4720a260f4e5503b087d26d53a6fa96"
+        tfExt1.text = "https://robohash.org/Esther?size=300x300"
         tfExt2.text = "https://robohash.org/Gwendolyn?size=300x300"
         tfExt3.text = "https://robohash.org/Eleanore?size=300x300"
         tfExt4.text = "https://robohash.org/Joana?size=300x300"
-        
+        tfExt5.text = "test Ext5"
+        tfExt6.text = "test Ext6"
+        tfExt7.text = "test Ext7"
+        tfExt8.text = "test Ext8"
+        tfExt9.text = "test Ext9"
+        tfExt10.text = "test Ext10"
+
         updateProductsButtonTitle()
     }
     
@@ -142,7 +158,7 @@ class WebTokenSaleViewController: UIViewController {
             productsSale.append(productSale)
         }
         
-        let payerWrbSale = PlatonPayerWebSale(firstName: tfPayerFirstName.text,
+        let payerWebSale = PlatonPayerWebSale(firstName: tfPayerFirstName.text,
                                               lastName: tfPayerLastName.text,
                                               address: tfPayerAddress.text,
                                               countryCode: tfPayerCountryCode.text,
@@ -155,25 +171,33 @@ class WebTokenSaleViewController: UIViewController {
         let additional = PlatonWebTokenSaleAdditional(language: tfLanguage.text,
                                                  errorUrl: tfErrorURL.text,
                                                  formId: tfFormID.text,
-                                                 card_token: tfCard_token.text,
+                                                 cardToken: tfCard_token.text,
+                                                 ext1: tfExt1.text,
                                                  ext2: tfExt2.text,
                                                  ext3: tfExt3.text,
-                                                 ext4: tfExt4.text)
-        
+                                                 ext4: tfExt4.text,
+                                                 ext5: tfExt5.text,
+                                                 ext6: tfExt6.text,
+                                                 ext7: tfExt7.text,
+                                                 ext8: tfExt8.text,
+                                                 ext9: tfExt9.text,
+                                                 ext10: tfExt10.text)
+
         PlatonWebPayment.tokenSale.tokenSale(productSales: productsSale,
-                                   successUrl: tfSuccessURL.text ?? "",
-                                   cardToken: tfCard_token.text ?? "",
-                                   payerWebSale: payerWrbSale,
-                                   additional: additional) { result in
-                                    sender.isLoading = false
-                                    
-                                    switch result {
-                                    case .failure(let error):
-                                        self.showError(error)
-                                        
-                                    case .success(let result):
-                                        WebViewController.open(url: result.response?.url, fromConstroller: self)
-                                    }
+                                             orderId: tfOrderId.text ?? "",
+                                             successUrl: tfSuccessURL.text ?? "",
+                                             cardToken: tfCard_token.text ?? "",
+                                             payerWebSale: payerWebSale,
+                                             additional: additional) { result, response in
+            sender.isLoading = false
+            
+            switch result {
+                case .failure(let error):
+                    self.showError(error)
+                    
+                case .success(_):
+                    WebViewController.open(url: response?.url, fromConstroller: self)
+            }
         }
     }
     

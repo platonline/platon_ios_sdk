@@ -30,7 +30,13 @@ class WebSaleViewController: UIViewController {
     @IBOutlet var tfExt2: UITextField!
     @IBOutlet var tfExt3: UITextField!
     @IBOutlet var tfExt4: UITextField!
-    
+    @IBOutlet var tfExt5: UITextField!
+    @IBOutlet var tfExt6: UITextField!
+    @IBOutlet var tfExt7: UITextField!
+    @IBOutlet var tfExt8: UITextField!
+    @IBOutlet var tfExt9: UITextField!
+    @IBOutlet var tfExt10: UITextField!
+
     @IBOutlet weak var productsScrollView: UIScrollView!
     @IBOutlet weak var productsStackView: UIStackView!
     
@@ -59,7 +65,13 @@ class WebSaleViewController: UIViewController {
         tfExt2.text = "https://robohash.org/Gwendolyn?size=300x300"
         tfExt3.text = "https://robohash.org/Eleanore?size=300x300"
         tfExt4.text = "https://robohash.org/Joana?size=300x300"
-        
+        tfExt5.text = "test ext5"
+        tfExt6.text = "test ext6"
+        tfExt7.text = "test ext7"
+        tfExt8.text = "test ext8"
+        tfExt9.text = "test ext9"
+        tfExt10.text = "test ext10"
+
         updateProductsButtonTitle()
     }
     
@@ -140,7 +152,7 @@ class WebSaleViewController: UIViewController {
             prdouctsSale.append(productSale)
         }
 
-        let payerWrbSale = PlatonPayerWebSale(firstName: tfPayerFirstName.text,
+        let payerWebSale = PlatonPayerWebSale(firstName: tfPayerFirstName.text,
                                               lastName: tfPayerLastName.text,
                                               address: tfPayerAddress.text,
                                               countryCode: tfPayerCountryCode.text,
@@ -156,22 +168,28 @@ class WebSaleViewController: UIViewController {
                                                  ext1: tfExt1.text,
                                                  ext2: tfExt2.text,
                                                  ext3: tfExt3.text,
-                                                 ext4: tfExt4.text)
+                                                 ext4: tfExt4.text,
+                                                 ext5: tfExt5.text,
+                                                 ext6: tfExt6.text,
+                                                 ext7: tfExt7.text,
+                                                 ext8: tfExt8.text,
+                                                 ext9: tfExt9.text,
+                                                 ext10: tfExt10.text)
         
         PlatonWebPayment.sale.sale(productSales: prdouctsSale,
                                        successUrl: tfSuccessURL.text ?? "",
                                        orderId: tfOrderId.text ?? "",
                                        req_token: "Y",
-                                       payerWebSale: payerWrbSale,
-                                       additional: additional) { result in
+                                       payerWebSale: payerWebSale,
+                                       additional: additional) { result, response  in
                                         sender.isLoading = false
                                         
                                         switch result {
                                         case .failure(let error):
                                             self.showError(error)
                                             
-                                        case .success(let result):
-                                            WebViewController.open(url: result.response?.url, fromConstroller: self)
+                                        case .success(_):
+                                            WebViewController.open(url: response?.url, fromConstroller: self)
                                         }
         }
     }

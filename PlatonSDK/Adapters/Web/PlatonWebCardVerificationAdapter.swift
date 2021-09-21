@@ -1,8 +1,8 @@
 
-/// API adapter for creating SALE transaction in web payments platform
-final public class PlatonWebSaleAdapter: PlatonWebBaseAdapter {
+/// API adapter for creating Card's verification transaction in web payments platform
+final public class PlatonWebCardVerificationAdapter: PlatonWebBaseAdapter {
     
-    /// Following requests creates SALE transaction in payment platform
+    /// Following requests creates Card's verification transaction in payment platform
     ///
     /// It is used for authorization and capture at a time
     ///
@@ -15,19 +15,22 @@ final public class PlatonWebSaleAdapter: PlatonWebBaseAdapter {
     ///   - payerWebSale: info holder of payer
     ///   - additional: options to control web form representation
     ///   - completion: callback which will hold Request Data which has url for web request
-    public func sale(productSales: [PlatonProductSale]? = nil,
-                     successUrl: String,
-                     orderId: String,
-                     req_token: String,
-                     payerWebSale: PlatonPayerWebSale? = nil,
-                     additional: PlatonWebSaleAdditional,
-                     completion: PlatonWebCalback<PlatonResponse<String>> = nil) {
+    public func verify(productSales: [PlatonProductSale]? = nil,
+                       successUrl: String,
+                       orderId: String,
+                       req_token: String,
+                       payerWebSale: PlatonPayerWebSale? = nil,
+                       additional: PlatonWebSaleAdditional,
+                       verificationAdditional: PlatonWebVerificationAdditional,
+                       completion: PlatonWebCalback<PlatonResponse<String>> = nil) {
         
         let payment = PlatonWebPaymentType.CC.rawValue
         let data = PlatonBase64Utils.encode(products: productSales)
         let hash = PlatonHashUtils.encryptSaleWeb(payment: payment,
                                                   data: data,
                                                   successUrl: successUrl)
+        var additional = additional
+        additional.formId = "verify"
         let otherParams: PlatonParams = [PlatonMethodProperty.payment: payment,
                                          PlatonMethodProperty.url: successUrl,
                                          PlatonMethodProperty.order: orderId,
@@ -38,6 +41,7 @@ final public class PlatonWebSaleAdapter: PlatonWebBaseAdapter {
         let params: [PlatonParametersProtocol?] = [
             payerWebSale,
             additional,
+            verificationAdditional,
             otherParams
         ]
         

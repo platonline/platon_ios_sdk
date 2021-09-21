@@ -58,7 +58,7 @@ public struct PlatonCard: PlatonParametersProtocol {
     }
     
     /// Initiale Payment card with test data
-    ///
+    /// https://platon.atlassian.net/wiki/spaces/docs/pages/2799239245/IE%2BA2C
     /// - Parameter test: Test Payment card
     public init(test: Test?) {
         let unwTest = test ?? .success
@@ -79,7 +79,7 @@ public struct PlatonCard: PlatonParametersProtocol {
         self.cvv2 = "411"
         self.number = "4111111111111111"
         self.expireMonth = month
-        self.expireYear = 2020
+        self.expireYear = 2022
     }
     
 }

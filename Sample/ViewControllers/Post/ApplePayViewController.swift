@@ -113,7 +113,7 @@ class ApplePayViewController: UIViewController {
             return
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            WebViewController.open(request: request.request, fromConstroller: self)
+            WebViewController.open(request: request, fromConstroller: self)
         }
     }
 

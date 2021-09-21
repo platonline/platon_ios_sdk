@@ -30,7 +30,7 @@ final public class PlatonRecurringAdapter: PlatonBaseAdapter {
                            PlatonMethodProperty.auth: auth?.rawValue,
                            PlatonMethodProperty.async: async?.rawValue]
         
-        _ = procesedRequest(restApiMethod: .recurringSale, parameters: [order, recurring, otherParams]) { (result) in
+        procesedRequest(restApiMethod: .recurringSale, parameters: [order, recurring, otherParams]) { (result) in
             let jsonDecoder = JSONDecoder()
             let saleResponse: PlatonSaleResponse
             

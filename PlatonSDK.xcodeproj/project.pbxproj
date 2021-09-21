@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DEEA9957C8C6DF46F86CC0D /* Pods_PlatonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74640C6AE6A3A74A3A9F2B4A /* Pods_PlatonSDK.framework */; };
-		6FA2AE3440F5D4A8EBA4E90E /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191DEB548DEFB4B662FFA8BC /* Pods_Sample.framework */; };
+		57095B072695BD53000D5DC6 /* PlatonWebCardVerificationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57095B062695BD53000D5DC6 /* PlatonWebCardVerificationAdapter.swift */; };
+		57095B092695BE1B000D5DC6 /* WebCardVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57095B082695BE1B000D5DC6 /* WebCardVerificationViewController.swift */; };
+		573DCCAB2691CADF00AE70C0 /* PlatonWebC2AAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCCAA2691CADF00AE70C0 /* PlatonWebC2AAdapter.swift */; };
+		573DCCAF2691D6BF00AE70C0 /* WebC2AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCCAE2691D6BF00AE70C0 /* WebC2AViewController.swift */; };
+		573DCCB12691E4CA00AE70C0 /* PlatonWebC2AOneClickAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCCB02691E4CA00AE70C0 /* PlatonWebC2AOneClickAdapter.swift */; };
+		573DCCB32691E83500AE70C0 /* WebC2AOneClickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DCCB22691E83500AE70C0 /* WebC2AOneClickViewController.swift */; };
+		5761864D26CD3FC400775702 /* PlatonTransStateAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5761864C26CD3FC400775702 /* PlatonTransStateAdapter.swift */; };
+		5761864F26CE2FC800775702 /* TransStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5761864E26CE2FC800775702 /* TransStateViewController.swift */; };
 		BE450FAE1FC2BF3400C2AB35 /* PlatonSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BE450FAC1FC2BF3400C2AB35 /* PlatonSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE450FB51FC2C00500C2AB35 /* PlatonBaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE450FB41FC2C00500C2AB35 /* PlatonBaseAdapter.swift */; };
 		BE450FBE1FC2C03100C2AB35 /* PlatonSaleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE450FB81FC2C03100C2AB35 /* PlatonSaleAdapter.swift */; };
@@ -71,7 +77,6 @@
 		BE58F9121FC2DB1F0049E828 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE58F9111FC2DB1F0049E828 /* Web.storyboard */; };
 		BEB2EB7D1FC2E57100C93554 /* PlatonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE450FA91FC2BF3400C2AB35 /* PlatonSDK.framework */; };
 		BEB2EB7E1FC2E57100C93554 /* PlatonSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE450FA91FC2BF3400C2AB35 /* PlatonSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEB2EB811FC2E67C00C93554 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2EB821FC2E67C00C93554 /* Alamofire.framework */; };
 		C6748B092443485C00340058 /* ApplePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6748B082443485C00340058 /* ApplePayViewController.swift */; };
 		C6BE1907245174A9000F7C4E /* PlatonApplePay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE1906245174A8000F7C4E /* PlatonApplePay.swift */; };
 		C6E4284B244DE8F900C4F84E /* PlatonApplePayAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E4284A244DE8F900C4F84E /* PlatonApplePayAdapter.swift */; };
@@ -104,10 +109,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		191DEB548DEFB4B662FFA8BC /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74640C6AE6A3A74A3A9F2B4A /* Pods_PlatonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F8E63596E6A9A1E62D3C7F5 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		9263337E7206E0DD7491D40A /* Pods-PlatonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatonSDK.release.xcconfig"; path = "Target Support Files/Pods-PlatonSDK/Pods-PlatonSDK.release.xcconfig"; sourceTree = "<group>"; };
+		57095B062695BD53000D5DC6 /* PlatonWebCardVerificationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonWebCardVerificationAdapter.swift; sourceTree = "<group>"; };
+		57095B082695BE1B000D5DC6 /* WebCardVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCardVerificationViewController.swift; sourceTree = "<group>"; };
+		573DCCAA2691CADF00AE70C0 /* PlatonWebC2AAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonWebC2AAdapter.swift; sourceTree = "<group>"; };
+		573DCCAE2691D6BF00AE70C0 /* WebC2AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebC2AViewController.swift; sourceTree = "<group>"; };
+		573DCCB02691E4CA00AE70C0 /* PlatonWebC2AOneClickAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonWebC2AOneClickAdapter.swift; sourceTree = "<group>"; };
+		573DCCB22691E83500AE70C0 /* WebC2AOneClickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebC2AOneClickViewController.swift; sourceTree = "<group>"; };
+		5761864C26CD3FC400775702 /* PlatonTransStateAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonTransStateAdapter.swift; sourceTree = "<group>"; };
+		5761864E26CE2FC800775702 /* TransStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransStateViewController.swift; sourceTree = "<group>"; };
 		BE450FA91FC2BF3400C2AB35 /* PlatonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlatonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE450FAC1FC2BF3400C2AB35 /* PlatonSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatonSDK.h; sourceTree = "<group>"; };
 		BE450FAD1FC2BF3400C2AB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,10 +186,8 @@
 		C6748B0A244350AE00340058 /* Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample.entitlements; sourceTree = "<group>"; };
 		C6BE1906245174A8000F7C4E /* PlatonApplePay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonApplePay.swift; sourceTree = "<group>"; };
 		C6E4284A244DE8F900C4F84E /* PlatonApplePayAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonApplePayAdapter.swift; sourceTree = "<group>"; };
-		D9111BF76612FF58D195EE34 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		DB0FB7762212099F008251A7 /* WebTokenSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTokenSaleViewController.swift; sourceTree = "<group>"; };
 		DB0FB778221211D8008251A7 /* PlatonWebTokenSaleAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatonWebTokenSaleAdapter.swift; sourceTree = "<group>"; };
-		EE0CB5031FFF01C85020B69B /* Pods-PlatonSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatonSDK.debug.xcconfig"; path = "Target Support Files/Pods-PlatonSDK/Pods-PlatonSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +195,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEEA9957C8C6DF46F86CC0D /* Pods_PlatonSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,32 +202,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2EB811FC2E67C00C93554 /* Alamofire.framework in Frameworks */,
 				BEB2EB7D1FC2E57100C93554 /* PlatonSDK.framework in Frameworks */,
-				6FA2AE3440F5D4A8EBA4E90E /* Pods_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0406D07E777ED70911A9DD00 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EE0CB5031FFF01C85020B69B /* Pods-PlatonSDK.debug.xcconfig */,
-				9263337E7206E0DD7491D40A /* Pods-PlatonSDK.release.xcconfig */,
-				D9111BF76612FF58D195EE34 /* Pods-Sample.debug.xcconfig */,
-				8F8E63596E6A9A1E62D3C7F5 /* Pods-Sample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		AC2F1B4C44B1B17473B6C79E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				BEB2EB821FC2E67C00C93554 /* Alamofire.framework */,
-				74640C6AE6A3A74A3A9F2B4A /* Pods_PlatonSDK.framework */,
-				191DEB548DEFB4B662FFA8BC /* Pods_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,7 +224,6 @@
 				BE58F8CD1FC2D6F00049E828 /* Sample */,
 				BE450FAA1FC2BF3400C2AB35 /* Products */,
 				AC2F1B4C44B1B17473B6C79E /* Frameworks */,
-				0406D07E777ED70911A9DD00 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -281,6 +271,7 @@
 				BE450FB91FC2C03100C2AB35 /* PlatonScheduleAdapter.swift */,
 				BE450FBA1FC2C03100C2AB35 /* PlatonTransactionAdapter.swift */,
 				C6E4284A244DE8F900C4F84E /* PlatonApplePayAdapter.swift */,
+				5761864C26CD3FC400775702 /* PlatonTransStateAdapter.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -292,6 +283,9 @@
 				BE450FC71FC2C04E00C2AB35 /* PlatonWebOneClickSaleAdapter.swift */,
 				BE450FC81FC2C04E00C2AB35 /* PlatonWebRecurringAdapter.swift */,
 				BE450FC91FC2C04E00C2AB35 /* PlatonWebSaleAdapter.swift */,
+				57095B062695BD53000D5DC6 /* PlatonWebCardVerificationAdapter.swift */,
+				573DCCAA2691CADF00AE70C0 /* PlatonWebC2AAdapter.swift */,
+				573DCCB02691E4CA00AE70C0 /* PlatonWebC2AOneClickAdapter.swift */,
 				BE450FC51FC2C04E00C2AB35 /* PlatonWebScheduleAdapter.swift */,
 				DB0FB778221211D8008251A7 /* PlatonWebTokenSaleAdapter.swift */,
 			);
@@ -408,6 +402,7 @@
 				BE58F8E31FC2D9820049E828 /* ScheduleViewController.swift */,
 				BE58F8E51FC2D9820049E828 /* DescheduleViewController.swift */,
 				C6748B082443485C00340058 /* ApplePayViewController.swift */,
+				5761864E26CE2FC800775702 /* TransStateViewController.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -416,7 +411,10 @@
 			isa = PBXGroup;
 			children = (
 				BE58F8F81FC2DA5B0049E828 /* WebSaleViewController.swift */,
+				57095B082695BE1B000D5DC6 /* WebCardVerificationViewController.swift */,
 				BE58F8F41FC2DA5A0049E828 /* WebOneClickSaleViewController.swift */,
+				573DCCAE2691D6BF00AE70C0 /* WebC2AViewController.swift */,
+				573DCCB22691E83500AE70C0 /* WebC2AOneClickViewController.swift */,
 				BE58F8F71FC2DA5B0049E828 /* WebRecurringSaleViewController.swift */,
 				BE58F8F51FC2DA5A0049E828 /* WebScheduleViewController.swift */,
 				BE58F8F61FC2DA5A0049E828 /* WebDescheduleViewController.swift */,
@@ -466,7 +464,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE450FB11FC2BF3400C2AB35 /* Build configuration list for PBXNativeTarget "PlatonSDK" */;
 			buildPhases = (
-				106E0886D3C46C4D193A0E7E /* [CP] Check Pods Manifest.lock */,
 				BE450FA41FC2BF3400C2AB35 /* Sources */,
 				BE450FA51FC2BF3400C2AB35 /* Frameworks */,
 				BE450FA61FC2BF3400C2AB35 /* Headers */,
@@ -485,12 +482,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE58F8DD1FC2D6F00049E828 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
-				30F4FB9F3FDA7520A35F232F /* [CP] Check Pods Manifest.lock */,
 				BE58F8C81FC2D6F00049E828 /* Sources */,
 				BE58F8C91FC2D6F00049E828 /* Frameworks */,
 				BE58F8CA1FC2D6F00049E828 /* Resources */,
 				BEB2EB7C1FC2E41C00C93554 /* Embed Frameworks */,
-				F8F3A38C0E32315ED69BE1ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -509,7 +504,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Devlight;
 				TargetAttributes = {
 					BE450FA81FC2BF3400C2AB35 = {
@@ -564,79 +559,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		106E0886D3C46C4D193A0E7E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlatonSDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		30F4FB9F3FDA7520A35F232F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8F3A38C0E32315ED69BE1ED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		BE450FA41FC2BF3400C2AB35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE450FEF1FC2C0B800C2AB35 /* PlatonCapture.swift in Sources */,
+				573DCCAB2691CADF00AE70C0 /* PlatonWebC2AAdapter.swift in Sources */,
 				BE450FBF1FC2C03100C2AB35 /* PlatonScheduleAdapter.swift in Sources */,
 				BE450FBE1FC2C03100C2AB35 /* PlatonSaleAdapter.swift in Sources */,
 				BE450FCB1FC2C04E00C2AB35 /* PlatonWebBaseAdapter.swift in Sources */,
@@ -647,6 +576,7 @@
 				BE450FE81FC2C0AF00C2AB35 /* PlatonRecurring.swift in Sources */,
 				BE450FE71FC2C0AF00C2AB35 /* PlatonCard.swift in Sources */,
 				BE450FF71FC2C0E300C2AB35 /* PlatonError.swift in Sources */,
+				57095B072695BD53000D5DC6 /* PlatonWebCardVerificationAdapter.swift in Sources */,
 				BE450FF31FC2C0B800C2AB35 /* PlatonTransaction.swift in Sources */,
 				BE450FE41FC2C0AF00C2AB35 /* PlatonPayer.swift in Sources */,
 				BE450FE91FC2C0AF00C2AB35 /* PlatonSaleAdditional.swift in Sources */,
@@ -658,6 +588,7 @@
 				BE450FD01FC2C05F00C2AB35 /* Constants.swift in Sources */,
 				BE450FF21FC2C0B800C2AB35 /* PlatonBaseResponseModel.swift in Sources */,
 				BE450FCE1FC2C04E00C2AB35 /* PlatonWebSaleAdapter.swift in Sources */,
+				573DCCB12691E4CA00AE70C0 /* PlatonWebC2AOneClickAdapter.swift in Sources */,
 				C6BE1907245174A9000F7C4E /* PlatonApplePay.swift in Sources */,
 				BE450FC21FC2C03100C2AB35 /* PlatonRecurringAdapter.swift in Sources */,
 				BE450FFF1FC2C0F800C2AB35 /* PlatonBase64Utils.swift in Sources */,
@@ -671,6 +602,7 @@
 				BE450FF81FC2C0E300C2AB35 /* PlatonResponse.swift in Sources */,
 				BE450FC01FC2C03100C2AB35 /* PlatonTransactionAdapter.swift in Sources */,
 				BE450FB51FC2C00500C2AB35 /* PlatonBaseAdapter.swift in Sources */,
+				5761864D26CD3FC400775702 /* PlatonTransStateAdapter.swift in Sources */,
 				BE450FE51FC2C0AF00C2AB35 /* PlatonProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -687,6 +619,7 @@
 				BE58F9061FC2DAC70049E828 /* ProductStackView.swift in Sources */,
 				BE58F90A1FC2DAC70049E828 /* CustomSegmentControll.swift in Sources */,
 				BE58F8DF1FC2D93D0049E828 /* MainTableViewController.swift in Sources */,
+				573DCCAF2691D6BF00AE70C0 /* WebC2AViewController.swift in Sources */,
 				BE58F8EF1FC2D9820049E828 /* CaptureViewController.swift in Sources */,
 				BE58F8EE1FC2D9820049E828 /* GetTransStatusViewController.swift in Sources */,
 				BE58F8ED1FC2D9820049E828 /* DescheduleViewController.swift in Sources */,
@@ -696,11 +629,14 @@
 				BE58F8FD1FC2DA5B0049E828 /* WebSaleViewController.swift in Sources */,
 				BE58F8EC1FC2D9820049E828 /* GetTransDetailsViewController.swift in Sources */,
 				BE58F9071FC2DAC70049E828 /* WebViewController.swift in Sources */,
+				5761864F26CE2FC800775702 /* TransStateViewController.swift in Sources */,
 				C6748B092443485C00340058 /* ApplePayViewController.swift in Sources */,
+				573DCCB32691E83500AE70C0 /* WebC2AOneClickViewController.swift in Sources */,
 				BE58F8F21FC2D9820049E828 /* RecurringSaleViewController.swift in Sources */,
 				DB0FB7772212099F008251A7 /* WebTokenSaleViewController.swift in Sources */,
 				BE58F8F91FC2DA5B0049E828 /* WebOneClickSaleViewController.swift in Sources */,
 				BE58F8F01FC2D9820049E828 /* SaleViewController.swift in Sources */,
+				57095B092695BE1B000D5DC6 /* WebCardVerificationViewController.swift in Sources */,
 				BE58F8F11FC2D9820049E828 /* CreditVoidViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -760,6 +696,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -823,6 +760,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -856,7 +794,6 @@
 		};
 		BE450FB21FC2BF3400C2AB35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE0CB5031FFF01C85020B69B /* Pods-PlatonSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -868,7 +805,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PlatonSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.platon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -881,7 +818,6 @@
 		};
 		BE450FB31FC2BF3400C2AB35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9263337E7206E0DD7491D40A /* Pods-PlatonSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -893,7 +829,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PlatonSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.platon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -905,7 +841,6 @@
 		};
 		BE58F8DB1FC2D6F00049E828 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9111BF76612FF58D195EE34 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -914,7 +849,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJTUE7ZT4K;
 				INFOPLIST_FILE = Sample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.platon.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -926,7 +861,6 @@
 		};
 		BE58F8DC1FC2D6F00049E828 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F8E63596E6A9A1E62D3C7F5 /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -935,7 +869,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJTUE7ZT4K;
 				INFOPLIST_FILE = Sample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.platon.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";

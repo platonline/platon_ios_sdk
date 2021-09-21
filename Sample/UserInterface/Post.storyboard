@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jUq-Gc-qnh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jUq-Gc-qnh">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -172,14 +172,14 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ohy-w3-0I8">
                                                         <rect key="frame" x="0.0" y="876" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-Cb-qHW" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-Cb-qHW" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="175.5" height="30"/>
                                                                 <state key="normal" title="Auth"/>
                                                                 <connections>
                                                                     <action selector="action:" destination="raP-xM-wjh" eventType="touchUpInside" id="5mi-TP-LEL"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXJ-2t-9Jt" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXJ-2t-9Jt" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="183.5" y="0.0" width="175.5" height="30"/>
                                                                 <state key="normal" title="Sale"/>
                                                                 <connections>
@@ -218,6 +218,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="2q6-Af-idy"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Xn3-Sk-WMG" firstAttribute="leading" secondItem="2q6-Af-idy" secondAttribute="leading" id="M5s-FZ-IAb"/>
@@ -225,7 +226,6 @@
                             <constraint firstItem="Xn3-Sk-WMG" firstAttribute="top" secondItem="fH9-ax-rRf" secondAttribute="top" id="Zc1-kw-aBS"/>
                             <constraint firstItem="i8p-zh-JgV" firstAttribute="top" secondItem="Xn3-Sk-WMG" secondAttribute="bottom" id="rNr-XI-77d"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="2q6-Af-idy"/>
                     </view>
                     <navigationItem key="navigationItem" title="SALE" id="P4a-M8-Uih"/>
                     <connections>
@@ -305,7 +305,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iY1-m2-WYa">
                                                         <rect key="frame" x="0.0" y="192" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVe-jW-Ek5" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVe-jW-Ek5" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Capture"/>
                                                                 <connections>
@@ -341,6 +341,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="i8e-e3-Gcm"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LIa-yi-hOv" firstAttribute="leading" secondItem="i8e-e3-Gcm" secondAttribute="leading" id="7VV-LA-NoG"/>
@@ -348,7 +349,6 @@
                             <constraint firstItem="tTT-gf-2eW" firstAttribute="top" secondItem="LIa-yi-hOv" secondAttribute="bottom" id="XCR-FZ-tbV"/>
                             <constraint firstItem="LIa-yi-hOv" firstAttribute="top" secondItem="5dF-GH-oUw" secondAttribute="top" id="oV2-Tb-PLl"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="i8e-e3-Gcm"/>
                     </view>
                     <navigationItem key="navigationItem" title="CAPTURE" id="b9z-GH-SUs"/>
                     <connections>
@@ -386,8 +386,8 @@
                     <view key="view" contentMode="scaleToFill" id="2Jq-2n-4KA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="qEG-KJ-YUv"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="AKc-g2-30I"/>
                     <connections>
@@ -450,7 +450,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bmx-ZP-LmC">
                                                         <rect key="frame" x="0.0" y="150" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sV-CA-UMp" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sV-CA-UMp" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Get Trans Details"/>
                                                                 <connections>
@@ -486,6 +486,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="rXt-OG-tuB"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OKi-P1-6yf" firstAttribute="trailing" secondItem="rXt-OG-tuB" secondAttribute="trailing" id="Rly-Uh-Wk3"/>
@@ -493,7 +494,6 @@
                             <constraint firstItem="OKi-P1-6yf" firstAttribute="leading" secondItem="rXt-OG-tuB" secondAttribute="leading" id="nuu-O7-zka"/>
                             <constraint firstItem="tR2-hw-hDj" firstAttribute="top" secondItem="OKi-P1-6yf" secondAttribute="bottom" id="sIP-ut-qZF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="rXt-OG-tuB"/>
                     </view>
                     <navigationItem key="navigationItem" title="GET_TRANS_DETAILS" id="7Bf-hD-P1V"/>
                     <connections>
@@ -590,14 +590,14 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8xx-Ff-Bs2">
                                                         <rect key="frame" x="0.0" y="381" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-XN-RZJ" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-XN-RZJ" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="175.5" height="30"/>
                                                                 <state key="normal" title="Recurring Auth"/>
                                                                 <connections>
                                                                     <action selector="recurringAction:" destination="eWw-9L-6j2" eventType="touchUpInside" id="stc-2T-ZTD"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xur-4N-IjJ" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xur-4N-IjJ" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="183.5" y="0.0" width="175.5" height="30"/>
                                                                 <state key="normal" title="Recurring Sale"/>
                                                                 <connections>
@@ -636,6 +636,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="r4D-So-pwr"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XgE-qV-ND0" firstAttribute="trailing" secondItem="r4D-So-pwr" secondAttribute="trailing" id="Jxf-e6-yQX"/>
@@ -643,7 +644,6 @@
                             <constraint firstItem="XgE-qV-ND0" firstAttribute="leading" secondItem="r4D-So-pwr" secondAttribute="leading" id="ahg-pu-lZK"/>
                             <constraint firstItem="r4D-So-pwr" firstAttribute="bottom" secondItem="XgE-qV-ND0" secondAttribute="bottom" id="o5f-h3-dxs"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="r4D-So-pwr"/>
                     </view>
                     <navigationItem key="navigationItem" title="RECURRING_SALE" id="YZV-xo-62k"/>
                     <connections>
@@ -743,7 +743,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="H66-ll-ZcW">
                                                         <rect key="frame" x="0.0" y="426" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHr-kg-KB8" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHr-kg-KB8" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Schedule"/>
                                                                 <connections>
@@ -779,6 +779,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6kD-kE-yqm"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lSP-QW-ILX" firstAttribute="top" secondItem="x6c-Mf-Han" secondAttribute="top" id="24A-x6-jW2"/>
@@ -786,7 +787,6 @@
                             <constraint firstItem="lSP-QW-ILX" firstAttribute="leading" secondItem="x6c-Mf-Han" secondAttribute="leading" id="mwO-Qj-4sT"/>
                             <constraint firstItem="lv2-Xt-CbB" firstAttribute="top" secondItem="lSP-QW-ILX" secondAttribute="bottom" id="tey-Yp-uE4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6kD-kE-yqm"/>
                     </view>
                     <navigationItem key="navigationItem" title="SCHEDULE" id="MrQ-jS-4fk"/>
                     <connections>
@@ -855,7 +855,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ZiC-aB-raM">
                                                         <rect key="frame" x="0.0" y="192" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9R-zE-tyw" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9R-zE-tyw" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Deschedule"/>
                                                                 <connections>
@@ -891,6 +891,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="t7O-NR-sOM"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qz5-vm-H2n" firstAttribute="leading" secondItem="t7O-NR-sOM" secondAttribute="leading" id="7Nv-hK-HJD"/>
@@ -898,7 +899,6 @@
                             <constraint firstAttribute="trailing" secondItem="qz5-vm-H2n" secondAttribute="trailing" id="iGY-V9-SMI"/>
                             <constraint firstItem="t7O-NR-sOM" firstAttribute="bottom" secondItem="qz5-vm-H2n" secondAttribute="bottom" constant="8" id="jBv-Ps-743"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="t7O-NR-sOM"/>
                     </view>
                     <navigationItem key="navigationItem" title="DESCHEDULE" id="7h6-qA-aQv"/>
                     <connections>
@@ -962,7 +962,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nzP-RP-1DN">
                                                         <rect key="frame" x="0.0" y="192" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c68-Ep-WU1" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c68-Ep-WU1" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Credit Void"/>
                                                                 <connections>
@@ -998,6 +998,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="rw8-4r-SgQ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cOl-Ie-bsE" firstAttribute="leading" secondItem="rw8-4r-SgQ" secondAttribute="leading" id="WYG-2A-JIr"/>
@@ -1005,7 +1006,6 @@
                             <constraint firstItem="cOl-Ie-bsE" firstAttribute="trailing" secondItem="rw8-4r-SgQ" secondAttribute="trailing" id="tuG-7z-mt2"/>
                             <constraint firstItem="IvJ-aU-m2M" firstAttribute="top" secondItem="cOl-Ie-bsE" secondAttribute="bottom" id="ziX-FK-mDc"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="rw8-4r-SgQ"/>
                     </view>
                     <navigationItem key="navigationItem" title="CREDIT_VOID" id="7zL-nz-wmf"/>
                     <connections>
@@ -1064,7 +1064,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sRI-4g-tLX">
                                                         <rect key="frame" x="0.0" y="150" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Sg-en-tgI" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Sg-en-tgI" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Get Trans Status"/>
                                                                 <connections>
@@ -1100,6 +1100,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="ASe-1t-sPf"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="pRd-Ex-dwY" firstAttribute="top" secondItem="iJI-bU-59d" secondAttribute="bottom" id="g1O-dS-v4m"/>
@@ -1107,7 +1108,6 @@
                             <constraint firstItem="iJI-bU-59d" firstAttribute="trailing" secondItem="ASe-1t-sPf" secondAttribute="trailing" id="oGX-HJ-5vD"/>
                             <constraint firstItem="iJI-bU-59d" firstAttribute="leading" secondItem="ASe-1t-sPf" secondAttribute="leading" id="y0K-HS-Zke"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ASe-1t-sPf"/>
                     </view>
                     <navigationItem key="navigationItem" title="GET_TRANS_STATUS" id="MvV-f3-0uI"/>
                     <connections>
@@ -1165,7 +1165,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UiA-xx-HJX">
                                                         <rect key="frame" x="0.0" y="150" width="359" height="30"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gr0-op-qBA" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gr0-op-qBA" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                                                 <state key="normal" title="Capture"/>
                                                             </button>
@@ -1198,6 +1198,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="uSE-wO-uDB"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9XE-VT-NCo" firstAttribute="leading" secondItem="uSE-wO-uDB" secondAttribute="leading" id="TlW-W4-wWt"/>
@@ -1205,7 +1206,6 @@
                             <constraint firstItem="9XE-VT-NCo" firstAttribute="trailing" secondItem="uSE-wO-uDB" secondAttribute="trailing" id="q21-W5-Jxh"/>
                             <constraint firstItem="9XE-VT-NCo" firstAttribute="top" secondItem="4dW-SS-Uwx" secondAttribute="top" id="vyM-HZ-L1y"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uSE-wO-uDB"/>
                     </view>
                     <navigationItem key="navigationItem" title="APPLEPAY" id="aNL-E3-4mQ"/>
                     <connections>
@@ -1219,6 +1219,95 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b09-Qh-wUD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4822" y="-978"/>
+        </scene>
+        <!--GET_TRANS_STATE-->
+        <scene sceneID="3c4-oZ-bga">
+            <objects>
+                <viewController storyboardIdentifier="GET_TRANS_STATE" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gx5-Id-BQL" userLabel="GET_TRANS_STATE" customClass="TransStateViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="89H-7l-okr"/>
+                        <viewControllerLayoutGuide type="bottom" id="hlQ-Tl-k2E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YQG-Uy-Zgr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6nv-kt-fn8" customClass="AutoscrollView" customModule="Sample" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="659"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9KW-96-sjE">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="208.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="zln-fA-F4g">
+                                                <rect key="frame" x="8" y="8" width="359" height="148.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="x35-Ta-ACC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="359" height="34"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Trans ID" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="07u-hY-stl">
+                                                                <rect key="frame" x="0.0" y="0.0" width="359" height="34"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-Vp-awe">
+                                                        <rect key="frame" x="0.0" y="66" width="359" height="30"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukA-WC-9xK" customClass="LoadingButton" customModule="Sample" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
+                                                                <state key="normal" title="Get state"/>
+                                                                <connections>
+                                                                    <action selector="mainAction:" destination="Gx5-Id-BQL" eventType="touchUpInside" id="Ad4-zV-sra"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Response" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="squ-b3-AMr">
+                                                        <rect key="frame" x="0.0" y="128" width="359" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="zln-fA-F4g" firstAttribute="leading" secondItem="9KW-96-sjE" secondAttribute="leadingMargin" id="0nT-Ag-Zhx"/>
+                                            <constraint firstItem="zln-fA-F4g" firstAttribute="top" secondItem="9KW-96-sjE" secondAttribute="topMargin" id="7Ag-uo-MwA"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="zln-fA-F4g" secondAttribute="trailing" id="oo5-2j-6J4"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="zln-fA-F4g" secondAttribute="bottom" constant="44" id="qHc-K1-HAm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9KW-96-sjE" secondAttribute="trailing" id="SIm-ll-pup"/>
+                                    <constraint firstItem="9KW-96-sjE" firstAttribute="width" secondItem="6nv-kt-fn8" secondAttribute="width" id="XiD-YZ-Rb6"/>
+                                    <constraint firstItem="9KW-96-sjE" firstAttribute="leading" secondItem="6nv-kt-fn8" secondAttribute="leading" id="b7F-Zp-5iM"/>
+                                    <constraint firstItem="9KW-96-sjE" firstAttribute="top" secondItem="6nv-kt-fn8" secondAttribute="top" id="uoE-ib-RbJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="9KW-96-sjE" secondAttribute="bottom" id="w3E-D4-qQg"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="84c-r3-NUf"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="84c-r3-NUf" firstAttribute="bottom" secondItem="6nv-kt-fn8" secondAttribute="bottom" constant="8" id="3XZ-QS-kKv"/>
+                            <constraint firstAttribute="trailing" secondItem="6nv-kt-fn8" secondAttribute="trailing" id="5gB-Zd-cPg"/>
+                            <constraint firstItem="6nv-kt-fn8" firstAttribute="top" secondItem="YQG-Uy-Zgr" secondAttribute="top" id="ACA-lJ-SHW"/>
+                            <constraint firstItem="6nv-kt-fn8" firstAttribute="leading" secondItem="84c-r3-NUf" secondAttribute="leading" id="crB-gE-bRa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="TRANS STATE" id="JkY-ag-eR4" userLabel="TRANS STATE"/>
+                    <connections>
+                        <outlet property="lbResponse" destination="squ-b3-AMr" id="cjP-k9-2L7"/>
+                        <outlet property="tfTransId" destination="07u-hY-stl" id="3VT-Bx-hI5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H6U-ql-STL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4753" y="-184"/>
         </scene>
     </scenes>
 </document>

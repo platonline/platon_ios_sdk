@@ -85,6 +85,7 @@ class SaleViewController: UIViewController {
                                 email: tfPayerEmail.text ?? "",
                                 phone: tfPayerPhone.text ?? "",
                                 ipAddress: tfPayerIpAddress.text ?? "")
+        let ext = PlatonExtAdditional(ext1: "test Ext1", ext2: "test Ext2", ext3: "test Ext3", ext4: "test Ext4", ext5: "test Ext5", ext6: "test Ext6", ext7: "test Ext7", ext8: "test Ext8", ext9: "test Ext9", ext10: "test Ext10")
         
         let saleOption = PlatonSaleAdditional(async: swAsyncSale.isOn ? .yes : nil,
                                               channelId: tfChanelId.text,
@@ -96,7 +97,8 @@ class SaleViewController: UIViewController {
                                     card: card,
                                     payer: payer,
                                     saleOption: saleOption,
-                                    auth: auth) { (result) in
+                                    auth: auth,
+                                    ext: ext) { (result) in
                                         sender.isLoading = false
                                         
                                         let basicSale = result.responseObject
@@ -133,7 +135,7 @@ class SaleViewController: UIViewController {
             return
         }
         
-        WebViewController.open(request: request.request, fromConstroller: self)
+        WebViewController.open(request: request, fromConstroller: self)
     }
     
 }

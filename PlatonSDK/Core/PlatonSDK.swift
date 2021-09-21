@@ -71,7 +71,8 @@ final public class PlatonSDK {
                 clientKey: platonInfo[PlatonSDKConstants.clientKey.rawValue],
                 clientPass: platonInfo[PlatonSDKConstants.clientPass.rawValue],
                 paymentUrl: platonInfo[PlatonSDKConstants.paymentUrl.rawValue],
-                termUrl3Ds: platonInfo[PlatonSDKConstants.termUrl3ds.rawValue]
+                termUrl3Ds: platonInfo[PlatonSDKConstants.termUrl3ds.rawValue],
+                stateUrl: platonInfo[PlatonSDKConstants.stateUrl.rawValue]
             )
         } else {
             sdk.credentials = nil
@@ -132,6 +133,9 @@ final public class PlatonPostPayment {
 
     /// Adapter for *PlatonMethodAction.applePay* request
     public static let applePay = PlatonApplePayAdapter()
+    
+    /// Adapter for *PlatonMethodAction.transState* request
+    public static let transState = PlatonTransStateAdapter()
 }
 
 /**
@@ -160,7 +164,15 @@ final public class PlatonWebPayment {
     /// Adapter for web recurring sale requests
     public static let oneClickSale = PlatonWebOneClickSaleAdapter()
     
+    /// Adapter for web C2A requests
+    public static let C2A = PlatonWebC2AAdapter()
+
+    /// Adapter for web C2A One click requests
+    public static let C2AOneClick = PlatonWebC2AOneClickAdapter()
     
+    /// Adapter for web Card's verification requests
+    public static let cardVerification = PlatonWebCardVerificationAdapter()
+
     // Will be available in next releases
     
     /// Adapter for web recurring sale requests

@@ -90,3 +90,46 @@ final public class PlatonTransactionDetails: PlatonTransactionStatus, PlatonPaye
     }
 }
 
+public class PlatonOrderModel: PlatonCustomDescribe, PlatonStatusProtocol, Decodable {
+    public let status: PlatonStatus
+    
+    public let date: String
+    
+    public let orderId: String
+    
+    public let transId: String
+    
+    public init(status: PlatonStatus, date: String, orderId: String, transId: String) {
+        self.status = status
+        self.date = date
+        self.orderId = orderId
+        self.transId = transId
+    }
+    
+    private enum CodingKeys: String, CodingKey {
+        case date, status
+        case orderId = "order_id"
+        case transId = "trans_id"
+    }
+}
+
+final public class PlatonTransactionState: PlatonCustomDescribe, Decodable {
+    public let action: PlatonMethodAction
+    
+    public let result: PlatonResult
+    /// Array of transactions
+    public let orders: [PlatonOrderModel]
+
+    required public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.action = try container.decode(PlatonMethodAction.self, forKey: .action)
+        self.result = try container.decode(PlatonResult.self, forKey: .result)
+
+        self.orders = try container.decode([PlatonOrderModel].self, forKey: .orders)
+    }
+        
+    private enum CodingKeys: String, CodingKey {
+        case action, result, orders
+    }
+}
+

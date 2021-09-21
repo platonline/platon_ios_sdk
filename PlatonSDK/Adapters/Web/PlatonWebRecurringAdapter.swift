@@ -1,6 +1,4 @@
 
-import Alamofire
-
 /// API adapter for creating RECURRING_SALE transaction in web payments platform
 ///
 /// PlatonRecurring payments used to create new transactions based on already stored cardholder information from previous operations
@@ -12,11 +10,11 @@ final public class PlatonWebRecurringAdapter: PlatonWebBaseAdapter {
     ///   - productRecurring: product info holder
     ///   - recurring: holder for rc_id and rc_token params
     ///   - additional: options for web form representation
-    ///   - completion: callback which will hold Alamofire Requesr Data which has url for web request
+    ///   - completion: callback which will hold Request Data which has url for web request
     public func recurringSale(productRecurring: PlatonProductRecurring,
                               recurring: PlatonRecurringWeb,
                               additional: PlatonWebAdditional? = nil,
-                              completion: PlatonWebCalback = nil) {
+                              completion: PlatonWebCalback<PlatonResponse<String>> = nil) {
         
         let params: [PlatonParametersProtocol?] = [
             productRecurring,

@@ -1,6 +1,5 @@
 
 import Foundation
-import Alamofire
 
 // MARK: - Protocols
 
@@ -162,7 +161,7 @@ public struct PlatonRedirectParams: Decodable, PlatonCustomDescribe, PlatonParam
     
     let paymentRequisites: String
 
-    let md: String
+    let md: String?
 
     let termUrl: String
     
